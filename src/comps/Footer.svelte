@@ -2,7 +2,7 @@
     import Body from "../Lib/Body.svelte";
 </script>
 
-<Body>
+<Body color="192231">
     <div class="fh1">
         You've Reached The End.
     </div>

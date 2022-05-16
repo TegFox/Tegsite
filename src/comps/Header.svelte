@@ -1,15 +1,20 @@
 <script>
     import src from '../assets/logo.png';
-    const breakpoint = 90;
+    export let breakpointVh = 25
+    let vpHeight
     let scroll
 
+    function vhToPx(val) {
+        return val * vpHeight / 100
+    }
+
     function isScrolled() {
-        return (scroll > breakpoint || scroll > breakpoint)
+        return (scroll > vhToPx(breakpointVh) || scroll > vhToPx(breakpointVh))
     }
     let scrolled = isScrolled();
 </script>
 
-<svelte:window bind:scrollY={scroll} on:scroll={() => scrolled = isScrolled()}/>
+<svelte:window bind:scrollY={scroll} on:scroll={() => scrolled = isScrolled()} bind:outerHeight={vpHeight}/>
 
 <main>
     <div class="pre">
@@ -30,8 +35,8 @@
 <style>
     :root {
         --transition: all 0.2s cubic-bezier(0, .5, 0.3, 1);
-        --mobile-duration: 0.18s;
-        --mobile-delay: 0.1s;
+        --mobile-duration: 0.16s;
+        --mobile-delay: 0.05s;
 
         --tHeight:  10rem;
         --oHeight: 5rem;

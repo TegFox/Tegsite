@@ -2,40 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fbd0a15-224f-4961-8204-79eae1cfa73e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.cjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lib/Body.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lib/Card.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lib/Placeholder.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lib/StackPanel.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/forest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/ph-backdrop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/ph-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comps/Comms.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comps/Footer.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comps/Header.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comps/Title.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/__layout.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/index.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/global.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rollup.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/setupTypeScript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lib/Body.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/Body.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lib/Card.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/Card.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/Comms.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Comms.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Footer.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Header.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/Title.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Title.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +87,8 @@
       <updated>1652574749604</updated>
       <workItem from="1652574751870" duration="14632000" />
       <workItem from="1652603499303" duration="2852000" />
-      <workItem from="1652639664603" duration="187000" />
+      <workItem from="1652639664603" duration="7728000" />
+      <workItem from="1652663269447" duration="3883000" />
     </task>
     <servers />
   </component>
