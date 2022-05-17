@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fbd0a15-224f-4961-8204-79eae1cfa73e" name="Changes" comment="">
+    <list default="true" id="3fbd0a15-224f-4961-8204-79eae1cfa73e" name="Changes" comment="Commit Message">
+      <change afterPath="$PROJECT_DIR$/src/Lib/HoverCard.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.cjs.bak" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/Body.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/Body.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lib/Card.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/Card.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/comps/Comms.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Comms.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Footer.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Header.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/comps/Title.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Title.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.svelte" afterDir="false" />
     </list>
@@ -29,11 +28,15 @@
         <option value="BodyLight1" />
         <option value="Footer" />
         <option value="Card" />
+        <option value="HoverCard" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="47a6825a-1e05-44ea-8a47-2ceed7b1c532" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -88,8 +91,18 @@
       <workItem from="1652574751870" duration="14632000" />
       <workItem from="1652603499303" duration="2852000" />
       <workItem from="1652639664603" duration="7728000" />
-      <workItem from="1652663269447" duration="3883000" />
+      <workItem from="1652663269447" duration="3954000" />
+      <workItem from="1652729323848" duration="30000" />
+      <workItem from="1652744539691" duration="6534000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit Message">
+      <created>1652667248973</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652667248973</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,5 +118,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit Message" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit Message" />
   </component>
 </project>

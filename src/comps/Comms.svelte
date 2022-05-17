@@ -1,6 +1,7 @@
 <script>
     import StackPanel from "../Lib/StackPanel.svelte";
     import Card from "../Lib/Card.svelte";
+    import HoverCard from "../Lib/HoverCard.svelte";
 
     export let status = 'closed'
     export let color
@@ -30,7 +31,7 @@
     } else if (open) {
         color = '#21D66B'
         let grad1 = '#008050'
-        let grad2 = '#11201e'
+        let grad2 = '#11281e'
         bgcolor = `linear-gradient(-45deg, ${grad2}, ${grad1})`
         bgcolorFlat = grad2
     }
@@ -38,7 +39,7 @@
 
 </script>
 
-<Card color={bgcolor}>
+<HoverCard color={bgcolorFlat} overlayColor={bgcolor}>
     <StackPanel direction="column" align="center" gap="20px">
         <div class="h h2">
             Commission Status:
@@ -74,7 +75,7 @@
             {/if}
         </div>
     </StackPanel>
-</Card>
+</HoverCard>
 
 
 <style>
