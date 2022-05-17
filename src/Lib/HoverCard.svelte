@@ -57,7 +57,6 @@
     }
 
     @media only screen and (max-device-width: 600px) {
-
         .hovercard {
             background: var(--overlay-color);
         }
