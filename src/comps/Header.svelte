@@ -56,8 +56,6 @@
         color: white;
         text-decoration: none;
         font-weight: bold;
-        -webkit-backface-visibility: hidden;
-        -webkit-transform-style: preserve-3d;
         -webkit-transform: translate3d(0, 0, 0);
     }
 
@@ -96,6 +94,8 @@
         width: 100%;
         display: flex;
         align-items: center;
+        -webkit-backface-visibility: hidden;
+        -webkit-transform-style: preserve-3d;
     }
 
     .ldiv {
@@ -110,6 +110,9 @@
         float: right;
         margin-right: 5rem;
         font-size: var(--header-top-font-size);
+        -webkit-backface-visibility: hidden;
+        -webkit-transform-style: preserve-3d;
+        -webkit-transform: translate3d(0, 0, 0);
     }
 
     .rdiv.scrolled {
