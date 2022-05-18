@@ -8,9 +8,10 @@
 
     const parallaxconst = 0.6;
     let scroll
+    let outerHeight
 </script>
 
-<svelte:window bind:scrollY={scroll}/>
+<svelte:window bind:scrollY={scroll} bind:outerHeight/>
 
 
 <main>
@@ -18,7 +19,7 @@
         <div class="out out-bg"
              style:height
              style:position="absolute"
-             style:transform={`translate3d(0, ${scroll * parallaxconst}px, 0)`}
+             style:transform={`translate3d(0, ${scroll < outerHeight * 0.9 ? scroll * parallaxconst : 0}px, 0)`}
              style:background-image={`url(${img})`}></div>
         <div class="out out-overlay"
              style:background-image={overlaybg}
@@ -72,7 +73,7 @@
 
     .title {
         position: absolute;
-        padding: 4rem var(--title-pad-h);
+        padding: 2rem var(--title-pad-h);
         max-width: calc(100vw - 2 * var(--title-pad-h));
         overflow-x: hidden;
     }

@@ -1,6 +1,6 @@
 <script>
     import src from '../assets/logo.png';
-    export let breakpointVh = 25
+    export let breakpointVh = 20
     let vpHeight
     let scroll
 
@@ -34,24 +34,22 @@
 
 <style>
     :root {
-        --transition: all 0.2s cubic-bezier(0, .5, 0.3, 1);
-        --mobile-duration: 0.16s;
-        --mobile-delay: 0.05s;
+        --header-transition: all 0.3s cubic-bezier(0, 0.75, 0.25, 1);
+        --header-mobile-transition: all 0.3s cubic-bezier(0, 0.6, 0.4, 1);
 
-        --tHeight:  10rem;
-        --oHeight: 5rem;
-        --tImgMargin: 1.5rem;
-        --oImgMargin: 0.5rem;
-        --tTextSize: 1.5rem;
-        --oTextSize: 1.5rem;
+        --header-top-height:  10rem;
+        --header-scrolled-height: 5rem;
+        --header-top-img-margin: 1.5rem;
+        --header-scrolled-img-margin: 0.5rem;
+        --header-top-font-size: 1.5rem;
+        --header-scrolled-font-size: 1.5rem;
 
-        --bgColor: #000000aa;
-        --bdf-blur: 6px;
-
+        --header-background: #000000aa;
+        --header-blur-amount: 6px;
     }
 
     *{
-        transition: var(--transition);
+        transition: var(--header-transition);
     }
 
     a {
@@ -69,22 +67,21 @@
         display: flex;
         align-items: center;
 
-        height: var(--tHeight);
+        height: var(--header-top-height);
         background-color: transparent;
         backdrop-filter: none;
     }
 
     .title.scrolled {
-        height: var(--oHeight);
-        background-color: var(--bgColor);
-        backdrop-filter: blur(var(--bdf-blur));
+        height: var(--header-scrolled-height);
+        background-color: var(--header-background);
+        backdrop-filter: blur(var(--header-blur-amount));
     }
 
     @media only screen and (max-device-width: 600px)
     {
         * {
-            transition-delay: var(--mobile-delay);
-            transition-duration: var(--mobile-duration);
+            transition: var(--header-mobile-transition);
         }
 
         .title.scrolled {
@@ -109,21 +106,26 @@
         width: auto;
         float: right;
         margin-right: 5rem;
-        font-size: var(--tTextSize);
+        font-size: var(--header-top-font-size);
     }
 
     .rdiv.scrolled {
-        font-size: var(--oTextSize);
+        font-size: var(--header-scrolled-font-size);
     }
 
     .logo-img {
-        height: calc(var(--tHeight) - 2 * var(--tImgMargin));
-        margin-left: var(--tImgMargin);
+        height: calc(var(--header-top-height) - 2 * var(--header-top-img-margin));
+        margin-left: var(--header-top-img-margin);
+        -webkit-backface-visibility: hidden;
+        -webkit-transform-style: preserve-3d;
+        -webkit-transform: translate3d(0, 0, 0);
+        filter: drop-shadow(2px 2px 8px #00000088);
     }
 
     .logo-img.scrolled {
-        height: calc(var(--oHeight) - 2 * var(--oImgMargin));
-        margin-left: var(--oImgMargin);
+        height: calc(var(--header-scrolled-height) - 2 * var(--header-scrolled-img-margin));
+        margin-left: var(--header-scrolled-img-margin);
+        filter: none;
     }
 
 </style>

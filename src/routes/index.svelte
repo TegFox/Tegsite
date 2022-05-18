@@ -10,12 +10,12 @@
 <title>Teg Fox</title>
 
 <main>
-    <Title title="Welcome!" {img} height="92vh">
+    <Title title="Welcome!" {img} height="95vh">
         Hey! I'm Teg, and I draw fluffy animals!
     </Title>
 
 
     <Body>
-        <Comms status="askme"/>
+        <Comms status="open"/>
     </Body>
 </main>

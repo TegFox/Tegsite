@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fbd0a15-224f-4961-8204-79eae1cfa73e" name="Changes" comment="Commit Message">
-      <change afterPath="$PROJECT_DIR$/src/Lib/HoverCard.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.cjs.bak" afterDir="false" />
+    <list default="true" id="3fbd0a15-224f-4961-8204-79eae1cfa73e" name="Changes" comment="deleted a new line">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/Card.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/Card.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lib/HoverCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/HoverCard.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/comps/Comms.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Comms.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Header.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/comps/Title.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Title.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.svelte" afterDir="false" />
     </list>
@@ -93,7 +92,8 @@
       <workItem from="1652639664603" duration="7728000" />
       <workItem from="1652663269447" duration="3954000" />
       <workItem from="1652729323848" duration="30000" />
-      <workItem from="1652744539691" duration="6534000" />
+      <workItem from="1652744539691" duration="6690000" />
+      <workItem from="1652902386634" duration="5250000" />
     </task>
     <task id="LOCAL-00001" summary="Commit Message">
       <created>1652667248973</created>
@@ -102,7 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652667248973</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implemented color changing on hover and also sped up the styles">
+      <created>1652759534445</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652759534445</updated>
+    </task>
+    <task id="LOCAL-00003" summary="deleted a new line">
+      <created>1652759611579</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652759611579</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +135,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit Message" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit Message" />
+    <MESSAGE value="Implemented color changing on hover and also sped up the styles" />
+    <MESSAGE value="deleted a new line" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted a new line" />
   </component>
 </project>
