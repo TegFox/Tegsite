@@ -13,7 +13,6 @@
     import YCH from "../assets/ych.png"
     import Terms from "../assets/terms.png"
     import About from "../assets/about.png"
-    import Footer from "../assets/footer.png"
     import HomeLinks from "../comps/HomeLinks.svelte"
     import Twitter from "../assets/icons/twitter.svg"
     import Trello from "../assets/icons/trello.png"
