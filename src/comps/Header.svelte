@@ -26,7 +26,7 @@
             </div>
 
             <div class='rdiv' class:scrolled>
-                <a href="#home">HOME</a>
+                <a href="/">HOME</a>
             </div>
         </div>
     </header>
@@ -125,7 +125,7 @@
         -webkit-backface-visibility: hidden;
         -webkit-transform-style: preserve-3d;
         -webkit-transform: translate3d(0, 0, 0);
-        filter: drop-shadow(2px 2px 8px #00000088);
+        filter: drop-shadow(2px 2px 8px #00000044);
     }
 
     .logo-img.scrolled {

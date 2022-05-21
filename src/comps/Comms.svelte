@@ -21,19 +21,19 @@
         let grad1 = '#701625'
         let grad2 = '#23151a'
         bgcolor = `linear-gradient(-45deg, ${grad2}, ${grad1})`
-        bgcolorBase = `linear-gradient(-45deg, ${grad2}, ${blendColors(grad1, grad2, 0.5)})`
+        bgcolorBase = `linear-gradient(-45deg, ${grad2}, ${blendColors(grad1, grad2, 0.4)})`
     } else if (askme) {
         color = '#FFB103'
         let grad1 = '#805003'
         let grad2 = '#352015'
         bgcolor = `linear-gradient(-45deg, ${grad2}, ${grad1})`
-        bgcolorBase = `linear-gradient(-45deg, ${grad2}, ${blendColors(grad1, grad2, 0.5)})`
+        bgcolorBase = `linear-gradient(-45deg, ${grad2}, ${blendColors(grad1, grad2, 0.4)})`
     } else if (open) {
         color = '#21D66B'
         let grad1 = '#008050'
         let grad2 = '#11281e'
         bgcolor = `linear-gradient(-45deg, ${grad2}, ${grad1})`
-        bgcolorBase = `linear-gradient(-45deg, ${grad2}, ${blendColors(grad1, grad2, 0.5)})`
+        bgcolorBase = `linear-gradient(-45deg, ${grad2}, ${blendColors(grad1, grad2, 0.4)})`
     }
 
     function blendColors(colorA, colorB, amount) {
@@ -73,7 +73,7 @@
                     <p></p>
                     <a class="open-button" href="http://dance.goat.dance/">
                         <div class="open-button">
-                            <Card color="#ffffff22" padding="0.5rem">
+                            <Card background="#ffffff22" padding="0.5rem">
                                 <div style:font-weight="bold" style:font-size="1.5rem" style:letter-spacing="4px">
                                     COMMISSION FORM
                                 </div>

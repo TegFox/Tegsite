@@ -3,6 +3,9 @@
 
     export let background
     export let overlayBackground
+    export let filter = 'none'
+    export let overlayFilter = 'none'
+
     export let borderRadius = '16px'
     export let padding = '3rem 2rem'
 
@@ -11,9 +14,10 @@
 </script>
 
 <div class="hovercard"
-     style:border-radius={borderRadius}
      style:padding
-     style={`--background: ${background};  --overlay-background: ${overlayBackground}; --border-radius: ${borderRadius};`}
+     style={`--hovercard-background: ${background};  --hovercard-overlay-background: ${overlayBackground};
+     --hovercard-border-radius: ${borderRadius}; --hovercard-filter: ${filter};
+     --hovercard-overlay-filter: ${overlayFilter};`}
      >
     <slot/>
 </div>
@@ -22,20 +26,21 @@
 <style>
 
     :root {
-        --hover-card-transition: all 0.25s ease;
+        --hovercard-transition: all 0.25s ease;
 
     }
 
     .hovercard {
-        background: var(--background);
+        background: var(--hovercard-background);
         position: relative;
         z-index: 1;
-        transition: var(--transition);
-        border-radius: var(--border-radius);
+        transition: var(--hovercard-transition);
+        border-radius: var(--hovercard-border-radius);
+        filter: var(--hovercard-filter)
     }
 
     .hovercard:before {
-        background: var(--overlay-background);
+        background: var(--hovercard-overlay-background);
         content: "";
         width: 100%;
         height: 100%;
@@ -44,8 +49,8 @@
         position: absolute;
         z-index: -1;
         opacity: 0;
-        transition: var(--hover-card-transition);
-        border-radius: var(--border-radius);
+        transition: var(--hovercard-transition);
+        border-radius: var(--hovercard-border-radius);
     }
 
     .hovercard:hover:before {
@@ -53,12 +58,12 @@
     }
 
     .hovercard:hover {
-
+        filter: var(--hovercard-overlay-filter)
     }
 
     @media only screen and (max-device-width: 1366px) {
         .hovercard {
-            background: var(--overlay-background);
+            background: var(--hovercard-overlay-background);
         }
     }
 

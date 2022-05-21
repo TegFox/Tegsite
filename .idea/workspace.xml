@@ -1,71 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fbd0a15-224f-4961-8204-79eae1cfa73e" name="Changes" comment="deleted a new line">
+    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintrc.cjs.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/HoverCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/HoverCard.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/Comms.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Comms.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Header.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/Title.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Title.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lib/Body.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lib/Card.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lib/HoverCard.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lib/Placeholder.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lib/StackPanel.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/forest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/ph-backdrop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/ph-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/Comms.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/Footer.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/Header.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/Title.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/__layout.svelte" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="__layout" />
-        <option value="CSS File" />
-        <option value="Title" />
-        <option value="Body" />
-        <option value="Comms" />
-        <option value="HStackPanel" />
-        <option value="VStackPanel" />
-        <option value="BodyLight1" />
-        <option value="Footer" />
-        <option value="Card" />
-        <option value="HoverCard" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="47a6825a-1e05-44ea-8a47-2ceed7b1c532" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="29B7hnVBQ2f0VgmxktD7oITcpF6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="29TPslH8CvwuylC3SZfgRrrYLgY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\josep\\Stuff\\Projects\\js\\tegsite\\node_modules\\prettier&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\Lib" />
-      <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\static" />
-      <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src" />
-    </key>
-  </component>
+}]]></component>
   <component name="RunManager">
     <configuration name="npm run dev" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -82,61 +72,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3fbd0a15-224f-4961-8204-79eae1cfa73e" name="Changes" comment="" />
-      <created>1652574749604</created>
+      <changelist id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="" />
+      <created>1653134313114</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1652574749604</updated>
-      <workItem from="1652574751870" duration="14632000" />
-      <workItem from="1652603499303" duration="2852000" />
-      <workItem from="1652639664603" duration="7728000" />
-      <workItem from="1652663269447" duration="3954000" />
-      <workItem from="1652729323848" duration="30000" />
-      <workItem from="1652744539691" duration="6690000" />
-      <workItem from="1652902386634" duration="5250000" />
+      <updated>1653134313114</updated>
+      <workItem from="1653134315893" duration="143000" />
     </task>
-    <task id="LOCAL-00001" summary="Commit Message">
-      <created>1652667248973</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1652667248973</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Implemented color changing on hover and also sped up the styles">
-      <created>1652759534445</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1652759534445</updated>
-    </task>
-    <task id="LOCAL-00003" summary="deleted a new line">
-      <created>1652759611579</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1652759611579</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit Message" />
-    <MESSAGE value="Implemented color changing on hover and also sped up the styles" />
-    <MESSAGE value="deleted a new line" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted a new line" />
   </component>
 </project>

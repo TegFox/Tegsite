@@ -2,7 +2,7 @@
     export let color
 </script>
 
-<div class="body-div" style:background-color={color}>
+<div class="body-div" style:background={color} >
     <slot/>
 </div>
 

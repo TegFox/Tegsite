@@ -33,7 +33,7 @@
             </div>
         </div>
         <div class="hidey-hole"
-             style:height="calc(100vh * {parallaxconst})"
+             style:height="calc(100vh * {parallaxconst + 0.1})"
              style:top={height}
              style:background>
             <!-- this div exists purely to hide the background to support parallax -->

@@ -1,5 +1,5 @@
 <script>
-    export let color = '#222222'
+    export let background = '#222222'
     export let borderRadius = '16px'
     export let padding = '3rem 2rem'
     export let height
@@ -10,8 +10,9 @@
 <div class="card-outer"
      style:border-radius={borderRadius}
      style:padding
-     style:background="{color}"
-     >
+     style:background
+     style:background-size="cover"
+     style:background-position="center">
     <slot/>
 </div>
 
