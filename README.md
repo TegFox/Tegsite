@@ -1,4 +1,6 @@
-# sveltekit-gh-pages
+# Tegsite
+
+Template from [metonym](https://github.com/metonym/sveltekit-gh-pages)
 
 > Minimal [SvelteKit](https://kit.svelte.dev/) set-up made deployable to [GitHub Pages](https://metonym.github.io/sveltekit-gh-pages/).
 
