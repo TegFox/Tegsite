@@ -11,7 +11,7 @@
 
 </script>
 
-<div style:width style:margin="2rem">
+<div style:width style:margin-left="0" style:margin-right="auto" style:padding="2rem">
     <StackPanel direction="column" gap="1rem" align="flex-start">
 
         <StackPanel direction="row" align="center" gap="1rem">
