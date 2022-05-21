@@ -1,10 +1,10 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-1295cf33.js",
+    "file": "start-27c9e6ef.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-7211b435.js"
+      "_index-ba33f3d3.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
@@ -13,60 +13,60 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-43552252.js",
+    "file": "pages/__layout.svelte-602446ac.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-7211b435.js",
-      "_Body-f6b883f2.js"
+      "_index-ba33f3d3.js",
+      "_Body-3eb418a5.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-29205813.css"
+      "assets/pages/__layout.svelte-cd3ca6b7.css"
     ],
     "assets": [
-      "assets/logo-48f64939.png"
+      "assets/logo-19609db9.png"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-a8697a20.js",
+    "file": "error.svelte-d4447265.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-7211b435.js"
+      "_index-ba33f3d3.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-5025ffba.js",
+    "file": "pages/index.svelte-1a0d5a78.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-7211b435.js",
-      "_Body-f6b883f2.js"
+      "_index-ba33f3d3.js",
+      "_Body-3eb418a5.js"
     ],
     "css": [
       "assets/pages/index.svelte-a958f8b1.css"
     ],
     "assets": [
-      "assets/forest-0264989a.png",
+      "assets/forest-81acb79c.png",
       "assets/commission-2d0dc449.png",
       "assets/ych-17a56e9a.png",
-      "assets/terms-d42e19e8.png",
-      "assets/about-a1382133.png",
+      "assets/terms-5620d0f5.png",
+      "assets/about-aa5358ed.png",
       "assets/twitter-e5c7f768.svg",
       "assets/trello-2b86b968.png",
       "assets/patreon-6f96cee9.png"
     ]
   },
-  "_index-7211b435.js": {
-    "file": "chunks/index-7211b435.js"
+  "_index-ba33f3d3.js": {
+    "file": "chunks/index-ba33f3d3.js"
   },
-  "_Body-f6b883f2.js": {
-    "file": "chunks/Body-f6b883f2.js",
+  "_Body-3eb418a5.js": {
+    "file": "chunks/Body-3eb418a5.js",
     "imports": [
-      "_index-7211b435.js"
+      "_index-ba33f3d3.js"
     ],
     "css": [
       "assets/Body-68b6a53f.css"
