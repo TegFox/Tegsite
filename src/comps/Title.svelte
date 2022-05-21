@@ -69,6 +69,9 @@
     .out-overlay {
         position: absolute;
         top: 0;
+        -webkit-backface-visibility: hidden;
+        -webkit-transform-style: preserve-3d;
+        -webkit-transform: translate3d(0, 0, 0);
     }
 
     .title {
