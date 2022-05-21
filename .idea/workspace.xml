@@ -1,35 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.cjs.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Switched sveltekit templates for deploying to gh pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/Body.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/Card.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/HoverCard.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/Placeholder.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/StackPanel.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/forest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/ph-backdrop.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/ph-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/Comms.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/Footer.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/Header.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/Title.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/__layout.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +11,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="47a6825a-1e05-44ea-8a47-2ceed7b1c532" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,9 +29,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\josep\Stuff\Projects\js\tegsite" />
+      <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\static" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="npm run dev" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -77,11 +60,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653134313114</updated>
-      <workItem from="1653134315893" duration="143000" />
+      <workItem from="1653134315893" duration="1439000" />
     </task>
+    <task id="LOCAL-00001" summary="Switched sveltekit templates for deploying to gh pages">
+      <created>1653134785916</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653134785916</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Switched sveltekit templates for deploying to gh pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Switched sveltekit templates for deploying to gh pages" />
   </component>
 </project>
