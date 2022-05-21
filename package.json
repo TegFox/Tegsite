@@ -5,12 +5,15 @@
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
-    "deploy": "yarn build && touch build/.nojekyll && gh-pages -d build -t true"
+    "deploy": "yarn build && touch build/.nojekyll && gh-pages -d build -t true",
+    "package": "svelte-kit package",
+    "preview": "npm run build && svelte-kit preview"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "1.0.0-next.30",
     "@sveltejs/kit": "1.0.0-next.331",
     "gh-pages": "^4.0.0",
-    "svelte": "^3.48.0"
+    "svelte": "^3.48.0",
+    "svelte-scrollto": "^0.2.0"
   }
 }
