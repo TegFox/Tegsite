@@ -1,13 +1,13 @@
 <script>
     import Body from "../Lib/Body.svelte";
-    import * as animateScroll from "svelte-scrollto"
+    import { scrollTop } from 'svelte-scrolling'
 </script>
 
 <Body color="192231">
     <div class="fh1">
         You've Reached The End.
     </div>
-    <a on:click={() => animateScroll.scrollToTop()} href="" style:text-decoration="none" style:color="grey" style:pointer="pointer">
+    <a on:click={() => scrollTop()} href="" style:text-decoration="none" style:color="grey" style:pointer="pointer">
         <div style:margin="0.5rem 0">
             Go back to top
         </div>
@@ -18,8 +18,10 @@
 </Body>
 
 <style>
+
     .fh1 {
         font-size: 2rem;
         font-weight: bold;
     }
+
 </style>

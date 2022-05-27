@@ -1,20 +1,20 @@
 <script>
     import src from '../assets/logo.png';
+    import NavBar from "./NavBar.svelte";
+    import { scrollTop } from 'svelte-scrolling'
     export let breakpointVh = 20
     let vpHeight
     let scroll
+    let scrolled
 
     function vhToPx(val) {
         return val * vpHeight / 100
     }
 
-    function isScrolled() {
-        return (scroll > vhToPx(breakpointVh) || scroll > vhToPx(breakpointVh))
-    }
-    let scrolled = isScrolled();
+    $: scrolled = (scroll > vhToPx(breakpointVh) || scroll > vhToPx(breakpointVh));
 </script>
 
-<svelte:window bind:scrollY={scroll} on:scroll={() => scrolled = isScrolled()} bind:outerHeight={vpHeight}/>
+<svelte:window bind:scrollY={scroll} bind:outerHeight={vpHeight}/>
 
 <main>
     <div class="pre">
@@ -22,11 +22,13 @@
     <header class='title' class:scrolled>
         <div class="title-container">
             <div class='ldiv'>
-                <img {src} class='logo-img' class:scrolled id="logo"/>
+                <a href="/" on:click={() => scrollTop()}>
+                    <img {src} class='logo-img' class:scrolled id="logo"/>
+                </a>
             </div>
 
             <div class='rdiv' class:scrolled>
-                <a href="/">HOME</a>
+                <NavBar/>
             </div>
         </div>
     </header>
@@ -41,8 +43,9 @@
         --header-scrolled-height: 5rem;
         --header-top-img-margin: 1.5rem;
         --header-scrolled-img-margin: 0.5rem;
-        --header-top-font-size: 1.5rem;
-        --header-scrolled-font-size: 1.5rem;
+        --header-top-font-size: 1.25rem;
+        --header-scrolled-font-size: 1.25rem;
+        --header-active-font-size: 1.5rem;
 
         --header-background: #000000aa;
         --header-blur-amount: 6px;
@@ -50,13 +53,7 @@
 
     *{
         transition: var(--header-transition);
-    }
-
-    a {
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-        -webkit-transform: translate3d(0, 0, 0);
+        transition-delay: 0.01s;
     }
 
     .title {

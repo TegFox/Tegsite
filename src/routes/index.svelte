@@ -27,6 +27,7 @@
 <title>Teg Fox</title>
 
 <main>
+
     <Title title="Welcome!" {img} height="96vh">
         Hey! I'm Teg, and I draw fluffy animals!
     </Title>
