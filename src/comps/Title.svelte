@@ -4,15 +4,29 @@
     export let height = '70vh'
     export let background = 'black'
 
+    import {browser} from '$app/env'
+
     let overlaybg = `linear-gradient(transparent 25%, ${background} 95%)`
+
+    let pageHeight = '100vh'
+
+    if (browser) {
+        pageHeight = document.body.clientHeight + 'px'
+    }
 
     const parallaxconst = 0.6;
     let scroll
     let outerHeight
+
+    function vhToPx(val) {
+        return val * outerHeight / 100
+    }
+
+    $: console.log(pageHeight)
+
 </script>
 
 <svelte:window bind:scrollY={scroll} bind:outerHeight/>
-
 
 <main>
     <div class="out" style:height>
@@ -33,7 +47,7 @@
             </div>
         </div>
         <div class="hidey-hole"
-             style:height="calc(100vh * {parallaxconst + 0.1})"
+             style:height="calc({pageHeight} - {height})"
              style:top={height}
              style:background>
             <!-- this div exists purely to hide the background to support parallax -->

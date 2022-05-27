@@ -53,7 +53,7 @@
 
     *{
         transition: var(--header-transition);
-        transition-delay: 0.01s;
+        transition-delay: 0.02s;
     }
 
     .title {

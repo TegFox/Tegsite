@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Optimized more images">
-      <change afterPath="$PROJECT_DIR$/src/Lib/NavLink.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comps/NavBar.svelte" afterDir="false" />
+    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Optimizations and aesthetic fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Footer.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/comps/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Header.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/Title.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Title.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +76,8 @@
       <workItem from="1653137476736" duration="1950000" />
       <workItem from="1653165223577" duration="1840000" />
       <workItem from="1653369208570" duration="34000" />
-      <workItem from="1653619990975" duration="5655000" />
+      <workItem from="1653619990975" duration="8200000" />
+      <workItem from="1653630112563" duration="768000" />
     </task>
     <task id="LOCAL-00001" summary="Switched sveltekit templates for deploying to gh pages">
       <created>1653134785916</created>
@@ -125,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653166670968</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Optimizations and aesthetic fixes">
+      <created>1653627569107</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653627569107</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +152,7 @@
     <MESSAGE value="Mobile fixes" />
     <MESSAGE value="Home social links spacing fixed" />
     <MESSAGE value="Optimized more images" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimized more images" />
+    <MESSAGE value="Optimizations and aesthetic fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimizations and aesthetic fixes" />
   </component>
 </project>
