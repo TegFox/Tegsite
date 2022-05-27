@@ -4,25 +4,15 @@
     export let height = '70vh'
     export let background = 'black'
 
-    import {browser} from '$app/env'
-
-    let overlaybg = `linear-gradient(transparent 25%, ${background} 95%)`
-
-    let pageHeight = '100vh'
-
-    if (browser) {
-        pageHeight = document.body.clientHeight + 'px'
-    }
-
     const parallaxconst = 0.6;
+    const overlaybg = `linear-gradient(transparent 25%, ${background} 95%)`
+
     let scroll
     let outerHeight
+    let pageHeight
 
-    function vhToPx(val) {
-        return val * outerHeight / 100
-    }
-
-    $: console.log(pageHeight)
+    import {browser} from "$app/env";
+    if (browser) pageHeight = document.body.clientHeight
 
 </script>
 
@@ -47,7 +37,7 @@
             </div>
         </div>
         <div class="hidey-hole"
-             style:height="calc({pageHeight} - {height})"
+             style:height="calc(100vh - {height} + {Math.min(pageHeight - outerHeight - 100, scroll)}px )"
              style:top={height}
              style:background>
             <!-- this div exists purely to hide the background to support parallax -->
