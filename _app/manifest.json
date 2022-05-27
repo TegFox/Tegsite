@@ -1,10 +1,11 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-25be48a0.js",
+    "file": "start-98141e36.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-ba33f3d3.js"
+      "_index-c6a7d37c.js",
+      "_index-2d5cdfbf.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
@@ -13,38 +14,39 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-602446ac.js",
+    "file": "pages/__layout.svelte-30b38b4d.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-ba33f3d3.js",
-      "_Body-3eb418a5.js"
+      "_index-c6a7d37c.js",
+      "_index-2d5cdfbf.js",
+      "_Body-57ee91c6.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-cd3ca6b7.css"
+      "assets/pages/__layout.svelte-d84d76ad.css"
     ],
     "assets": [
       "assets/logo-19609db9.png"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-d4447265.js",
+    "file": "error.svelte-abf1642a.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-ba33f3d3.js"
+      "_index-c6a7d37c.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-ad6dd82a.js",
+    "file": "pages/index.svelte-6d50b268.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-ba33f3d3.js",
-      "_Body-3eb418a5.js"
+      "_index-c6a7d37c.js",
+      "_Body-57ee91c6.js"
     ],
     "css": [
       "assets/pages/index.svelte-9eda62d1.css"
@@ -60,13 +62,19 @@
       "assets/patreon-6f96cee9.png"
     ]
   },
-  "_index-ba33f3d3.js": {
-    "file": "chunks/index-ba33f3d3.js"
+  "_index-c6a7d37c.js": {
+    "file": "chunks/index-c6a7d37c.js"
   },
-  "_Body-3eb418a5.js": {
-    "file": "chunks/Body-3eb418a5.js",
+  "_index-2d5cdfbf.js": {
+    "file": "chunks/index-2d5cdfbf.js",
     "imports": [
-      "_index-ba33f3d3.js"
+      "_index-c6a7d37c.js"
+    ]
+  },
+  "_Body-57ee91c6.js": {
+    "file": "chunks/Body-57ee91c6.js",
+    "imports": [
+      "_index-c6a7d37c.js"
     ],
     "css": [
       "assets/Body-68b6a53f.css"
