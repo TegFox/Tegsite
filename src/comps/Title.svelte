@@ -23,7 +23,7 @@
         <div class="out out-bg"
              style:height
              style:position="absolute"
-             style:transform={`translate3d(0, ${scroll < outerHeight * 0.9 ? scroll * parallaxconst : 0}px, 0)`}
+             style:transform={`translate3d(0, ${scroll < outerHeight ? scroll * parallaxconst : 0}px, 0)`}
              style:background-image={`url(${img})`}></div>
         <div class="out out-overlay"
              style:background-image={overlaybg}
@@ -37,7 +37,7 @@
             </div>
         </div>
         <div class="hidey-hole"
-             style:height="calc(100vh - {height} + {Math.min(pageHeight - outerHeight - 100, scroll)}px )"
+             style:height="calc(100vh - {height} + {Math.min(outerHeight, scroll)}px )"
              style:top={height}
              style:background>
             <!-- this div exists purely to hide the background to support parallax -->

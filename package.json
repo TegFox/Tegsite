@@ -13,7 +13,8 @@
     "@sveltejs/adapter-static": "1.0.0-next.30",
     "@sveltejs/kit": "1.0.0-next.331",
     "gh-pages": "^4.0.0",
-    "svelte": "^3.48.0"
+    "svelte": "^3.48.0",
+    "svelte-hamburgers": "^4.0.1"
   },
   "dependencies": {
     "svelte-scrolling": "^1.1.1"

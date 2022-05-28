@@ -54,31 +54,27 @@
         </div>
     </Body>
 
+    <Body color={tegGrey}>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <StackPanel style="justify-content: space-evenly">
+                <HomeLinks img={Twitter} name="Twitter" href="{gvars.external.twitter}" width={socialwidth}>
+                    Twitter is where I post art and updates most frequently. If you want to keep up with me and my
+                    shenanigans, this is the place to go!
+                </HomeLinks>
+                <HomeLinks img={Trello} name="Trello" href={gvars.external.trello} width={socialwidth}>
+                    Trello is how I keep track of my queue! If I have commissions or projects in progress, all
+                    of it will be accounted for on this board!
+                </HomeLinks>
+                <HomeLinks img={Patreon} name="Patreon" width={socialwidth}>
+                    Patreon is a service that allows subscribers to get access to exclusive content!
+                    <p>
+                        Coming soon...
+                    </p>
+                </HomeLinks>
+            </StackPanel>
+        </div>
 
-    <div>
-
-    </div>
-        <Body color={tegGrey}>
-            <div style="display: flex; flex-direction: column; align-items: center;">
-                <StackPanel style="justify-content: space-evenly">
-                    <HomeLinks img={Twitter} name="Twitter" href="{gvars.links.twitter}" width={socialwidth}>
-                        Twitter is where I post art and updates most frequently. If you want to keep up with me and my
-                        shenanigans, this is the place to go!
-                    </HomeLinks>
-                    <HomeLinks img={Trello} name="Trello" href={gvars.links.trello} width={socialwidth}>
-                        Trello is how I keep track of my queue! If I have commissions or projects in progress, all
-                        of it will be accounted for on this board!
-                    </HomeLinks>
-                    <HomeLinks img={Patreon} name="Patreon" width={socialwidth}>
-                        Patreon is a service that allows subscribers to get access to exclusive content!
-                        <p>
-                            Coming soon...
-                        </p>
-                    </HomeLinks>
-                </StackPanel>
-            </div>
-
-        </Body>
+    </Body>
 
 </main>
 
@@ -90,6 +86,7 @@
         gap: 2rem;
         align-items: stretch;
         align-content: stretch;
+        padding-bottom: 3rem;
     }
 
     .mobilewrap-flexitem {

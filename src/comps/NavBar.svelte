@@ -1,31 +1,16 @@
 <script>
     import NavLink from "../Lib/NavLink.svelte"
-    export let mobile
-
+    import globalVars from "../globalVars.js";
 </script>
 
 
 <div class="flex-out">
 
-    <NavLink href="/">
-        HOME
-    </NavLink>
-
-    <NavLink>
-        COMMISSIONS
-    </NavLink>
-
-    <NavLink>
-        YCH
-    </NavLink>
-
-    <NavLink>
-        TERMS & FAQ
-    </NavLink>
-
-    <NavLink>
-        ABOUT
-    </NavLink>
+    {#each globalVars.links as link, i}
+        <NavLink href={link.path}>
+            {link.name}
+        </NavLink>
+    {/each}
 
 </div>
 
@@ -36,5 +21,6 @@
         flex-direction: row;
         gap: 2rem;
         align-items: center;
+        overflow-y: scroll;
     }
 </style>

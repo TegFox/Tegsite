@@ -29,6 +29,13 @@
 
     .goto-title {
         font-size: 3rem;
+        white-space: nowrap;
+    }
+
+    @media only screen and (max-device-width: 600px) {
+        .goto-title {
+            font-size: 2.5rem;
+        }
     }
 
     .goto-ds {
