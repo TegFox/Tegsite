@@ -8,19 +8,19 @@ export default  {
         },
         {
             name: 'COMMISSION',
-            path: '/commission'
+            path: 'http://dance.goat.dance/'
         },
         {
             name: 'YCH',
-            path: '/ych'
+            path: 'http://dance.goat.dance/'
         },
         {
             name: 'TERMS / FAQ',
-            path: '/terms-faq'
+            path: 'http://dance.goat.dance/'
         },
         {
             name: 'ABOUT',
-            path: '/about-me'
+            path: 'http://dance.goat.dance/'
         },
 
     ],

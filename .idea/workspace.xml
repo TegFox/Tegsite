@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="PLEASE BE FIX I'M SO SAD">
-      <change afterPath="$PROJECT_DIR$/src/comps/MobileMenu.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comps/MobileNavBar.svelte" afterDir="false" />
+    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Mobile Optimizations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/Card.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/Card.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/GreyscaleCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/GreyscaleCard.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/NavLink.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/NavLink.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/Goto.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Goto.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Header.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/NavBar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/NavBar.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/comps/Title.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Title.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/globalVars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/globalVars.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +19,7 @@
         <option value="NavLink" />
         <option value="MobileNavBar" />
         <option value="MobileMenu" />
+        <option value="commission" />
       </list>
     </option>
   </component>
@@ -93,7 +82,9 @@
       <workItem from="1653619990975" duration="8200000" />
       <workItem from="1653630112563" duration="768000" />
       <workItem from="1653631342251" duration="1546000" />
-      <workItem from="1653683512163" duration="15498000" />
+      <workItem from="1653683512163" duration="18589000" />
+      <workItem from="1653704514893" duration="230000" />
+      <workItem from="1653704933690" duration="79000" />
     </task>
     <task id="LOCAL-00001" summary="Switched sveltekit templates for deploying to gh pages">
       <created>1653134785916</created>
@@ -151,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653632885705</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Mobile Optimizations">
+      <created>1653700604375</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1653700604375</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +175,7 @@
     <MESSAGE value="Optimized more images" />
     <MESSAGE value="Optimizations and aesthetic fixes" />
     <MESSAGE value="PLEASE BE FIX I'M SO SAD" />
-    <option name="LAST_COMMIT_MESSAGE" value="PLEASE BE FIX I'M SO SAD" />
+    <MESSAGE value="Mobile Optimizations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mobile Optimizations" />
   </component>
 </project>

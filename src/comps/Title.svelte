@@ -68,6 +68,7 @@
         background-size: cover;
         filter: brightness(var(--bg-brightness));
         z-index: -2;
+        transition: none;
     }
 
     .out-overlay {
