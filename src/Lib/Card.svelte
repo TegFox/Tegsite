@@ -1,7 +1,7 @@
 <script>
     export let background = '#222222'
     export let borderRadius = '16px'
-    export let padding = '3rem 0 3rem 2rem'
+    export let padding = '3rem 2rem'
     export let height
 
 </script>

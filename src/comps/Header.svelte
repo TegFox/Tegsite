@@ -26,7 +26,7 @@
     <header class='title' class:scrolled>
         <div class="title-container">
             <div class='ldiv'>
-                <a href="/" on:click={() => scrollTop()}>
+                <a href="/" on:click={() => {/* scrollTop() */}}>
                     <img {src} class='logo-img' class:scrolled id="logo"/>
                 </a>
             </div>
@@ -153,10 +153,6 @@
 
         padding-top: var(--header-top-height);
         padding-right: 3rem;
-    }
-
-    .mobile-menu.scrolled {
-        padding-top: var(--header-scrolled-height)
     }
 
     .navbar {

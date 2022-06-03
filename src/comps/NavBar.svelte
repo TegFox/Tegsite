@@ -6,9 +6,9 @@
 
 <div class="flex-out">
 
-    {#each globalVars.links as link, i}
-        <NavLink href={link.path}>
-            {link.name}
+    {#each Object.keys(globalVars.links) as key}
+        <NavLink href={globalVars.links[key].path}>
+            {globalVars.links[key].name.toUpperCase()}
         </NavLink>
     {/each}
 

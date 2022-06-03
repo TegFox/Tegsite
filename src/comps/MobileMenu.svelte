@@ -10,11 +10,11 @@
 
 <div class="mobilemenu-out">
 
-    {#each globalVars.links as link, i}
+    {#each Object.keys(globalVars.links) as key, i}
 
         <div transition:fly={{x: 15, delay: 50 * i}}>
-            <NavLink href={link.path} bind:open>
-                {link.name}
+            <NavLink href={globalVars.links[key].path} bind:open>
+                {globalVars.links[key].name.toUpperCase()}
             </NavLink>
         </div>
 

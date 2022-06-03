@@ -53,7 +53,7 @@
             <div class="h h2">
                 Commission Status:
             </div>
-            <div class="h h1" style:color style:letter-spacing="6px">
+            <div class="h about-div-h1" style:color style:letter-spacing="6px">
                 {status}
             </div>
 
@@ -95,7 +95,7 @@
         text-align: center;
     }
 
-    .h1 {
+    .about-div-h1 {
         font-weight: bold;
         font-size: 4rem;
     }

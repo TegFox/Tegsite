@@ -7,13 +7,14 @@
     export let sub
     export let href
     export let overlay
+    export let padding = '3rem 0 3rem 2rem'
     export let height = 'auto'
 
 
 </script>
 
 <a {href} style:text-decoration="none" style:color="white">
-    <GreyscaleCard {background} {overlay} {height} base="75%">
+    <GreyscaleCard {background} {overlay} {height} {padding} base="75%">
         <div class="goto-title goto-ds">
             {title}
         </div>

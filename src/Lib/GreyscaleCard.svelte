@@ -6,7 +6,7 @@
     export let darkness = '20%'
     export let overlay
     export let height = 'auto'
-    export let padding = '3rem 0 3rem 2rem'
+    export let padding = '3rem 2rem'
 
     let fbg
 

@@ -6,7 +6,7 @@
 
 </script>
 
-<a {href} on:click={() => {scrollTop(); open = false}} class:active={$page.url.pathname === href}>
+<a {href} on:click={() => {/* scrollTop() */; open = false}} class:active={$page.url.pathname === href}>
     <slot/>
 </a>
 

@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Fixed the issue with the footer">
+    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Updated site desc">
+      <change afterPath="$PROJECT_DIR$/src/comps/CharacterIcon.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/about.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lib/Card.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/Card.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lib/GreyscaleCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/GreyscaleCard.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lib/NavLink.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/NavLink.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/Comms.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Comms.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/Goto.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Goto.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Header.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/MobileMenu.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/MobileMenu.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/NavBar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/NavBar.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/Title.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Title.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/globalVars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/globalVars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +31,8 @@
         <option value="MobileNavBar" />
         <option value="MobileMenu" />
         <option value="commission" />
+        <option value="about" />
+        <option value="CharacterIcon" />
       </list>
     </option>
   </component>
@@ -42,7 +56,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -85,7 +99,11 @@
       <workItem from="1653704514893" duration="230000" />
       <workItem from="1653704933690" duration="271000" />
       <workItem from="1653705846931" duration="625000" />
-      <workItem from="1653706598932" duration="164000" />
+      <workItem from="1653706598932" duration="940000" />
+      <workItem from="1653979606353" duration="206000" />
+      <workItem from="1653979824421" duration="46000" />
+      <workItem from="1654076040076" duration="189000" />
+      <workItem from="1654223254721" duration="15738000" />
     </task>
     <task id="LOCAL-00001" summary="Switched sveltekit templates for deploying to gh pages">
       <created>1653134785916</created>
@@ -164,7 +182,28 @@
       <option name="project" value="LOCAL" />
       <updated>1653705988633</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added metadata">
+      <created>1653706845555</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1653706845555</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added yarn">
+      <created>1653706878823</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1653706878823</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Updated site desc">
+      <created>1653979864411</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1653979864411</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +232,9 @@
     <MESSAGE value="Mobile Optimizations" />
     <MESSAGE value="Misc" />
     <MESSAGE value="Fixed the issue with the footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed the issue with the footer" />
+    <MESSAGE value="Added metadata" />
+    <MESSAGE value="Added yarn" />
+    <MESSAGE value="Updated site desc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated site desc" />
   </component>
 </project>
