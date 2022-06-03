@@ -7,7 +7,7 @@
     import Comms from "../comps/Comms.svelte"
     import StackPanel from "../Lib/StackPanel.svelte"
     import HoverCard from "../Lib/HoverCard.svelte"
-    import GreyscaleCard from "../Lib/GreyscaleCard.svelte"
+    import GreyscaleCard from "../Lib/ImageColorCard.svelte"
     import Goto from "../comps/Goto.svelte"
     import Commission from "../assets/commission.png"
     import YCH from "../assets/ych.png"
@@ -26,7 +26,7 @@
 
 <main>
 
-    <Title title="Welcome!" {img} height="96vh">
+    <Title title="Welcome!" {img}>
         Hey! I'm Teg, and I draw fluffy animals!
     </Title>
 

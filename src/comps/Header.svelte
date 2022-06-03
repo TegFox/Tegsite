@@ -3,8 +3,9 @@
     import NavBar from "./NavBar.svelte";
     import { scrollTop } from 'svelte-scrolling'
     import MobileNavBar from "./MobileNavBar.svelte";
-    import MobileMenu from "./MobileMenu.svelte";
     import {fly} from 'svelte/transition'
+    import globalVars from "../globalVars.js";
+    import NavLink from "../Lib/NavLink.svelte";
 
     export let breakpointVh = 20
 
@@ -18,6 +19,7 @@
     }
 
     $: scrolled = (scroll > vhToPx(breakpointVh) || scroll > vhToPx(breakpointVh));
+    $: console.log(open)
 </script>
 
 <svelte:window bind:scrollY={scroll} bind:outerHeight={vpHeight}/>
@@ -26,7 +28,7 @@
     <header class='title' class:scrolled>
         <div class="title-container">
             <div class='ldiv'>
-                <a href="/" on:click={() => {/* scrollTop() */}}>
+                <a href="/" on:click={() => {open = false}}>
                     <img {src} class='logo-img' class:scrolled id="logo"/>
                 </a>
             </div>
@@ -44,8 +46,14 @@
 </div>
 
 {#if open}
-    <div class="mobile-menu mobile-navbar" class:scrolled transition:fly={{x: 100}}>
-        <MobileMenu bind:open/>
+    <div class="mobilemenu-out mobile-menu" transition:fly={{x: 100}}>
+            {#each Object.keys(globalVars.links) as key, i}
+                <div transition:fly={{x: 15, delay: 50 * i}} on:click={() => open = false}>
+                    <NavLink href={globalVars.links[key].path} >
+                        {globalVars.links[key].name.toUpperCase()}
+                    </NavLink>
+                </div>
+            {/each}
     </div>
 {/if}
 
@@ -163,16 +171,12 @@
         display: none;
     }
 
+    .mobilemenu-out {
+        display: none;
+    }
+
     @media (max-width: 750px)
     {
-        * {
-            transition: var(--header-mobile-transition);
-            transition-delay: var(--header-transition-delay);
-        }
-
-        .title.scrolled {
-            backdrop-filter: none;
-        }
 
         .ldiv {
             margin-left: 0;
@@ -192,6 +196,24 @@
 
         .mobile-navbar {
             display: block;
+        }
+
+        .mobilemenu-out {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 3vh;
+        }
+    }
+
+    @media only screen and (max-device-width: 700px) {
+        * {
+            transition: var(--header-mobile-transition);
+            transition-delay: var(--header-transition-delay);
+        }
+
+        .title.scrolled {
+            backdrop-filter: none;
         }
     }
 

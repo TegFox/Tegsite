@@ -1,7 +1,7 @@
 <script>
     export let img
     export let title
-    export let height = '80vh'
+    export let height = '96vh'
     export let background = 'black'
 
     const parallaxconst = 0.6;

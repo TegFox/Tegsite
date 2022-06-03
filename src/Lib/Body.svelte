@@ -9,10 +9,10 @@
 <style>
 
     .body-div {
-        padding: 4rem;
+        padding: 3rem 4rem;
     }
 
-    @media only screen and (max-device-width: 600px)
+    @media  (max-width: 600px)
     {
         .body-div {
             padding: 2rem;

@@ -2,13 +2,19 @@
 
     import img from '../assets/about.png'
     import Me from '../assets/me.png'
+    import Teg from '../assets/chars/teg.png'
+    import Kai from '../assets/chars/kai.png'
+    import Alex from '../assets/chars/alex.png'
+    import Piper from '../assets/chars/piper.png'
+    import EdgeHusky from '../assets/chars/edgehusky.png'
+    import Richard from '../assets/chars/richard.png'
+
     import Title from "../comps/Title.svelte";
     import Body from "../Lib/Body.svelte";
     import Card from "../Lib/Card.svelte";
     import globalVars from "../globalVars.js";
     import CharacterIcon from "../comps/CharacterIcon.svelte";
-
-    import Teg from '../assets/logo.png'
+    import SideBySide from "../Lib/SideBySide.svelte";
 
 </script>
 
@@ -22,16 +28,18 @@
         Hobbyist artist and photographer, Full time bloo fock
     </Title>
 
+
     <Body>
         <div class="about-center-children-col">
-            <div class="about-split-flex">
-                <div class="about-split-child about-center-children-col">
-                    <img src={Me} class="about-teg"/>
+            <SideBySide childWidth="600px" maxChildWidth="40vw" gap="1rem" mobileGap="0">
+                <div slot="left" class="about-center-children-col">
+                    <img src={Me} style:width="320px"/>
                 </div>
-                <div class="about-split-child">
-                    <Card>
+
+                <div slot="right">
+                    <Card padding="2rem">
                         <div class="about-h1">
-                            Heya! I'm Teg!
+                            Hi! I'm Teg!
                         </div>
                         <div class="about-p">
                             <p>
@@ -47,7 +55,7 @@
                         </div>
                     </Card>
                 </div>
-            </div>
+            </SideBySide>
         </div>
     </Body>
 
@@ -57,11 +65,16 @@
                 <div class="about-h1">
                     My OCs!
                 </div>
-                These are all of the Characters that I've created! More on the way 🦊
+                These are all of my characters! More on the way 🦊
             </div>
             <div class="about-center-children-col">
                 <div class="about-flex-wrap">
                     <CharacterIcon img={Teg} name="Teg" />
+                    <CharacterIcon img={Kai} name="Kai" />
+                    <CharacterIcon img={Alex} name="Alex" />
+                    <CharacterIcon img={Piper} name="Piper" />
+                    <CharacterIcon img={EdgeHusky} name="Edge Husky" />
+                    <CharacterIcon img={Richard} name="Richard" />
                 </div>
             </div>
         </Card>
@@ -77,25 +90,10 @@
         align-items: center;
     }
 
-    .about-teg {
-        width: 320px;
-    }
-
     .about-p {
         font-size: 1.15rem;
     }
 
-    .about-split-flex {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 2rem;
-    }
-
-    .about-split-child {
-        width: 600px;
-        max-width: 40vw;
-    }
 
     .about-h1 {
         font-size: 3rem;
@@ -111,7 +109,7 @@
         gap: 1rem;
     }
 
-    @media (max-width: 975px) {
+    @media (max-width: 825px) {
 
         .about-h1 {
             text-align: center;
@@ -121,15 +119,6 @@
             font-size: 1rem;
         }
 
-        .about-split-flex {
-            flex-direction: column;
-            gap: 0;
-        }
-
-        .about-split-child {
-            max-width: 40rem;
-            width: 100%;
-        }
     }
 
 </style>

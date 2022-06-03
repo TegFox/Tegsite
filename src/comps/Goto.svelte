@@ -1,6 +1,6 @@
 
 <script>
-    import GreyscaleCard from "../Lib/GreyscaleCard.svelte";
+    import GreyscaleCard from "../Lib/ImageColorCard.svelte";
 
     export let background = '#222222'
     export let title = ''
