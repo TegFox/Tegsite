@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Updated site desc">
-      <change afterPath="$PROJECT_DIR$/src/comps/CharacterIcon.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/about.svelte" afterDir="false" />
+    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="About page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/Card.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/Card.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/GreyscaleCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/GreyscaleCard.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/NavLink.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/NavLink.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/Comms.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Comms.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/Goto.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Goto.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Header.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/MobileMenu.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/MobileMenu.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/comps/NavBar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/NavBar.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/Title.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/Title.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/globalVars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/globalVars.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +91,8 @@
       <workItem from="1653979606353" duration="206000" />
       <workItem from="1653979824421" duration="46000" />
       <workItem from="1654076040076" duration="189000" />
-      <workItem from="1654223254721" duration="15738000" />
+      <workItem from="1654223254721" duration="15868000" />
+      <workItem from="1654240555239" duration="410000" />
     </task>
     <task id="LOCAL-00001" summary="Switched sveltekit templates for deploying to gh pages">
       <created>1653134785916</created>
@@ -203,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653979864411</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="About page">
+      <created>1654239985443</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1654239985443</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +231,7 @@
     <MESSAGE value="Added metadata" />
     <MESSAGE value="Added yarn" />
     <MESSAGE value="Updated site desc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated site desc" />
+    <MESSAGE value="About page" />
+    <option name="LAST_COMMIT_MESSAGE" value="About page" />
   </component>
 </project>

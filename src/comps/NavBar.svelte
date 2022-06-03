@@ -21,6 +21,5 @@
         flex-direction: row;
         gap: 2rem;
         align-items: center;
-        overflow-y: scroll;
     }
 </style>
