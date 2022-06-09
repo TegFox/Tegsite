@@ -1,36 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Misc fixes">
-      <change afterPath="$PROJECT_DIR$/src/assets/about_bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comps/about/AboutMe.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comps/about/MyOCs.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comps/home/HomeLinks.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comps/home/LocalLinks.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/Body.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Body.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/Card.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Card.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/HoverCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/HoverCard.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/ImageColorCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ImageHoverCard.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/NavLink.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/NavLink.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/Placeholder.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Placeholder.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/SideBySide.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/SideBySide.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/StackPanel.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/StackPanel.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/commission.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/prices.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/CharacterIcon.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/CharacterIcon.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/Comms.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/Comms.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/footer/Footer.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/Goto.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/Goto.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/header/Header.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/HomeLinks.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/DescLink.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/MobileNavBar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/header/MobileNavBar.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/NavBar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/header/NavBar.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/Title.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/Title.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/globalVars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/globalVars.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/__layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/__layout.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/about.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/about.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.svelte" afterDir="false" />
+    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Reorganized for more modularity and consistency">
+      <change beforePath="$PROJECT_DIR$/src/comps/header/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/header/Header.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +101,7 @@
       <workItem from="1654240555239" duration="9647000" />
       <workItem from="1654288512034" duration="1191000" />
       <workItem from="1654758039514" duration="619000" />
-      <workItem from="1654807454329" duration="7855000" />
+      <workItem from="1654807454329" duration="7925000" />
     </task>
     <task id="LOCAL-00001" summary="Switched sveltekit templates for deploying to gh pages">
       <created>1653134785916</created>
@@ -250,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654253436295</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Reorganized for more modularity and consistency">
+      <created>1654815452910</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1654815452910</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +264,7 @@
     <MESSAGE value="About page" />
     <MESSAGE value="Fixed scrolling" />
     <MESSAGE value="Misc fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Misc fixes" />
+    <MESSAGE value="Reorganized for more modularity and consistency" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reorganized for more modularity and consistency" />
   </component>
 </project>

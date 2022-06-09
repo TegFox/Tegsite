@@ -28,7 +28,7 @@
     <header class='title' class:scrolled>
         <div class="title-container">
             <div class='ldiv'>
-                <a href="/static" on:click={() => {open = false}}>
+                <a href="/" on:click={() => {open = false}}>
                     <img {src} class='logo-img' class:scrolled id="logo"/>
                 </a>
             </div>
