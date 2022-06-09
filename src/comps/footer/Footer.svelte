@@ -1,10 +1,10 @@
 <script>
-    import Body from "../Lib/Body.svelte";
+    import Body from "../../lib/Body.svelte";
     import { scrollTop } from 'svelte-scrolling'
 </script>
 
 <Body color="192231">
-    <div class="fh1">
+    <div class="h3">
         You've Reached The End.
     </div>
     <div style="display: flex; flex-direction: row">
@@ -14,16 +14,7 @@
             </div>
         </a>
     </div>
-    <p>
+    <p class="cap">
         © Teg Fox {new Date().getFullYear()}. All Rights Reserved.
     </p>
 </Body>
-
-<style>
-
-    .fh1 {
-        font-size: 2rem;
-        font-weight: bold;
-    }
-
-</style>

@@ -26,7 +26,7 @@
         font-size: var(--header-active-font-size);
     }
 
-    @media (max-width: 750px) {
+    @media (max-width: 700px) {
         a {
             font-size: calc(var(--header-top-font-size) * 1.5);
         }

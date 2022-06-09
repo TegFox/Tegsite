@@ -1,7 +1,7 @@
 <script>
-    import StackPanel from "../Lib/StackPanel.svelte";
-    import Card from "../Lib/Card.svelte";
-    import HoverCard from "../Lib/HoverCard.svelte";
+    import StackPanel from "../../lib/StackPanel.svelte";
+    import Card from "../../lib/Card.svelte";
+    import HoverCard from "../../lib/HoverCard.svelte";
 
     export let status = 'closed'
     export let color
@@ -50,14 +50,14 @@
 <div>
     <HoverCard background={bgcolorBase} overlayBackground={bgcolor}>
         <StackPanel direction="column" align="center" gap="20px">
-            <div class="h h2">
+            <div class="tac h2">
                 Commission Status:
             </div>
-            <div class="h about-div-h1" style:color style:letter-spacing="6px">
+            <div class="tac h1" style:color style:letter-spacing="6px">
                 {status}
             </div>
 
-            <div class="bottom-text">
+            <div class="tac cap text bottom-text">
                 {#if closed}
                     Commissions usually open up every month if I'm not too busy.
                     Feel free to shoot me a message to ask when my next expected opening is!
@@ -90,25 +90,7 @@
 
 <style>
 
-    .h {
-        color: white;
-        text-align: center;
-    }
-
-    .about-div-h1 {
-        font-weight: bold;
-        font-size: 4rem;
-    }
-
-    .h2 {
-        font-weight: bold;
-        font-size: 2.5rem;
-    }
-
     .bottom-text {
-        text-align: center;
-        font-size: large;
-        font-weight: lighter;
         max-width: 30rem;
         margin-bottom: 1rem;
     }

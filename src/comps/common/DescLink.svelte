@@ -1,6 +1,6 @@
 <script>
 
-    import StackPanel from "../Lib/StackPanel.svelte";
+    import StackPanel from "../../lib/StackPanel.svelte";
 
     export let img
     export let icon
@@ -24,7 +24,7 @@
                 </div>
             {/if}
 
-            <div class="h">
+            <div class="h3">
                 {name}
             </div>
 
@@ -32,12 +32,12 @@
 
 
 
-        <div>
+        <div class="text cap">
             <slot/>
         </div>
 
         {#if href}
-            <a {href} style:text-decoration="none" style:color="cyan">
+            <a {href} class="text cap" style:text-decoration="none" style:color="cyan">
                 Go to {name}
             </a>
         {/if}
@@ -46,10 +46,5 @@
 </div>
 
 <style>
-
-    .h {
-        font-weight: bold;
-        font-size: 2rem;
-    }
 
 </style>

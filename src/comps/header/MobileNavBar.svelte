@@ -1,5 +1,4 @@
 <script>
-    import NavLink from "../Lib/NavLink.svelte"
     import {Hamburger} from "svelte-hamburgers";
 
     export let open

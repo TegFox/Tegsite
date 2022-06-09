@@ -34,7 +34,6 @@
     .greyscale-card-outer {
         filter:grayscale(var(--greyscale-card-base));
         transition: var(--greyscale-card-transition);
-        font-weight: bold;
     }
 
     .greyscale-card-outer:hover {

@@ -47,6 +47,7 @@
 
         .sxs-flex-child {
             max-width: 90vw;
+            text-align: center;
         }
     }
 

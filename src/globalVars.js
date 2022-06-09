@@ -3,23 +3,23 @@ export default  {
     comm_form: 'http://dance.goat.dance/',
     links: {
         home: {
-            name: 'Home',
+            sname: 'Home',
             path: '/'
         },
-        commission: {
-            name: 'Prices',
+        prices: {
+            sname: 'Prices',
             path: 'http://dance.goat.dance/'
         },
         ych: {
-            name: 'YCH',
+            sname: 'YCH',
             path: 'http://dance.goat.dance/'
         },
         termsfaq: {
-            name: 'Terms / FAQ',
+            sname: 'Terms / FAQ',
             path: 'http://dance.goat.dance/'
         },
         about: {
-            name: 'About',
+            sname: 'About',
             path: '/about'
         },
     },

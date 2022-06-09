@@ -1,6 +1,6 @@
 <script>
-    import NavLink from "../Lib/NavLink.svelte"
-    import globalVars from "../globalVars.js";
+    import NavLink from "../../lib/NavLink.svelte"
+    import globalVars from "../../globalVars.js";
 </script>
 
 
@@ -8,7 +8,7 @@
 
     {#each Object.keys(globalVars.links) as key}
         <NavLink href={globalVars.links[key].path}>
-            {globalVars.links[key].name.toUpperCase()}
+            {globalVars.links[key].sname.toUpperCase()}
         </NavLink>
     {/each}
 

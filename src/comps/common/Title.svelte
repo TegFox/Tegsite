@@ -29,10 +29,10 @@
              style:background-image={overlaybg}
              style:height></div>
         <div class="title" style:bottom={`calc(100vh - ${height})`}>
-            <div class="title-head">
+            <div class="h1 title-head">
                 {title}
             </div>
-            <div class="title-body">
+            <div class="sub1 title-body">
                 <slot/>
             </div>
         </div>
@@ -87,27 +87,8 @@
     }
 
     .title-head {
-        font-weight: bold;
-        font-size: 5rem;
         overflow-x: hidden;
     }
-
-    .title-body {
-        font-variant: all-small-caps;
-        font-size: var(--title-body-fontsize);
-    }
-
-    @media only screen and (max-device-width: 600px)
-    {
-        .title-head {
-            font-size: var(--title-mobile-fontsize);
-        }
-
-        .title-body {
-            font-size: var(--title-body-mobile-fontsize)
-        }
-    }
-
 
     .hidey-hole {
         position:absolute;

@@ -1,11 +1,11 @@
 <script>
-    import src from '../assets/logo.png';
+    import src from '../../assets/logo.png';
     import NavBar from "./NavBar.svelte";
     import { scrollTop } from 'svelte-scrolling'
     import MobileNavBar from "./MobileNavBar.svelte";
     import {fly} from 'svelte/transition'
-    import globalVars from "../globalVars.js";
-    import NavLink from "../Lib/NavLink.svelte";
+    import globalVars from "../../globalVars.js";
+    import NavLink from "../../lib/NavLink.svelte";
 
     export let breakpointVh = 20
 
@@ -28,7 +28,7 @@
     <header class='title' class:scrolled>
         <div class="title-container">
             <div class='ldiv'>
-                <a href="/" on:click={() => {open = false}}>
+                <a href="/static" on:click={() => {open = false}}>
                     <img {src} class='logo-img' class:scrolled id="logo"/>
                 </a>
             </div>
@@ -46,11 +46,11 @@
 </div>
 
 {#if open}
-    <div class="mobilemenu-out mobile-menu" transition:fly={{x: 100}}>
+    <div class="mobilemenu-out mobile-menu" transition:fly={{x: 150}}>
             {#each Object.keys(globalVars.links) as key, i}
-                <div transition:fly={{x: 15, delay: 50 * i}} on:click={() => open = false}>
+                <div transition:fly={{x: 15, delay: 60 * i}} on:click={() => open = false}>
                     <NavLink href={globalVars.links[key].path} >
-                        {globalVars.links[key].name.toUpperCase()}
+                        {globalVars.links[key].sname.toUpperCase()}
                     </NavLink>
                 </div>
             {/each}
@@ -153,8 +153,7 @@
         position: fixed;
         top: 0;
         right: 0;
-        width: 25rem;
-        max-width: 100vw;
+        width: 100vw;
         height: 100vh;
         white-space: nowrap;
         background: black;
@@ -175,7 +174,7 @@
         display: none;
     }
 
-    @media (max-width: 750px)
+    @media (max-width: 700px)
     {
 
         .ldiv {

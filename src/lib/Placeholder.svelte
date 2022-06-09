@@ -1,5 +1,5 @@
 <main>
-    <p>
+    <p class="text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Orci porta non pulvinar neque laoreet suspendisse. Dolor sit amet consectetur adipiscing elit ut aliquam purus. Velit egestas dui id ornare arcu odio. Arcu non sodales neque sodales ut etiam sit. Rutrum quisque non tellus orci ac. Vitae suscipit tellus mauris a diam maecenas sed enim. Aliquam ut porttitor leo a diam. Quis eleifend quam adipiscing vitae. Aliquet eget sit amet tellus cras adipiscing enim eu. Amet mattis vulputate enim nulla aliquet porttitor lacus luctus. At in tellus integer feugiat scelerisque varius morbi. Elit ut aliquam purus sit.
 
         Faucibus nisl tincidunt eget nullam non nisi. Ut pharetra sit amet aliquam id diam maecenas ultricies mi. Malesuada fames ac turpis egestas sed. Cursus eget nunc scelerisque viverra mauris in aliquam sem fringilla. Consequat mauris nunc congue nisi. Ut porttitor leo a diam sollicitudin. In hendrerit gravida rutrum quisque non tellus orci. Est ultricies integer quis auctor elit. Sed risus ultricies tristique nulla aliquet enim tortor at auctor. Pharetra sit amet aliquam id diam maecenas ultricies mi eget. Bibendum neque egestas congue quisque egestas.

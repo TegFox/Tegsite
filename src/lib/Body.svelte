@@ -12,7 +12,7 @@
         padding: 3rem 4rem;
     }
 
-    @media  (max-width: 600px)
+    @media  (max-width: 700px)
     {
         .body-div {
             padding: 2rem;

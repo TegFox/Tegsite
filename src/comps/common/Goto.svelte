@@ -1,6 +1,6 @@
 
 <script>
-    import GreyscaleCard from "../Lib/ImageColorCard.svelte";
+    import ImageHoverCard from "../../lib/ImageHoverCard.svelte";
 
     export let background = '#222222'
     export let title = ''
@@ -14,30 +14,19 @@
 </script>
 
 <a {href} style:text-decoration="none" style:color="white">
-    <GreyscaleCard {background} {overlay} {height} {padding} base="75%">
-        <div class="goto-title goto-ds">
+    <ImageHoverCard {background} {overlay} {height} {padding} base="75%">
+        <div class="h2 goto-ds">
             {title}
         </div>
         {#if sub}
-        <div style:font-weight="normal" class="goto-ds">
+        <div class="text cap goto-ds">
             {sub}
         </div>
         {/if}
-    </GreyscaleCard>
+    </ImageHoverCard>
 </a>
 
 <style>
-
-    .goto-title {
-        font-size: 3rem;
-        white-space: nowrap;
-    }
-
-    @media only screen and (max-device-width: 600px) {
-        .goto-title {
-            font-size: 2.5rem;
-        }
-    }
 
     .goto-ds {
         filter: drop-shadow(2px 2px 5px #00000020);

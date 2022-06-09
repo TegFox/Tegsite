@@ -26,7 +26,7 @@
 <style>
 
     :root {
-        --hovercard-transition: all 0.25s ease;
+        --hovercard-transition: all 0.2s ease;
 
     }
 
