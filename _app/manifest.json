@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-9db0f1b5.js",
+    "file": "start-22ac2ae2.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -15,17 +15,17 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-2d7f4a4f.js",
+    "file": "pages/__layout.svelte-637c2c77.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fa9d674a.js",
       "_index-31f5792f.js",
-      "_Body-891d02f1.js"
+      "_Body-41975419.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-aafce12e.css"
+      "assets/pages/__layout.svelte-017ff89b.css"
     ],
     "assets": [
       "assets/logo-19609db9.png"
@@ -41,44 +41,45 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-45fb2837.js",
+    "file": "pages/about.svelte-adc54bc0.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fa9d674a.js",
-      "_Card-74c3f05a.js",
-      "_Body-891d02f1.js"
+      "_Card-635f03f6.js",
+      "_Body-41975419.js"
     ],
     "css": [
-      "assets/pages/about.svelte-e2a5da9b.css"
+      "assets/pages/about.svelte-fcc756e2.css"
     ],
     "assets": [
-      "assets/me-ba736901.png",
       "assets/teg-bffa6ff9.png",
       "assets/kai-950159d0.png",
       "assets/alex-3103b1ac.png",
       "assets/piper-e249ef94.png",
       "assets/edgehusky-4dfb3592.png",
-      "assets/richard-0bd9e6f2.png"
+      "assets/richard-72c307f1.png",
+      "assets/me-ba736901.png",
+      "assets/about_bg2-6cdcbe3c.png"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-6c7a3e49.js",
+    "file": "pages/index.svelte-ec4c68e7.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fa9d674a.js",
-      "_Body-891d02f1.js",
-      "_Card-74c3f05a.js"
+      "_Body-41975419.js",
+      "_Card-635f03f6.js"
     ],
     "css": [
-      "assets/pages/index.svelte-2a931d37.css"
+      "assets/pages/index.svelte-af51aa1b.css"
     ],
     "assets": [
       "assets/forest-81acb79c.png",
-      "assets/commission-2d0dc449.png",
+      "assets/prices-2d0dc449.png",
       "assets/ych-17a56e9a.png",
       "assets/terms-021b1699.png",
       "assets/twitter-e5c7f768.svg",
@@ -95,22 +96,22 @@
       "_index-fa9d674a.js"
     ]
   },
-  "_Body-891d02f1.js": {
-    "file": "chunks/Body-891d02f1.js",
+  "_Body-41975419.js": {
+    "file": "chunks/Body-41975419.js",
     "imports": [
       "_index-fa9d674a.js"
     ],
     "css": [
-      "assets/Body-5f412df0.css"
+      "assets/Body-53a85962.css"
     ]
   },
-  "_Card-74c3f05a.js": {
-    "file": "chunks/Card-74c3f05a.js",
+  "_Card-635f03f6.js": {
+    "file": "chunks/Card-635f03f6.js",
     "imports": [
       "_index-fa9d674a.js"
     ],
     "css": [
-      "assets/Card-689d84c3.css"
+      "assets/Card-e2d1cf13.css"
     ],
     "assets": [
       "assets/about-02f61df6.png"
