@@ -91,10 +91,10 @@
 
     @keyframes float {
         0% {
-            transform: translate3d(0, 20px, 0);
+            transform: translate3d(0, 24px, 0);
             opacity: 0;
         }
-        25% {
+        60% {
             opacity: 100%;
         }
         100% {
@@ -103,7 +103,7 @@
     }
 
     .title {
-        animation: 0.35s cubic-bezier(0, 0.5, 0.5, 1) float;
+        animation: 0.5s cubic-bezier(0, 0.5, 0.5, 1) float;
         position: absolute;
         padding: 2rem var(--title-pad-h);
         max-width: calc(100vw - 2 * var(--title-pad-h));
