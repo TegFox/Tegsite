@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-7e2d48c8.js",
+    "file": "start-5c76c4fb.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -41,7 +41,7 @@
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-0d9f59b0.js",
+    "file": "pages/about.svelte-9b3c3409.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -62,7 +62,8 @@
       "assets/richard-72c307f1.png",
       "assets/me-ba736901.png",
       "assets/about_bg2-6cdcbe3c.png",
-      "assets/about_bg3-fe1e27d6.png"
+      "assets/about_bg3-fe1e27d6.png",
+      "assets/svelte-full-24f34ce0.svg"
     ]
   },
   "src/routes/index.svelte": {
