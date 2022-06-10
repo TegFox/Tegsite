@@ -37,8 +37,7 @@
              style:height></div>
 
         <PageTransition url={$page.url.pathname} bind:duration bind:outduration bind:delayconst>
-            <div class="title" style:bottom={`calc(100vh - ${height})`}
-                 in:fade={{duration: (duration + outduration * delayconst)}}>
+            <div class="title" style:bottom={`calc(100vh - ${height})`} in:fade>
                 <div class="h1 title-head">
                     {title}
                 </div>
@@ -92,7 +91,7 @@
 
     @keyframes float {
         0% {
-            transform: translate3d(0, 15px, 0);
+            transform: translate3d(0, 20px, 0);
             opacity: 0;
         }
         25% {
@@ -104,7 +103,7 @@
     }
 
     .title {
-        animation: 0.4s cubic-bezier(0, 0.5, 0.5, 1) float;
+        animation: 0.35s cubic-bezier(0, 0.5, 0.5, 1) float;
         position: absolute;
         padding: 2rem var(--title-pad-h);
         max-width: calc(100vw - 2 * var(--title-pad-h));

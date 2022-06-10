@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Fixes to light weight text">
+    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Mobile Optimizations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lib/PageTransition.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/PageTransition.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/comps/common/Title.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/Title.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/header/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/header/Header.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/NavLink.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/NavLink.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +107,7 @@
       <workItem from="1654758039514" duration="619000" />
       <workItem from="1654807454329" duration="13598000" />
       <workItem from="1654847652483" duration="97000" />
-      <workItem from="1654847947916" duration="1126000" />
+      <workItem from="1654847947916" duration="1271000" />
     </task>
     <task id="LOCAL-00001" summary="Switched sveltekit templates for deploying to gh pages">
       <created>1653134785916</created>
@@ -257,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654847744717</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Mobile Optimizations">
+      <created>1654849106171</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1654849106171</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,7 +289,6 @@
     <MESSAGE value="Optimized more images" />
     <MESSAGE value="Optimizations and aesthetic fixes" />
     <MESSAGE value="PLEASE BE FIX I'M SO SAD" />
-    <MESSAGE value="Mobile Optimizations" />
     <MESSAGE value="Misc" />
     <MESSAGE value="Fixed the issue with the footer" />
     <MESSAGE value="Added metadata" />
@@ -296,6 +301,7 @@
     <MESSAGE value="/static?" />
     <MESSAGE value="Page Transitions" />
     <MESSAGE value="Fixes to light weight text" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixes to light weight text" />
+    <MESSAGE value="Mobile Optimizations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mobile Optimizations" />
   </component>
 </project>
