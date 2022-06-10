@@ -114,8 +114,6 @@
         overflow-x: hidden;
     }
 
-
-
     .hidey-hole {
         position:absolute;
         width: 100vw;

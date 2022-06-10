@@ -528,6 +528,11 @@
   "resolved" "https://registry.npmjs.org/semver/-/semver-6.3.0.tgz"
   "version" "6.3.0"
 
+"simple-icons@^7.0.0":
+  "integrity" "sha512-5jwnZ04C2PmdKrLe6HSZLmsmP77WvZtNau0hGgSqEi2pplcP3yiiE4/f0Emgix8tItWKsYkS1TQI75yZhr8Xjw=="
+  "resolved" "https://registry.npmjs.org/simple-icons/-/simple-icons-7.0.0.tgz"
+  "version" "7.0.0"
+
 "source-map-js@^1.0.2":
   "integrity" "sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw=="
   "resolved" "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
@@ -549,6 +554,11 @@
   "integrity" "sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w=="
   "resolved" "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
   "version" "1.0.0"
+
+"svelte-bootstrap-icons@^1.8.2":
+  "integrity" "sha512-JG3wIDL3ZHO/UuIH5nFUxxhm+BlSjPk/N0ERPf07k30Zht2s+eWibACYXEkLDd/IxPZbQHJ/0JO4ym2S1Ur2vw=="
+  "resolved" "https://registry.npmjs.org/svelte-bootstrap-icons/-/svelte-bootstrap-icons-1.8.2.tgz"
+  "version" "1.8.2"
 
 "svelte-hamburgers@^4.0.1":
   "integrity" "sha512-5xm430w5XNukmxyJ4tW2ln7oSA9qQ4TiKiIfbaDmwmUuCpnW6GD4cDSTG5U/2PwerI7AFNhIhB5iNwnzE2RQXA=="
