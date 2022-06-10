@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Reorganized for more modularity and consistency">
-      <change beforePath="$PROJECT_DIR$/src/comps/header/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/header/Header.svelte" afterDir="false" />
+    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="/static?">
+      <change afterPath="$PROJECT_DIR$/src/Lib/PageTransition.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comps/about/Links.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lib/SideBySide.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/SideBySide.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/common/Title.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/Title.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/__layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/__layout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/about.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/about.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +31,8 @@
         <option value="MainHomeLinks" />
         <option value="MyOCs" />
         <option value="AboutMe" />
+        <option value="Socials" />
+        <option value="PageTransition" />
       </list>
     </option>
   </component>
@@ -101,7 +109,7 @@
       <workItem from="1654240555239" duration="9647000" />
       <workItem from="1654288512034" duration="1191000" />
       <workItem from="1654758039514" duration="619000" />
-      <workItem from="1654807454329" duration="7925000" />
+      <workItem from="1654807454329" duration="13522000" />
     </task>
     <task id="LOCAL-00001" summary="Switched sveltekit templates for deploying to gh pages">
       <created>1653134785916</created>
@@ -229,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654815452910</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="/static?">
+      <created>1654815515725</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1654815515725</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +280,7 @@
     <MESSAGE value="Fixed scrolling" />
     <MESSAGE value="Misc fixes" />
     <MESSAGE value="Reorganized for more modularity and consistency" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorganized for more modularity and consistency" />
+    <MESSAGE value="/static?" />
+    <option name="LAST_COMMIT_MESSAGE" value="/static?" />
   </component>
 </project>

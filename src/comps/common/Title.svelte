@@ -12,13 +12,19 @@
     let pageHeight
 
     import {browser} from "$app/env";
+    import {fly} from "svelte/transition";
+    import { page } from '$app/stores'
+    import PageTransition from '../../lib/PageTransition.svelte'
     if (browser) pageHeight = document.body.clientHeight
+
+    let duration
+    let delayconst
 
 </script>
 
 <svelte:window bind:scrollY={scroll} bind:outerHeight/>
 
-<main>
+<div>
     <div class="out" style:height>
         <div class="out out-bg"
              style:height
@@ -28,14 +34,19 @@
         <div class="out out-overlay"
              style:background-image={overlaybg}
              style:height></div>
-        <div class="title" style:bottom={`calc(100vh - ${height})`}>
-            <div class="h1 title-head">
-                {title}
+
+        <PageTransition url={$page.url.pathname} bind:duration bind:delayconst>
+            <div class="title" style:bottom={`calc(100vh - ${height})`}
+                 in:fly={{duration: duration * (1 + delayconst) }}>
+                <div class="h1 title-head">
+                    {title}
+                </div>
+                <div class="sub1 title-body">
+                    <slot/>
+                </div>
             </div>
-            <div class="sub1 title-body">
-                <slot/>
-            </div>
-        </div>
+        </PageTransition>
+
         <div class="hidey-hole"
              style:height="calc(100vh - {height} + {Math.min(outerHeight, scroll)}px )"
              style:top={height}
@@ -44,7 +55,7 @@
             <!-- this is a dumb solution!! but i don't how to do it better!! -->
         </div>
     </div>
-</main>
+</div>
 
 <style>
 
@@ -58,7 +69,6 @@
     }
 
     .out {
-        height: var(--height);
         min-width: 100%;
     }
 
@@ -76,10 +86,24 @@
         top: 0;
         -webkit-backface-visibility: hidden;
         -webkit-transform-style: preserve-3d;
-        -webkit-transform: translate3d(0, 0, 0);
+        -webkit-transform: translate3d(0, 10px, 0);
+    }
+
+    @keyframes float {
+        0% {
+            transform: translate3d(0, 15px, 0);
+            opacity: 0;
+        }
+        50% {
+            opacity: 100%;
+        }
+        100% {
+            transform: translate3d(0, 0, 0);
+        }
     }
 
     .title {
+        animation: 0.5s cubic-bezier(0, 0.5, 0.5, 1) 0s 1 float;
         position: absolute;
         padding: 2rem var(--title-pad-h);
         max-width: calc(100vw - 2 * var(--title-pad-h));
@@ -89,6 +113,8 @@
     .title-head {
         overflow-x: hidden;
     }
+
+
 
     .hidey-hole {
         position:absolute;

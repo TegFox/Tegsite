@@ -7,6 +7,7 @@
 
     import MyOCs from "../comps/about/MyOCs.svelte";
     import AboutMe from "../comps/about/AboutMe.svelte";
+    import Links from "../comps/about/Links.svelte";
 
 </script>
 
@@ -22,6 +23,10 @@
 
     <Body>
         <AboutMe/>
+    </Body>
+
+    <Body>
+        <Links/>
     </Body>
 
     <Body>
