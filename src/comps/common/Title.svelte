@@ -12,12 +12,13 @@
     let pageHeight
 
     import {browser} from "$app/env";
-    import {fly} from "svelte/transition";
+    import {fade} from "svelte/transition";
     import { page } from '$app/stores'
     import PageTransition from '../../lib/PageTransition.svelte'
     if (browser) pageHeight = document.body.clientHeight
 
     let duration
+    let outduration
     let delayconst
 
 </script>
@@ -35,9 +36,9 @@
              style:background-image={overlaybg}
              style:height></div>
 
-        <PageTransition url={$page.url.pathname} bind:duration bind:delayconst>
+        <PageTransition url={$page.url.pathname} bind:duration bind:outduration bind:delayconst>
             <div class="title" style:bottom={`calc(100vh - ${height})`}
-                 in:fly={{duration: duration * (1 + delayconst) }}>
+                 in:fade={{duration: (duration + outduration * delayconst)}}>
                 <div class="h1 title-head">
                     {title}
                 </div>
@@ -94,7 +95,7 @@
             transform: translate3d(0, 15px, 0);
             opacity: 0;
         }
-        50% {
+        25% {
             opacity: 100%;
         }
         100% {
@@ -103,7 +104,7 @@
     }
 
     .title {
-        animation: 0.5s cubic-bezier(0, 0.5, 0.5, 1) 0s 1 float;
+        animation: 0.4s cubic-bezier(0, 0.5, 0.5, 1) float;
         position: absolute;
         padding: 2rem var(--title-pad-h);
         max-width: calc(100vw - 2 * var(--title-pad-h));

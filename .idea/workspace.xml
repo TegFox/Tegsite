@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Page Transitions">
+    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Fixes to light weight text">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/common/DescLink.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/DescLink.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/common/Goto.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/Goto.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/footer/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/footer/Footer.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/common/Title.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/Title.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/header/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/header/Header.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/NavLink.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/NavLink.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,8 @@
       <workItem from="1654288512034" duration="1191000" />
       <workItem from="1654758039514" duration="619000" />
       <workItem from="1654807454329" duration="13598000" />
-      <workItem from="1654847652483" duration="70000" />
+      <workItem from="1654847652483" duration="97000" />
+      <workItem from="1654847947916" duration="1126000" />
     </task>
     <task id="LOCAL-00001" summary="Switched sveltekit templates for deploying to gh pages">
       <created>1653134785916</created>
@@ -249,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654847394961</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Fixes to light weight text">
+      <created>1654847744717</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1654847744717</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +295,7 @@
     <MESSAGE value="Reorganized for more modularity and consistency" />
     <MESSAGE value="/static?" />
     <MESSAGE value="Page Transitions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Page Transitions" />
+    <MESSAGE value="Fixes to light weight text" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixes to light weight text" />
   </component>
 </project>

@@ -1,6 +1,5 @@
 <script>
     import { page } from '$app/stores'
-    import { scrollTop } from 'svelte-scrolling'
     export let href
     export let open
 

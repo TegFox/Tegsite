@@ -6,6 +6,7 @@
     import {fly} from 'svelte/transition'
     import globalVars from "../../globalVars.js";
     import NavLink from "../../lib/NavLink.svelte";
+    import PageTransition from "../../lib/PageTransition.svelte";
 
     export let breakpointVh = 20
 
