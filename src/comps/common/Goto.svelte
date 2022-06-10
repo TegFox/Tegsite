@@ -19,7 +19,7 @@
             {title}
         </div>
         {#if sub}
-        <div class="text cap goto-ds">
+        <div class="text goto-ds">
             {sub}
         </div>
         {/if}

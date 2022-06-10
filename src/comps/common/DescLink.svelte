@@ -32,12 +32,12 @@
 
 
 
-        <div class="text cap">
+        <div class="text">
             <slot/>
         </div>
 
         {#if href}
-            <a {href} class="text cap" style:text-decoration="none" style:color="cyan">
+            <a {href} class="text" style:text-decoration="none" style:color="cyan">
                 Go to {name}
             </a>
         {/if}

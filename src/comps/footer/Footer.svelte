@@ -14,7 +14,7 @@
             </div>
         </a>
     </div>
-    <p class="cap">
+    <p>
         © Teg Fox {new Date().getFullYear()}. All Rights Reserved.
     </p>
 </Body>
