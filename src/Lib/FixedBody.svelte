@@ -22,4 +22,10 @@
         }
     }
 
+    @media only screen and (max-width: 700px) {
+        .body-div {
+            background-attachment: scroll;
+        }
+    }
+
 </style>
