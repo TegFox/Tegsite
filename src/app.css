@@ -11,6 +11,22 @@ body {
     align-items: center;
 }
 
+@media (max-width: 700px) {
+    .mobile-center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 825px) {
+    .mobile-center-825 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 /* This is all text related classes */
 .tac {
     text-align: center;

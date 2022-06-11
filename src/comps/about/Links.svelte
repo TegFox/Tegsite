@@ -10,25 +10,20 @@
     import Globe from "svelte-bootstrap-icons/lib/Globe"
     import HCardButton from "../common/HCardButton.svelte";
     import Icon from "../../lib/Icon.svelte";
+    import Body from "../../lib/Body.svelte";
+    import FixedBody from "../../lib/FixedBody.svelte";
 
     const background = '#000000aa'
-
-    let mobile
-    let outerWidth
-    const mobileBreakpoint = 700
-    $: mobile = outerWidth <= mobileBreakpoint
 </script>
 
-<svelte:window bind:outerWidth/>
-
-<Card background={`url(${alden})`}>
+<FixedBody img={alden}>
     <div class="col-center">
         <SideBySide>
             <div slot="left" class="h2 tac">
                 Socials & Links
             </div>
             <div slot="right">
-                <StackPanel direction="column" gap='1rem' align={mobile ? 'center' : undefined}>
+                <StackPanel direction="column" gap='1rem' styleClass="mobile-center-825">
 
                     <div class="h3">
                         Contact
@@ -96,4 +91,4 @@
             </div>
         </SideBySide>
     </div>
-</Card>
+</FixedBody>

@@ -7,6 +7,7 @@
     import HCardButton from "../common/HCardButton.svelte";
     import Icon from "../../lib/Icon.svelte";
     import {siGithub, siSvelte} from 'simple-icons/icons'
+    import SvelteKit from "../common/SvelteKit.svelte";
 </script>
 
 <Body color={globalVars.colors.teg_grey}>
@@ -15,27 +16,26 @@
     </div>
     <SideBySide>
         <div slot="left" class="col-center">
-            <img style:width="100%" style:max-width="30rem" style:margin="2rem" src={Svelte}/>
+            <SvelteKit maxWidth="40rem"/>
         </div>
         <div slot="right">
             <div class="h4 allcaps wide">
-                This website was made with SvelteKit
+                This website was built with SvelteKit
             </div>
 
-            <p>
-                This website was written in HTML5 CSS3 and Javascript ES6 using the Svelte Framework.
+            <p class="text">
+                This website was written in HTML5 CSS3 and Javascript ES6 using the SvelteKit Framework. This project
+                uses Svelte, and a static version of the site is deployed to GitHub pages using gh-pages.
+            </p>
+            <p class="text">
                 Libraries used include <code>svelte-scrollto</code>, <code>svelte-bootstrap-icons</code>,
                 and <code>simple-icons</code>.
             </p>
-            <p>
-                This site doesn't rely on a server and is completely static. It is hosted on github pages
-                with a domain from Google Domains.
-            </p>
-            <p>
-            Clicks the links below to see relevant links!
+            <p class="text">
+            Clicks the buttons below for relevant links!
             </p>
 
-            <div class="bold wide allcaps col-center">
+            <div class="bold wide allcaps mobile-center-825">
                 <StackPanel direction="row" align="center" gap="0.25rem">
                     <HCardButton href={globalVars.external.placeholder} background="#00000088">
                         <Icon icon={siGithub}/>

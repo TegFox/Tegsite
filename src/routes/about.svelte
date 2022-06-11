@@ -26,9 +26,7 @@
         <AboutMe/>
     </Body>
 
-    <Body>
-        <Links/>
-    </Body>
+    <Links/>
 
     <Body>
         <MyOCs/>
