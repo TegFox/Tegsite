@@ -17,10 +17,6 @@
     import PageTransition from '../../lib/PageTransition.svelte'
     if (browser) pageHeight = document.body.clientHeight
 
-    let duration
-    let outduration
-    let delayconst
-
 </script>
 
 <svelte:window bind:scrollY={scroll} bind:outerHeight/>
@@ -36,7 +32,7 @@
              style:background-image={overlaybg}
              style:height></div>
 
-        <PageTransition url={$page.url.pathname} bind:duration bind:outduration bind:delayconst>
+        <PageTransition url={$page.url.pathname}>
             <div class="title" style:bottom={`calc(100vh - ${height})`} in:fade>
                 <div class="h1 title-head">
                     {title}

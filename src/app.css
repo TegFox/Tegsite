@@ -25,6 +25,10 @@ body {
         flex-direction: column;
         align-items: center;
     }
+
+    .mobile-space-evenly-825 {
+        justify-content: space-evenly;
+    }
 }
 
 /* This is all text related classes */

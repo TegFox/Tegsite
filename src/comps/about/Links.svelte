@@ -16,79 +16,81 @@
     const background = '#000000aa'
 </script>
 
-<FixedBody img={alden}>
-    <div class="col-center">
-        <SideBySide>
-            <div slot="left" class="h2 tac">
-                Socials & Links
-            </div>
-            <div slot="right">
-                <StackPanel direction="column" gap='1rem' styleClass="mobile-center-825">
+<div style={`background-image: url(${alden}); background-position: center; background-size: cover;`}>
+    <Body>
+        <div class="col-center">
+            <SideBySide>
+                <div slot="left" class="h2 tac">
+                    Socials & Links
+                </div>
+                <div slot="right">
+                    <StackPanel direction="column" gap='1rem' styleClass="mobile-center-825">
 
-                    <div class="h3">
-                        Contact
-                    </div>
-                    <div class="text bold allcaps wide">
-                        <StackPanel direction="row" gap="0.5rem">
-                            <HCardButton href={globalVars.external.placeholder} {background}>
-                                <Envelope height='24' width='24'/>
-                                E-mail
-                            </HCardButton>
-                            <HCardButton href={globalVars.external.placeholder} {background}>
-                                <Icon icon={siDiscord}/>
-                                Discord
-                            </HCardButton>
-                        </StackPanel>
-                    </div>
-
-
-                    <div class="h3">
-                        Socials
-                    </div>
-                    <div class="text bold allcaps wide">
-                        <StackPanel direction="row" gap="0.5rem">
-                            <HCardButton href={globalVars.external.twitter} {background}>
-                                <Icon icon={siTwitter}/>
-                                Twitter
-                            </HCardButton>
-                            <HCardButton href={globalVars.external.placeholder} {background}>
-                                <Icon icon={siTwitter}/>
-                                Twitter (18+)
-                            </HCardButton>
-                        </StackPanel>
-                    </div>
+                        <div class="h3">
+                            Contact
+                        </div>
+                        <div class="text bold allcaps wide">
+                            <StackPanel direction="row" gap="0.5rem">
+                                <HCardButton href={globalVars.external.placeholder} {background}>
+                                    <Envelope height='24' width='24'/>
+                                    E-mail
+                                </HCardButton>
+                                <HCardButton href={globalVars.external.placeholder} {background}>
+                                    <Icon icon={siDiscord}/>
+                                    Discord
+                                </HCardButton>
+                            </StackPanel>
+                        </div>
 
 
-                    <div class="h3">
-                        Useful
-                    </div>
-                    <div class="text bold allcaps wide">
-                        <StackPanel direction="row" gap="0.5rem">
-                            <HCardButton href={globalVars.external.trello} {background}>
-                                <Icon icon={siTrello}/>
-                                Trello
-                            </HCardButton>
-                        </StackPanel>
-                    </div>
+                        <div class="h3">
+                            Socials
+                        </div>
+                        <div class="text bold allcaps wide">
+                            <StackPanel direction="row" gap="0.5rem">
+                                <HCardButton href={globalVars.external.twitter} {background}>
+                                    <Icon icon={siTwitter}/>
+                                    Twitter
+                                </HCardButton>
+                                <HCardButton href={globalVars.external.placeholder} {background}>
+                                    <Icon icon={siTwitter}/>
+                                    Twitter (18+)
+                                </HCardButton>
+                            </StackPanel>
+                        </div>
 
 
-                    <div class="h3">
-                        Other
-                    </div>
-                    <div class="text bold allcaps wide">
-                        <StackPanel direction="row" gap="0.5rem">
-                            <HCardButton href={globalVars.external.trello} {background}>
-                                <Globe width="24" height="24"/>
-                                ToyHouse
-                            </HCardButton>
-                            <HCardButton href={globalVars.external.placeholder} {background}>
-                                <Icon icon={siGithub}/>
-                                GitHub
-                            </HCardButton>
-                        </StackPanel>
-                    </div>
-                </StackPanel>
-            </div>
-        </SideBySide>
-    </div>
-</FixedBody>
+                        <div class="h3">
+                            Useful
+                        </div>
+                        <div class="text bold allcaps wide">
+                            <StackPanel direction="row" gap="0.5rem">
+                                <HCardButton href={globalVars.external.trello} {background}>
+                                    <Icon icon={siTrello}/>
+                                    Trello
+                                </HCardButton>
+                            </StackPanel>
+                        </div>
+
+
+                        <div class="h3">
+                            Other
+                        </div>
+                        <div class="text bold allcaps wide">
+                            <StackPanel direction="row" gap="0.5rem">
+                                <HCardButton href={globalVars.external.trello} {background}>
+                                    <Globe width="24" height="24"/>
+                                    ToyHouse
+                                </HCardButton>
+                                <HCardButton href={globalVars.external.placeholder} {background}>
+                                    <Icon icon={siGithub}/>
+                                    GitHub
+                                </HCardButton>
+                            </StackPanel>
+                        </div>
+                    </StackPanel>
+                </div>
+            </SideBySide>
+        </div>
+    </Body>
+</div>

@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Tweaked about page">
+    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="mobile optimizations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/about/AboutSite.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/AboutSite.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/about/Links.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/Links.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/about/MyOCs.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/MyOCs.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/common/Title.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/Title.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +119,8 @@
       <workItem from="1654847947916" duration="1313000" />
       <workItem from="1654892029024" duration="8700000" />
       <workItem from="1654902446701" duration="294000" />
-      <workItem from="1654902911498" duration="3904000" />
+      <workItem from="1654902911498" duration="4502000" />
+      <workItem from="1655073603738" duration="826000" />
     </task>
     <task id="LOCAL-00001" summary="Switched sveltekit templates for deploying to gh pages">
       <created>1653134785916</created>
@@ -298,7 +304,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654918877622</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="added missing files">
+      <created>1654919018064</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1654919018064</updated>
+    </task>
+    <task id="LOCAL-00028" summary="mobile optimizations">
+      <created>1654919028606</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1654919028606</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,8 +336,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Switched sveltekit templates for deploying to gh pages" />
-    <MESSAGE value="Changed scrolling stuff" />
     <MESSAGE value="Reduced images" />
     <MESSAGE value="Mobile fixes" />
     <MESSAGE value="Home social links spacing fixed" />
@@ -341,6 +359,8 @@
     <MESSAGE value="More Transition Fixes" />
     <MESSAGE value="Added socials and site info" />
     <MESSAGE value="Tweaked about page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tweaked about page" />
+    <MESSAGE value="added missing files" />
+    <MESSAGE value="mobile optimizations" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile optimizations" />
   </component>
 </project>

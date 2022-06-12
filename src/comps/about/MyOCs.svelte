@@ -10,24 +10,26 @@
     import Richard from '../../assets/chars/richard.png'
 </script>
 
-<Card background={`linear-gradient(-30deg, ${globalVars.colors.teg_dark}, ${globalVars.colors.teg_light})`}>
-    <div style:text-align="center" class="text">
-        <div class="h2">
-            My OCs!
+<div style:margin="2rem 0">
+    <Card background={`linear-gradient(-30deg, ${globalVars.colors.teg_dark}, ${globalVars.colors.teg_light})`}>
+        <div style:text-align="center" class="text">
+            <div class="h2">
+                My OCs!
+            </div>
+            These are all of my characters! More on the way 🦊
         </div>
-        These are all of my characters! More on the way 🦊
-    </div>
-    <div class="col-center">
-        <div class="about-flex-wrap">
-            <CharacterIcon margin="2rem 0 0 0" bold={true} img={Teg} name="Teg" />
-            <CharacterIcon margin="2rem 0 0 0" bold={true} img={Kai} name="Kai" />
-            <CharacterIcon margin="2rem 0 0 0" bold={true} img={Alex} name="Alex" />
-            <CharacterIcon margin="2rem 0 0 0" bold={true} img={Piper} name="Piper" />
-            <CharacterIcon margin="2rem 0 0 0" img={EdgeHusky} name="Edge Husky" />
-            <CharacterIcon margin="2rem 0 0 0" img={Richard} name="Richard" />
+        <div class="col-center">
+            <div class="about-flex-wrap">
+                <CharacterIcon margin="1rem 0 0 0" bold={true} img={Teg} name="Teg" />
+                <CharacterIcon margin="1rem 0 0 0" bold={true} img={Kai} name="Kai" />
+                <CharacterIcon margin="1rem 0 0 0" bold={true} img={Alex} name="Alex" />
+                <CharacterIcon margin="1rem 0 0 0" bold={true} img={Piper} name="Piper" />
+                <CharacterIcon margin="1rem 0 0 0" img={EdgeHusky} name="Edge Husky" />
+                <CharacterIcon margin="1rem 0 0 0" img={Richard} name="Richard" />
+            </div>
         </div>
-    </div>
-</Card>
+    </Card>
+</div>
 
 <style>
     .about-flex-wrap {
