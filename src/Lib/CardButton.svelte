@@ -5,12 +5,13 @@
     export let href
     export let background
     export let padding = '0.75rem'
+    export let borderRadius = '8px'
 
 </script>
 
 <a {href} class="cardbutton-outer" style:text-decoration="none" style:color="white" style:cursor="pointer">
 
-    <Card {background} {padding}>
+    <Card {background} {padding} {borderRadius}>
         <div>
             <slot/>
         </div>

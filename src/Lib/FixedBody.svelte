@@ -13,6 +13,7 @@
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
+        -webkit-background-size: cover;
     }
 
     @media  (max-width: 700px)
@@ -22,7 +23,7 @@
         }
     }
 
-    @media only screen and (max-width: 700px) {
+    @media only screen and (max-width: 1366px) {
         .body-div {
             background-attachment: scroll;
         }
