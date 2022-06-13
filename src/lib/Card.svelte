@@ -1,5 +1,6 @@
 <script>
     export let background = '#222222'
+    export let img
     export let borderRadius = '16px'
     export let padding = '3rem 2rem'
     export let height
@@ -11,6 +12,7 @@
      style:border-radius={borderRadius}
      style:padding
      style:background
+     style:background-image={img ? `url(${img})` : undefined}
      style:background-size="cover"
      style:background-position="center"
      style:max-width="100vw">

@@ -4,7 +4,6 @@
 
     export let img
     export let name
-    export let size = '8rem'
     export let color = 'white'
     export let href
     export let background = '#00000088'
@@ -19,7 +18,7 @@
         <Card {background} padding="2rem">
             <div class="charicon-text" class:charicon-bold={bold} style:display="flex" style:flex-direction="column"
                  style:gap="0.5rem" style:color style:align-items="center">
-                <img src={img} style:height={size}/>
+                <img src={img} class="charicon-img"/>
                 {name}
             </div>
         </Card>
@@ -28,6 +27,10 @@
 
 
 <style>
+
+    .charicon-img {
+        height: 8rem;
+    }
 
     .charicon-text {
         font-size: 1.25rem;
@@ -46,6 +49,18 @@
 
     .charicon-outer:hover {
         transform: scale(1.05);
+    }
+
+    @media (max-width: 700px) {
+        .charicon-img {
+            height: 6rem;
+        }
+        .charicon-text {
+            font-size: 1rem;
+        }
+        .charicon-bold {
+            font-size: 1.25rem;
+        }
     }
 
 </style>

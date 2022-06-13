@@ -26,7 +26,7 @@
 
                 <p class="text">
                     This website was written in HTML5 CSS3 and Javascript ES6 using the SvelteKit Framework. This project
-                    uses Svelte, and a static version of the site is deployed to GitHub pages using gh-pages.
+                    is compiled to native using Svelte, and a static version of the site is deployed to GitHub pages using gh-pages.
                 </p>
                 <p class="text">
                     Libraries used include <code>svelte-scrollto</code>, <code>svelte-bootstrap-icons</code>,
