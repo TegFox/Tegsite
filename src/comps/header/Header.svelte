@@ -20,7 +20,6 @@
     }
 
     $: scrolled = (scroll > vhToPx(breakpointVh) || scroll > vhToPx(breakpointVh));
-    $: console.log(open)
 </script>
 
 <svelte:window bind:scrollY={scroll} bind:outerHeight={vpHeight}/>

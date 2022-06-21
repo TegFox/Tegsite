@@ -16,7 +16,7 @@ export default  {
         },
         termsfaq: {
             sname: 'Terms / FAQ',
-            path: 'http://dance.goat.dance/'
+            path: '/terms'
         },
         about: {
             sname: 'About',

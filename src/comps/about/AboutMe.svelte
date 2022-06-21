@@ -2,7 +2,8 @@
     import SideBySide from "../../lib/SideBySide.svelte";
     import Me from '../../assets/me.png'
     import Card from "../../lib/Card.svelte";
-    import bg from "../../assets/about_bg2.png"
+    import bg from "../../assets/about_bg3.png"
+    import Links from "./Links.svelte";
 </script>
 
 <Card background={`url(${bg})`}>
@@ -29,7 +30,10 @@
                             making simple graphic designs, tinkering with electronics, and programming!
                         </p>
                     </div>
+                    <div style:margin="3rem"></div>
+                    <Links/>
                 </Card>
+
             </div>
         </SideBySide>
     </div>

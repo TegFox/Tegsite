@@ -4,7 +4,7 @@
     import StackPanel from "../../lib/StackPanel.svelte";
 
     export let width = '100%'
-    export let margin = '1.25rem 0'
+    export let margin = '2rem 0'
     export let maxWidth
 </script>
 

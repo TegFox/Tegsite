@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Minor touchups">
+    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="More minor fixes">
+      <change afterPath="$PROJECT_DIR$/src/Lib/Divider.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lib/MobileComp.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lib/ReactiveComp.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comps/about/Links.Old.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comps/terms/FAQ.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comps/terms/TOS.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/terms.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/chars/alex.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/alex.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/chars/edgehusky.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/edgehusky.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/about/AboutMe.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/AboutMe.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/comps/about/AboutSite.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/AboutSite.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/comps/about/Links.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/Links.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/about/MyOCs.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/MyOCs.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/common/CharacterIcon.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/CharacterIcon.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Body.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Body.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Card.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Card.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/common/SvelteKit.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/SvelteKit.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/header/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/header/Header.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/globalVars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/globalVars.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/about.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/about.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +49,13 @@
         <option value="AboutSite" />
         <option value="SvelteLogo" />
         <option value="FixedBody" />
+        <option value="ReactiveComp" />
+        <option value="MobileComp" />
+        <option value="Links.Old" />
+        <option value="terms" />
+        <option value="TOS" />
+        <option value="Divider" />
+        <option value="FAQ" />
       </list>
     </option>
   </component>
@@ -123,7 +139,8 @@
       <workItem from="1654902446701" duration="294000" />
       <workItem from="1654902911498" duration="4502000" />
       <workItem from="1655073603738" duration="953000" />
-      <workItem from="1655102184337" duration="1823000" />
+      <workItem from="1655102184337" duration="2459000" />
+      <workItem from="1655792276839" duration="7930000" />
     </task>
     <task id="LOCAL-00001" summary="Switched sveltekit templates for deploying to gh pages">
       <created>1653134785916</created>
@@ -335,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655102211521</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="More minor fixes">
+      <created>1655109203424</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1655109203424</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +377,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Mobile fixes" />
     <MESSAGE value="Home social links spacing fixed" />
     <MESSAGE value="Optimized more images" />
     <MESSAGE value="Optimizations and aesthetic fixes" />
@@ -378,6 +401,7 @@
     <MESSAGE value="added missing files" />
     <MESSAGE value="mobile optimizations" />
     <MESSAGE value="Minor touchups" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor touchups" />
+    <MESSAGE value="More minor fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="More minor fixes" />
   </component>
 </project>

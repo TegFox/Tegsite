@@ -8,6 +8,8 @@
     import Icon from "../../lib/Icon.svelte";
     import {siGithub, siSvelte} from 'simple-icons/icons'
     import SvelteKit from "../common/SvelteKit.svelte";
+
+    const background = "#00000088"
 </script>
 
 <div>
@@ -25,28 +27,25 @@
                 </div>
 
                 <p class="text">
-                    This website was written in HTML5 CSS3 and Javascript ES6 using the SvelteKit Framework. This project
-                    is compiled to native using Svelte, and a static version of the site is deployed to GitHub pages using gh-pages.
+                    This website was written in HTML5 CSS3 and Javascript ES6 using the SvelteKit Framework.
+                    A static version of the site is deployed to GitHub pages using gh-pages. I do not collect any of
+                    your data on this website.
                 </p>
                 <p class="text">
-                    Libraries used include <code>svelte-scrollto</code>, <code>svelte-bootstrap-icons</code>,
-                    and <code>simple-icons</code>.
-                </p>
-                <p class="text">
-                    Clicks the buttons below for relevant links!
+                    Clicks the buttons below for the code for this site and other relevant links!
                 </p>
 
                 <div class="bold wide allcaps mobile-center-825">
                     <StackPanel direction="row" align="center" gap="0.25rem" styleClass="mobile-space-evenly-825">
-                        <HCardButton href={globalVars.external.placeholder} background="#00000088">
+                        <HCardButton href={globalVars.external.placeholder} {background}>
                             <Icon icon={siGithub}/>
                             Site Repo
                         </HCardButton>
-                        <HCardButton href={globalVars.external.placeholder} background="#00000088">
+                        <HCardButton href={globalVars.external.placeholder} {background}>
                             <Icon icon={siSvelte}/>
                             Svelte
                         </HCardButton>
-                        <HCardButton href={globalVars.external.placeholder} background="#00000088">
+                        <HCardButton href={globalVars.external.placeholder} {background}>
                             <Icon icon={siSvelte}/>
                             SvelteKit
                         </HCardButton>
