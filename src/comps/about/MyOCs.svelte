@@ -8,7 +8,53 @@
     import Piper from '../../assets/chars/piper.png'
     import EdgeHusky from '../../assets/chars/edgehusky.png'
     import Richard from '../../assets/chars/richard.png'
+    import ReactiveComp825 from "../../lib/ReactiveComp825.svelte";
+    import { Swiper, SwiperSlide } from 'swiper/svelte';
+    import SwiperCore, {Navigation, Pagination, Scrollbar} from 'swiper'
+    import 'swiper/css';
+    import 'swiper/css/bundle'
+    import '../../app.css'
+
+    let outerWidth
+    let slidesPerView = 2
+    $: slidesPerView = parseInt(outerWidth / 200)
+
+    const my_chars = [
+        {
+            name: "Teg",
+            img: Teg,
+            sona: true
+        },
+        {
+            name: "Kai",
+            img: Kai,
+            sona: true
+        },
+        {
+            name: "Alex",
+            img: Alex,
+            sona: true
+        },
+        {
+            name: "Piper",
+            img: Piper,
+            sona: true
+        },
+        {
+            name: "Edge Husky",
+            img: EdgeHusky,
+            sona: false
+        },
+        {
+            name: "Richard",
+            img: Richard,
+            sona: false
+        },
+
+    ]
 </script>
+
+<svelte:window bind:outerWidth/>
 
 <div style:margin-bottom="2rem">
     <Card background={`linear-gradient(-30deg, ${globalVars.colors.teg_dark}, ${globalVars.colors.teg_light})`}>
@@ -20,16 +66,35 @@
                 These are all of my characters! More on the way 🦊
             </p>
         </div>
-        <div class="col-center">
-            <div class="about-flex-wrap">
-                <CharacterIcon bold={true} img={Teg} name="Teg" />
-                <CharacterIcon bold={true} img={Kai} name="Kai" />
-                <CharacterIcon bold={true} img={Alex} name="Alex" />
-                <CharacterIcon bold={true} img={Piper} name="Piper" />
-                <CharacterIcon img={EdgeHusky} name="Edge Husky" />
-                <CharacterIcon img={Richard} name="Richard" />
+
+        <ReactiveComp825>
+
+            <div slot="main" class="col-center">
+                <div class="about-flex-wrap">
+                    {#each my_chars as char}
+                        <CharacterIcon bold={char.sona} img={char.img} name={char.name} />
+                    {/each}
+                </div>
             </div>
-        </div>
+
+            <div slot="alt" >
+                <Swiper modules={[Pagination]}
+                        slidesPerView="auto"
+                        pagination={{
+                            clickable: true
+                        }}>
+                    {#each my_chars as char}
+                        <div class="swiper-slide swiper-slide-outer">
+                            <div class="swiper-slide-inner">
+                                <CharacterIcon bold={char.sona} img={char.img} name={char.name} />
+                            </div>
+                        </div>
+                    {/each}
+                </Swiper>
+            </div>
+
+        </ReactiveComp825>
+
     </Card>
 </div>
 
@@ -41,4 +106,19 @@
         width: 100%;
         gap: 1rem;
     }
+
+    .swiper-slide-outer {
+        width: 50%
+    }
+
+    .swiper-slide-inner {
+        margin: 2rem 0.5rem;
+    }
+
+    @media (max-width: 420px) {
+        .swiper-slide-outer {
+            width: 100%;
+        }
+    }
+
 </style>

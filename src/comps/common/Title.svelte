@@ -75,6 +75,7 @@
         filter: brightness(var(--bg-brightness));
         z-index: -2;
         transition: none;
+        -webkit-transform-style: preserve-3d;
     }
 
     .out-overlay {
@@ -82,7 +83,7 @@
         top: 0;
         -webkit-backface-visibility: hidden;
         -webkit-transform-style: preserve-3d;
-        -webkit-transform: translate3d(0, 10px, 0);
+        -webkit-transform: translate3d(0, 0, 0);
     }
 
     @keyframes float {

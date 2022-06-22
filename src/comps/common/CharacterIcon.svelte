@@ -15,7 +15,7 @@
 
 <a {href} style:margin>
     <div class="charicon-outer">
-        <Card {background} padding="2rem">
+        <Card {background} padding="0rem">
             <div class="charicon-text" class:charicon-bold={bold} style:display="flex" style:flex-direction="column"
                  style:gap="0.5rem" style:color style:align-items="center">
                 <img src={img} class="charicon-img"/>
@@ -30,17 +30,19 @@
 
     .charicon-img {
         height: 8rem;
+        padding: 2rem 2rem 0;
+
     }
 
     .charicon-text {
         font-size: 1.25rem;
-        margin: 0.16rem 0;
+        padding: 0.16rem 0 2rem;
     }
 
     .charicon-bold {
         font-size: 1.5rem;
         font-weight: bold;
-        margin: 0;
+        padding: 0.12rem 0 1.7rem;
     }
 
     .charicon-outer {
@@ -51,15 +53,18 @@
         transform: scale(1.05);
     }
 
-    @media (max-width: 700px) {
+    @media (max-width: 825px) {
         .charicon-img {
-            height: 6rem;
+            height: 7rem;
         }
         .charicon-text {
             font-size: 1rem;
         }
         .charicon-bold {
             font-size: 1.25rem;
+        }
+        .charicon-outer:hover {
+            transform: none;
         }
     }
 

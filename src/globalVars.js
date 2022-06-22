@@ -1,5 +1,5 @@
 export default  {
-    comms: 'askme',
+    comms: 'open',
     comm_form: 'http://dance.goat.dance/',
     links: {
         home: {
@@ -8,11 +8,11 @@ export default  {
         },
         prices: {
             sname: 'Prices',
-            path: 'http://dance.goat.dance/'
+            path: '/prices'
         },
         ych: {
             sname: 'YCH',
-            path: 'http://dance.goat.dance/'
+            path: '/ych'
         },
         termsfaq: {
             sname: 'Terms / FAQ',

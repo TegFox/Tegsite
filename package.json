@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "simple-icons": "^7.0.0",
-    "svelte-scrolling": "^1.1.1"
+    "svelte-scrolling": "^1.1.1",
+    "swiper": "^8.2.4"
   }
 }
