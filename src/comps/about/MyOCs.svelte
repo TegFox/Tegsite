@@ -15,10 +15,6 @@
     import 'swiper/css/bundle'
     import '../../app.css'
 
-    let outerWidth
-    let slidesPerView = 2
-    $: slidesPerView = parseInt(outerWidth / 200)
-
     const my_chars = [
         {
             name: "Teg",
@@ -53,8 +49,6 @@
 
     ]
 </script>
-
-<svelte:window bind:outerWidth/>
 
 <div style:margin-bottom="2rem">
     <Card background={`linear-gradient(-30deg, ${globalVars.colors.teg_dark}, ${globalVars.colors.teg_light})`}>

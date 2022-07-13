@@ -15,13 +15,13 @@
     <Header/>
 </header>
 
-<main>
+<main >
     <PageTransition {url}>
         <slot/>
     </PageTransition>
 </main>
 
-<footer>
+<footer style="overflow-x: hidden">
     <Footer/>
 </footer>
 
