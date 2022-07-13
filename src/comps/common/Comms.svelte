@@ -95,7 +95,7 @@
 
             <div class="sxs">
                 <div class="left">
-                    <StackPanel direction="row" align="center" gap="4px">
+                    <StackPanel direction="row" align="center" gap="6px">
                         <div class="text">
                             Commissions:
                         </div>

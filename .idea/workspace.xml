@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="made more minor changes">
+    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Fixed horizontal scrolling for browsers without overlay scrolling">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/about/MyOCs.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/MyOCs.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/__layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/__layout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lib/PageTransition.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/PageTransition.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/common/Comms.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/Comms.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +152,7 @@
       <workItem from="1657076356645" duration="7000" />
       <workItem from="1657568244445" duration="10441000" />
       <workItem from="1657658598386" duration="11236000" />
-      <workItem from="1657688554498" duration="608000" />
+      <workItem from="1657688554498" duration="700000" />
     </task>
     <task id="LOCAL-00001" summary="Switched sveltekit templates for deploying to gh pages">
       <created>1653134785916</created>
@@ -421,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657673546401</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Fixed horizontal scrolling for browsers without overlay scrolling">
+      <created>1657689196764</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1657689196764</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,7 +445,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added yarn" />
     <MESSAGE value="Updated site desc" />
     <MESSAGE value="About page" />
     <MESSAGE value="Fixed scrolling" />
@@ -464,6 +469,7 @@
     <MESSAGE value="made changes" />
     <MESSAGE value="made minor changes" />
     <MESSAGE value="made more minor changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="made more minor changes" />
+    <MESSAGE value="Fixed horizontal scrolling for browsers without overlay scrolling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed horizontal scrolling for browsers without overlay scrolling" />
   </component>
 </project>

@@ -3,8 +3,6 @@
     import {fly} from 'svelte/transition'
     import {cubicIn, cubicOut} from 'svelte/easing'
 
-    let outerWidth
-
     export let url = ''
     export let dist = 35
     export let duration = 300
