@@ -40,9 +40,7 @@ const overlayBackground = globalVars.colors.teg_grey
                                             {/if}
                                         <p>
                                         {#if commtypes[key].start}
-                                            {#if commtypes[key].start}
-                                                Starting at <strong>US${commtypes[key].start}</strong>
-                                            {/if}
+                                            Starting at <strong>US${commtypes[key].start}</strong>
                                         {/if}
                                         </p>
                                         <div class="cap">
