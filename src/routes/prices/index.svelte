@@ -1,6 +1,12 @@
 <script>
+    import globalVars from "../../globalVars.js";
     import img from "../../assets/prices.png"
     import Title from "../../comps/common/Title.svelte";
+    import Body from "../../lib/Body.svelte";
+    import Comms from "../../comps/common/Comms.svelte";
+    import CommTypes from "../../comps/prices/CommTypes.svelte";
+    import StackPanel from "../../lib/StackPanel.svelte";
+    import NotDone from "../../comps/common/NotDone.svelte";
 </script>
 
 <title>
@@ -9,6 +15,16 @@
 
 <div>
     <Title {img} title="Commission Prices">
-        Price Estimates for my art!
+        Price estimates for my art!
     </Title>
+
+    <Body>
+        <StackPanel direction="column" gap="2rem">
+            <Comms status={globalVars.comms} large={false}/>
+            <CommTypes routeBase="/prices/"/>
+            <NotDone/>
+        </StackPanel>
+
+    </Body>
+
 </div>

@@ -1,0 +1,15 @@
+<script>
+    import globalVars from "../../globalVars.js";
+
+    import nd from '../../assets/notdone.png'
+    import Card from "../../lib/Card.svelte";
+</script>
+
+<Card background={globalVars.colors.teg_grey}>
+    <div class="col-center">
+        <img src={nd} style:width="50vh" style:max-width="70vw" />
+        <div class="h3">
+            This page isn't done yet oops
+        </div>
+    </div>
+</Card>

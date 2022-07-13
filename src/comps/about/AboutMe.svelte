@@ -4,31 +4,19 @@
     import bg from "../../assets/about_bg3.png"
     import Links from "./Links.svelte";
     import SideBySideUneven from "../../lib/SideBySideUneven.svelte";
-
-    let outerWidth
-    const breakpoint = 1000
-
-    let leftWidth = '320px'
-    $: leftWidth = outerWidth >= breakpoint ? '320px' : '256px'
-
-    let gap = '2rem'
-    $: gap = outerWidth >= breakpoint ? '2rem' : '1rem'
-
-
-
 </script>
 
-<svelte:window bind:outerWidth/>
 
-<Card background={`url(${bg})`}>
+
+<Card background={`url(${bg})`} padding="1rem">
     <div class="col-center">
-        <SideBySideUneven {leftWidth} {gap} width="1200px" mobileGap="0">
+        <SideBySideUneven leftWidth="296px" gap="1rem" width="1000px" mobileGap="0">
             <div slot="left" class="col-center">
-                <img src={Me} style:width={leftWidth}/>
+                <img src={Me} style:width='296px'/>
             </div>
 
             <div slot="right">
-                <Card background="#00000088" padding="2rem">
+                <Card background="#00000088" padding="1.5rem">
                     <div class="h2">
                         Hi! I'm Teg!
                     </div>

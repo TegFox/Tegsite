@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Added CNAME file for custom domain">
-      <change afterPath="$PROJECT_DIR$/src/Lib/SideBySideUneven.svelte" afterDir="false" />
+    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Fixed about me to be more readable at certain screen widths">
+      <change afterPath="$PROJECT_DIR$/src/commtypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comps/common/NotDone.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comps/prices/CommTypes.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/prices/fullbody.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/prices/halfbody.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/prices/headshot.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/prices/more.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/prices/refsheet.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/prices/stickers.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/comps/about/AboutMe.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/AboutMe.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/common/Comms.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/Comms.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/common/Title.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/Title.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/globalVars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/globalVars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/prices/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/ych.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/ych.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +60,16 @@
         <option value="index" />
         <option value="ReactiveComp825" />
         <option value="SideBySideUneven" />
+        <option value="CommTypes" />
+        <option value="ReactiveComp1000" />
+        <option value="NotDone" />
+        <option value="headshot" />
+        <option value="JavaScript File" />
+        <option value="halfbody" />
+        <option value="fullbody" />
+        <option value="refsheet" />
+        <option value="stickers" />
+        <option value="more" />
       </list>
     </option>
   </component>
@@ -140,7 +163,8 @@
       <workItem from="1656811193193" duration="199000" />
       <workItem from="1657076309288" duration="34000" />
       <workItem from="1657076356645" duration="7000" />
-      <workItem from="1657568244445" duration="2454000" />
+      <workItem from="1657568244445" duration="10441000" />
+      <workItem from="1657658598386" duration="10488000" />
     </task>
     <task id="LOCAL-00001" summary="Switched sveltekit templates for deploying to gh pages">
       <created>1653134785916</created>
@@ -380,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656811336564</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Fixed about me to be more readable at certain screen widths">
+      <created>1657570756262</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1657570756263</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,7 +429,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="PLEASE BE FIX I'M SO SAD" />
     <MESSAGE value="Misc" />
     <MESSAGE value="Fixed the issue with the footer" />
     <MESSAGE value="Added metadata" />
@@ -423,6 +453,7 @@
     <MESSAGE value="Minor Fixes + TOS page" />
     <MESSAGE value="Fixes to the mobile about page and added dummy pages" />
     <MESSAGE value="Added CNAME file for custom domain" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added CNAME file for custom domain" />
+    <MESSAGE value="Fixed about me to be more readable at certain screen widths" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed about me to be more readable at certain screen widths" />
   </component>
 </project>
