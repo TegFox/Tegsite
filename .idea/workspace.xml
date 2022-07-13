@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="made changes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/common/NotDone.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/NotDone.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/prices/CommTypes.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/prices/CommTypes.svelte" afterDir="false" />
+    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="made minor changes">
+      <change beforePath="$PROJECT_DIR$/src/routes/prices/refsheet.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/refsheet.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +149,7 @@
       <workItem from="1657076309288" duration="34000" />
       <workItem from="1657076356645" duration="7000" />
       <workItem from="1657568244445" duration="10441000" />
-      <workItem from="1657658598386" duration="10774000" />
+      <workItem from="1657658598386" duration="10922000" />
     </task>
     <task id="LOCAL-00001" summary="Switched sveltekit templates for deploying to gh pages">
       <created>1653134785916</created>
@@ -405,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657673015016</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="made minor changes">
+      <created>1657673298985</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1657673298985</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,7 +428,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed the issue with the footer" />
     <MESSAGE value="Added metadata" />
     <MESSAGE value="Added yarn" />
     <MESSAGE value="Updated site desc" />
@@ -448,6 +452,7 @@
     <MESSAGE value="Added CNAME file for custom domain" />
     <MESSAGE value="Fixed about me to be more readable at certain screen widths" />
     <MESSAGE value="made changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="made changes" />
+    <MESSAGE value="made minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="made minor changes" />
   </component>
 </project>

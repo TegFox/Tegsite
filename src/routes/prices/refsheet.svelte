@@ -19,7 +19,6 @@
 
     <Body>
         <NotDone/>
-        Probably make the header thing title? whatever its called, make it less ugly
     </Body>
 
 </div>

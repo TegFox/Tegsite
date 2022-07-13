@@ -40,12 +40,9 @@ const overlayBackground = globalVars.colors.teg_grey
                                             {/if}
                                         <p>
                                         {#if commtypes[key].start}
-                                            <StackPanel gap="6px">
-                                                Starting at
-                                                <div style:font-weight="bold">
-                                                    US${commtypes[key].start}
-                                                </div>
-                                            </StackPanel>
+                                            {#if commtypes[key].start}
+                                                Starting at <strong>US${commtypes[key].start}</strong>
+                                            {/if}
                                         {/if}
                                         </p>
                                         <div class="cap">
@@ -78,12 +75,7 @@ const overlayBackground = globalVars.colors.teg_grey
                                         {/if}
                                     <p>
                                         {#if commtypes[key].start}
-                                            <StackPanel gap="6px">
-                                                Starting at
-                                                <div style:font-weight="bold">
-                                                    US${commtypes[key].start}
-                                                </div>
-                                            </StackPanel>
+                                                Starting at <strong>US${commtypes[key].start}</strong>
                                         {/if}
                                     </p>
                                     <div class="cap">
