@@ -1,32 +1,37 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-d298d473.js",
+    "file": "start-86c3602c.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-f3d7a0da.js",
-      "_index-34198684.js"
+      "_index-2106b571.js",
+      "_index-77e42ef7.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
       ".svelte-kit/runtime/components/error.svelte",
       "src/routes/about.svelte",
       "src/routes/index.svelte",
+      "src/routes/prices/fullbody.svelte",
+      "src/routes/prices/halfbody.svelte",
+      "src/routes/prices/headshot.svelte",
       "src/routes/prices/index.svelte",
+      "src/routes/prices/more.svelte",
+      "src/routes/prices/refsheet.svelte",
+      "src/routes/prices/stickers.svelte",
       "src/routes/terms.svelte",
       "src/routes/ych.svelte"
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-273d56a9.js",
+    "file": "pages/__layout.svelte-cd603ffe.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-f3d7a0da.js",
-      "_PageTransition-d40d3932.js",
-      "_Body-7b8df3ea.js",
-      "_index-34198684.js"
+      "_index-2106b571.js",
+      "_Body-f9da4fe3.js",
+      "_index-77e42ef7.js"
     ],
     "css": [
       "assets/pages/__layout.svelte-5d331d15.css",
@@ -37,29 +42,29 @@
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-52cd4164.js",
+    "file": "error.svelte-5d6aaea0.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-f3d7a0da.js"
+      "_index-2106b571.js"
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-240a3bdb.js",
+    "file": "pages/about.svelte-23edc30e.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-f3d7a0da.js",
-      "_StackPanel-44cbbc3d.js",
-      "_Title-a43a979e.js",
-      "_Body-7b8df3ea.js",
-      "_Card-46b662ea.js",
-      "_PageTransition-d40d3932.js"
+      "_index-2106b571.js",
+      "_about-8d1c6325.js",
+      "_Card-d5231620.js",
+      "_Body-f9da4fe3.js",
+      "_ReactiveComp825-48bfaa3c.js",
+      "_SideBySide.svelte_svelte_type_style_lang-2e817ebd.js"
     ],
     "css": [
-      "assets/pages/about.svelte-c9f79e59.css",
+      "assets/pages/about.svelte-ea4ce3b8.css",
       "assets/app-5b42fb75.css"
     ],
     "assets": [
@@ -76,23 +81,23 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-fc57d04e.js",
+    "file": "pages/index.svelte-97ff8d9b.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-f3d7a0da.js",
-      "_Body-7b8df3ea.js",
-      "_Title-a43a979e.js",
-      "_StackPanel-44cbbc3d.js",
-      "_Card-46b662ea.js",
+      "_index-2106b571.js",
+      "_Body-f9da4fe3.js",
+      "_Card-d5231620.js",
+      "_Comms-f093a1b7.js",
+      "_SideBySide.svelte_svelte_type_style_lang-2e817ebd.js",
       "_prices-7b5e27c8.js",
       "_ych-b7c23791.js",
       "_terms-733614e3.js",
-      "_PageTransition-d40d3932.js"
+      "_about-8d1c6325.js"
     ],
     "css": [
-      "assets/pages/index.svelte-d0381c00.css"
+      "assets/pages/index.svelte-4beee935.css"
     ],
     "assets": [
       "assets/forest-81acb79c.png",
@@ -101,97 +106,198 @@
       "assets/patreon-6f96cee9.png"
     ]
   },
+  "src/routes/prices/fullbody.svelte": {
+    "file": "pages/prices/fullbody.svelte-38cdd8ae.js",
+    "src": "src/routes/prices/fullbody.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-2106b571.js",
+      "_commtypes-e7a5916c.js",
+      "_Card-d5231620.js",
+      "_Body-f9da4fe3.js",
+      "_NotDone-1dbd50b9.js"
+    ]
+  },
+  "src/routes/prices/halfbody.svelte": {
+    "file": "pages/prices/halfbody.svelte-f664e8f2.js",
+    "src": "src/routes/prices/halfbody.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-2106b571.js",
+      "_commtypes-e7a5916c.js",
+      "_Card-d5231620.js",
+      "_Body-f9da4fe3.js",
+      "_NotDone-1dbd50b9.js"
+    ]
+  },
+  "src/routes/prices/headshot.svelte": {
+    "file": "pages/prices/headshot.svelte-778f6c74.js",
+    "src": "src/routes/prices/headshot.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-2106b571.js",
+      "_commtypes-e7a5916c.js",
+      "_Card-d5231620.js",
+      "_Body-f9da4fe3.js",
+      "_NotDone-1dbd50b9.js"
+    ]
+  },
   "src/routes/prices/index.svelte": {
-    "file": "pages/prices/index.svelte-a6ccd46a.js",
+    "file": "pages/prices/index.svelte-fbdcf2fa.js",
     "src": "src/routes/prices/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-f3d7a0da.js",
+      "_index-2106b571.js",
+      "_Body-f9da4fe3.js",
       "_prices-7b5e27c8.js",
-      "_Title-a43a979e.js",
-      "_PageTransition-d40d3932.js"
+      "_Card-d5231620.js",
+      "_Comms-f093a1b7.js",
+      "_SideBySide.svelte_svelte_type_style_lang-2e817ebd.js",
+      "_ReactiveComp825-48bfaa3c.js",
+      "_commtypes-e7a5916c.js",
+      "_NotDone-1dbd50b9.js"
+    ],
+    "css": [
+      "assets/pages/prices/index.svelte-7c368eba.css"
+    ],
+    "assets": [
+      "assets/rarrow-433f56ab.svg"
+    ]
+  },
+  "src/routes/prices/more.svelte": {
+    "file": "pages/prices/more.svelte-880c34c4.js",
+    "src": "src/routes/prices/more.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-2106b571.js",
+      "_commtypes-e7a5916c.js",
+      "_Card-d5231620.js",
+      "_Body-f9da4fe3.js",
+      "_NotDone-1dbd50b9.js"
+    ]
+  },
+  "src/routes/prices/refsheet.svelte": {
+    "file": "pages/prices/refsheet.svelte-0a37aaea.js",
+    "src": "src/routes/prices/refsheet.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-2106b571.js",
+      "_commtypes-e7a5916c.js",
+      "_Card-d5231620.js",
+      "_Body-f9da4fe3.js",
+      "_NotDone-1dbd50b9.js"
+    ]
+  },
+  "src/routes/prices/stickers.svelte": {
+    "file": "pages/prices/stickers.svelte-06f4c447.js",
+    "src": "src/routes/prices/stickers.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-2106b571.js",
+      "_commtypes-e7a5916c.js",
+      "_Card-d5231620.js",
+      "_Body-f9da4fe3.js",
+      "_NotDone-1dbd50b9.js"
     ]
   },
   "src/routes/terms.svelte": {
-    "file": "pages/terms.svelte-a9be6e01.js",
+    "file": "pages/terms.svelte-d2169962.js",
     "src": "src/routes/terms.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-f3d7a0da.js",
-      "_Title-a43a979e.js",
+      "_index-2106b571.js",
+      "_Card-d5231620.js",
       "_terms-733614e3.js",
-      "_Body-7b8df3ea.js",
-      "_Card-46b662ea.js",
-      "_PageTransition-d40d3932.js"
+      "_Body-f9da4fe3.js"
     ],
     "css": [
       "assets/pages/terms.svelte-3e3720bc.css"
     ]
   },
   "src/routes/ych.svelte": {
-    "file": "pages/ych.svelte-1e4d05ee.js",
+    "file": "pages/ych.svelte-66b7b865.js",
     "src": "src/routes/ych.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-f3d7a0da.js",
+      "_index-2106b571.js",
+      "_Body-f9da4fe3.js",
       "_ych-b7c23791.js",
-      "_Title-a43a979e.js",
-      "_PageTransition-d40d3932.js"
+      "_Card-d5231620.js",
+      "_NotDone-1dbd50b9.js",
+      "_Comms-f093a1b7.js",
+      "_SideBySide.svelte_svelte_type_style_lang-2e817ebd.js"
     ]
   },
-  "_index-f3d7a0da.js": {
-    "file": "chunks/index-f3d7a0da.js"
+  "_index-2106b571.js": {
+    "file": "chunks/index-2106b571.js"
   },
-  "_index-34198684.js": {
-    "file": "chunks/index-34198684.js",
+  "_index-77e42ef7.js": {
+    "file": "chunks/index-77e42ef7.js",
     "imports": [
-      "_index-f3d7a0da.js"
+      "_index-2106b571.js"
     ]
   },
-  "_PageTransition-d40d3932.js": {
-    "file": "chunks/PageTransition-d40d3932.js",
+  "_Body-f9da4fe3.js": {
+    "file": "chunks/Body-f9da4fe3.js",
     "imports": [
-      "_index-f3d7a0da.js"
-    ]
-  },
-  "_Body-7b8df3ea.js": {
-    "file": "chunks/Body-7b8df3ea.js",
-    "imports": [
-      "_index-f3d7a0da.js"
+      "_index-2106b571.js"
     ],
     "css": [
       "assets/Body-05c3fd43.css"
     ]
   },
-  "_StackPanel-44cbbc3d.js": {
-    "file": "chunks/StackPanel-44cbbc3d.js",
-    "imports": [
-      "_index-f3d7a0da.js"
-    ],
-    "css": [
-      "assets/StackPanel-5cbb55a7.css"
-    ],
+  "_about-8d1c6325.js": {
+    "file": "chunks/about-8d1c6325.js",
     "assets": [
       "assets/about-02f61df6.png"
     ]
   },
-  "_Title-a43a979e.js": {
-    "file": "chunks/Title-a43a979e.js",
+  "_Card-d5231620.js": {
+    "file": "chunks/Card-d5231620.js",
     "imports": [
-      "_index-f3d7a0da.js",
-      "_PageTransition-d40d3932.js"
+      "_index-2106b571.js",
+      "_Body-f9da4fe3.js"
     ],
     "css": [
-      "assets/Title-5b1cd314.css"
+      "assets/Card-5dc43f97.css"
     ]
   },
-  "_Card-46b662ea.js": {
-    "file": "chunks/Card-46b662ea.js",
+  "_SideBySide.svelte_svelte_type_style_lang-2e817ebd.js": {
+    "file": "chunks/SideBySide.svelte_svelte_type_style_lang-2e817ebd.js",
     "imports": [
-      "_index-f3d7a0da.js"
+      "_index-2106b571.js"
+    ],
+    "css": [
+      "assets/SideBySide.svelte_svelte_type_style_lang-4ab4ffd1.css"
+    ]
+  },
+  "_ReactiveComp825-48bfaa3c.js": {
+    "file": "chunks/ReactiveComp825-48bfaa3c.js",
+    "imports": [
+      "_index-2106b571.js"
+    ],
+    "css": [
+      "assets/ReactiveComp825-68737cc0.css"
+    ]
+  },
+  "_Comms-f093a1b7.js": {
+    "file": "chunks/Comms-f093a1b7.js",
+    "imports": [
+      "_index-2106b571.js",
+      "_SideBySide.svelte_svelte_type_style_lang-2e817ebd.js",
+      "_Card-d5231620.js"
+    ],
+    "css": [
+      "assets/Comms-ab4996f8.css"
     ]
   },
   "_prices-7b5e27c8.js": {
@@ -210,6 +316,28 @@
     "file": "chunks/terms-733614e3.js",
     "assets": [
       "assets/terms-021b1699.png"
+    ]
+  },
+  "_commtypes-e7a5916c.js": {
+    "file": "chunks/commtypes-e7a5916c.js",
+    "assets": [
+      "assets/headshot-6ae58d6f.png",
+      "assets/halfbody-68a45cbc.png",
+      "assets/fullbody-15c7893b.png",
+      "assets/refsheet-cbe8fc1b.png",
+      "assets/stickers-cc419ba5.png",
+      "assets/more-9ddffbde.png"
+    ]
+  },
+  "_NotDone-1dbd50b9.js": {
+    "file": "chunks/NotDone-1dbd50b9.js",
+    "imports": [
+      "_index-2106b571.js",
+      "_Body-f9da4fe3.js",
+      "_Card-d5231620.js"
+    ],
+    "assets": [
+      "assets/notdone-62797d50.png"
     ]
   }
 }
