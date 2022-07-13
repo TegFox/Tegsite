@@ -8,7 +8,7 @@
 <Card background={globalVars.colors.teg_grey}>
     <div class="col-center">
         <img src={nd} style:width="50vh" style:max-width="70vw" />
-        <div class="h3">
+        <div class="h3 tac">
             This page isn't done yet oops
         </div>
     </div>

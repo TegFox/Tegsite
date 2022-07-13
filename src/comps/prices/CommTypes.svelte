@@ -73,9 +73,18 @@ const overlayBackground = globalVars.colors.teg_grey
                                 </div>
                                 <div class="text tac">
                                     <p>
-                                        {commtypes[key].desc}
+                                        {#if commtypes[key].desc}
+                                            {commtypes[key].desc}
+                                        {/if}
                                     <p>
-                                        Starting at US${commtypes[key].start}
+                                        {#if commtypes[key].start}
+                                            <StackPanel gap="6px">
+                                                Starting at
+                                                <div style:font-weight="bold">
+                                                    US${commtypes[key].start}
+                                                </div>
+                                            </StackPanel>
+                                        {/if}
                                     </p>
                                     <div class="cap">
                                         Click To Learn More!
