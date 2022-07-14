@@ -55,14 +55,20 @@ const overlayBackground = globalVars.colors.teg_grey
                                 <div class="text half-ls">
                                     {commtypes[key].desc}
                                 </div>
-                                {#if commtypes[key].start}
-                                    <div class="text half-ls">
-                                        Starting at <strong>US${commtypes[key].start}</strong>
+                                <StackPanel gap="4px" align="center">
+                                    {#if commtypes[key].start}
+                                        <div class="cap">
+                                            Starting at <strong>US${commtypes[key].start}</strong>
+                                        </div>
+                                        <div class="cap">
+                                            |
+                                        </div>
+                                    {/if}
+                                    <div class="cap">
+                                        Expand
                                     </div>
-                                {/if}
-                                <div class="cap">
-                                    Click to learn more!
-                                </div>
+                                    <img src={RArrow} style:height="1rem"/>
+                                </StackPanel>
                             </div>
                         </div>
                     </Card>
