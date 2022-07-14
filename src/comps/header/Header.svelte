@@ -99,6 +99,7 @@
         height: var(--header-scrolled-height);
         background-color: var(--header-background);
         backdrop-filter: blur(var(--header-blur-amount));
+        -webkit-backdrop-filter: blur(var(--header-blur-amount));
     }
 
     .title-container {
