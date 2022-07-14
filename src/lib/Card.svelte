@@ -10,6 +10,7 @@
 
 <div class="card-outer"
      style:border-radius={borderRadius}
+     style:height
      style:padding
      style:background
      style:background-image={img ? `url(${img})` : undefined}

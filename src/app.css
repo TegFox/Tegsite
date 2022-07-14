@@ -87,6 +87,10 @@ body {
     letter-spacing: 1.5px;
 }
 
+.half-ls {
+    margin: 0.5rem 0;
+}
+
 @media (max-width: 700px) {
     .h1 {
         font-size: 3.5rem;

@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="???">
+    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="added webkit compatibility">
+      <change afterPath="$PROJECT_DIR$/src/comps/common/GradRevealDetails.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comps/prices/OldCommTypes.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/comps/prices/CommTypes.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/prices/CommTypes.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Card.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Card.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +60,9 @@
         <option value="refsheet" />
         <option value="stickers" />
         <option value="more" />
+        <option value="DynamicGrid" />
+        <option value="OldCommTypes" />
+        <option value="GradRevealHoverCard" />
       </list>
     </option>
   </component>
@@ -86,8 +93,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\lib" />
       <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\comps\common" />
+      <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\lib" />
       <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\comps\footer" />
       <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\comps\header" />
       <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\comps" />
@@ -151,7 +158,8 @@
       <workItem from="1657076356645" duration="7000" />
       <workItem from="1657568244445" duration="10441000" />
       <workItem from="1657658598386" duration="11236000" />
-      <workItem from="1657688554498" duration="1226000" />
+      <workItem from="1657688554498" duration="1347000" />
+      <workItem from="1657789218077" duration="12721000" />
     </task>
     <task id="LOCAL-00001" summary="Switched sveltekit templates for deploying to gh pages">
       <created>1653134785916</created>
@@ -433,7 +441,28 @@
       <option name="project" value="LOCAL" />
       <updated>1657689281332</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Simplifying my code">
+      <created>1657689857539</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1657689857539</updated>
+    </task>
+    <task id="LOCAL-00042" summary="missing file">
+      <created>1657789766422</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1657789766422</updated>
+    </task>
+    <task id="LOCAL-00043" summary="added webkit compatibility">
+      <created>1657795321368</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1657795321368</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,9 +480,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="About page" />
-    <MESSAGE value="Fixed scrolling" />
-    <MESSAGE value="Misc fixes" />
     <MESSAGE value="Reorganized for more modularity and consistency" />
     <MESSAGE value="/static?" />
     <MESSAGE value="Page Transitions" />
@@ -476,6 +502,9 @@
     <MESSAGE value="made more minor changes" />
     <MESSAGE value="Fixed horizontal scrolling for browsers without overlay scrolling" />
     <MESSAGE value="???" />
-    <option name="LAST_COMMIT_MESSAGE" value="???" />
+    <MESSAGE value="Simplifying my code" />
+    <MESSAGE value="missing file" />
+    <MESSAGE value="added webkit compatibility" />
+    <option name="LAST_COMMIT_MESSAGE" value="added webkit compatibility" />
   </component>
 </project>
