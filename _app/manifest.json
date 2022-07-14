@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-a8d00d97.js",
+    "file": "start-778cf20c.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -107,46 +107,46 @@
     ]
   },
   "src/routes/prices/fullbody.svelte": {
-    "file": "pages/prices/fullbody.svelte-e266962a.js",
+    "file": "pages/prices/fullbody.svelte-a9fc9ad6.js",
     "src": "src/routes/prices/fullbody.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-2106b571.js",
-      "_commtypes-e6343dfc.js",
+      "_commtypes-c1607567.js",
       "_Card-0880b3cc.js",
       "_Body-f9da4fe3.js",
       "_NotDone-84d3df85.js"
     ]
   },
   "src/routes/prices/halfbody.svelte": {
-    "file": "pages/prices/halfbody.svelte-fb028159.js",
+    "file": "pages/prices/halfbody.svelte-55597e36.js",
     "src": "src/routes/prices/halfbody.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-2106b571.js",
-      "_commtypes-e6343dfc.js",
+      "_commtypes-c1607567.js",
       "_Card-0880b3cc.js",
       "_Body-f9da4fe3.js",
       "_NotDone-84d3df85.js"
     ]
   },
   "src/routes/prices/headshot.svelte": {
-    "file": "pages/prices/headshot.svelte-59a27b82.js",
+    "file": "pages/prices/headshot.svelte-aaf01356.js",
     "src": "src/routes/prices/headshot.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-2106b571.js",
-      "_commtypes-e6343dfc.js",
+      "_commtypes-c1607567.js",
       "_Card-0880b3cc.js",
       "_Body-f9da4fe3.js",
       "_NotDone-84d3df85.js"
     ]
   },
   "src/routes/prices/index.svelte": {
-    "file": "pages/prices/index.svelte-49808253.js",
+    "file": "pages/prices/index.svelte-d1188939.js",
     "src": "src/routes/prices/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -158,7 +158,7 @@
       "_Comms-0788a469.js",
       "_SideBySide.svelte_svelte_type_style_lang-2e817ebd.js",
       "_ReactiveComp825-48bfaa3c.js",
-      "_commtypes-e6343dfc.js",
+      "_commtypes-c1607567.js",
       "_NotDone-84d3df85.js"
     ],
     "css": [
@@ -169,39 +169,39 @@
     ]
   },
   "src/routes/prices/more.svelte": {
-    "file": "pages/prices/more.svelte-3119e9bd.js",
+    "file": "pages/prices/more.svelte-7ed16364.js",
     "src": "src/routes/prices/more.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-2106b571.js",
-      "_commtypes-e6343dfc.js",
+      "_commtypes-c1607567.js",
       "_Card-0880b3cc.js",
       "_Body-f9da4fe3.js",
       "_NotDone-84d3df85.js"
     ]
   },
   "src/routes/prices/refsheet.svelte": {
-    "file": "pages/prices/refsheet.svelte-f083106d.js",
+    "file": "pages/prices/refsheet.svelte-0d3426a0.js",
     "src": "src/routes/prices/refsheet.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-2106b571.js",
-      "_commtypes-e6343dfc.js",
+      "_commtypes-c1607567.js",
       "_Card-0880b3cc.js",
       "_Body-f9da4fe3.js",
       "_NotDone-84d3df85.js"
     ]
   },
   "src/routes/prices/stickers.svelte": {
-    "file": "pages/prices/stickers.svelte-2819ef58.js",
+    "file": "pages/prices/stickers.svelte-0ddf2797.js",
     "src": "src/routes/prices/stickers.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-2106b571.js",
-      "_commtypes-e6343dfc.js",
+      "_commtypes-c1607567.js",
       "_Card-0880b3cc.js",
       "_Body-f9da4fe3.js",
       "_NotDone-84d3df85.js"
@@ -318,14 +318,14 @@
       "assets/terms-021b1699.png"
     ]
   },
-  "_commtypes-e6343dfc.js": {
-    "file": "chunks/commtypes-e6343dfc.js",
+  "_commtypes-c1607567.js": {
+    "file": "chunks/commtypes-c1607567.js",
     "assets": [
       "assets/headshot-6ae58d6f.png",
       "assets/halfbody-68a45cbc.png",
       "assets/fullbody-15c7893b.png",
       "assets/refsheet-0a219c24.png",
-      "assets/stickers-cc419ba5.png",
+      "assets/stickers-754d903e.png",
       "assets/more-9ddffbde.png"
     ]
   },
