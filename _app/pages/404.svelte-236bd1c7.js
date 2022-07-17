@@ -1,5 +1,0 @@
-import{S as i,i as p,s as c,k as l,w as u,a2 as f,d as m,m as _,x as d,g as $,y as g,q as h,o as E,B as q,P as v}from"../chunks/index-a55990bb.js";import{E as y}from"../chunks/Error-b1637bc1.js";import{p as b}from"../chunks/stores-6557de0f.js";import"../chunks/notdone-12066466.js";import"../chunks/Body-86e31cf7.js";import"../chunks/ReactiveComp825-4350eeb7.js";import"../chunks/StackPanel-068db40f.js";function w(n){let r,a,t,s;return document.title=r=`\r
-        Error 404: `+n[0]+`\r
-    `,t=new y({props:{status:"404",message:n[0]}}),{c(){a=l(),u(t.$$.fragment)},l(e){f('[data-svelte="svelte-aqnug2"]',document.head).forEach(m),a=_(e),d(t.$$.fragment,e)},m(e,o){$(e,a,o),g(t,e,o),s=!0},p(e,[o]){(!s||o&1)&&r!==(r=`\r
-        Error 404: `+e[0]+`\r
-    `)&&(document.title=r)},i(e){s||(h(t.$$.fragment,e),s=!0)},o(e){E(t.$$.fragment,e),s=!1},d(e){e&&m(a),q(t,e)}}}function x(n,r,a){let t;return v(n,b,e=>a(1,t=e)),[`Not found: ${t.url.pathname}`]}class z extends i{constructor(r){super();p(this,r,x,w,c,{})}}export{z as default};

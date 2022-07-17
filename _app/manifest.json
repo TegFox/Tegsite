@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-c32eea73.js",
+    "file": "start-20183f30.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -46,36 +46,38 @@
     ]
   },
   "src/routes/__error.svelte": {
-    "file": "pages/__error.svelte-843a4318.js",
+    "file": "pages/__error.svelte-bb4ff776.js",
     "src": "src/routes/__error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-a55990bb.js",
-      "_Error-b1637bc1.js",
+      "_Error-26889f7b.js",
       "_notdone-12066466.js",
       "_Body-86e31cf7.js",
-      "_ReactiveComp825-4350eeb7.js",
-      "_StackPanel-068db40f.js"
+      "_ReactiveComp825.svelte_svelte_type_style_lang-5db0e45c.js",
+      "_StackPanel-068db40f.js",
+      "_ReactiveComp-11d9e89c.js"
     ]
   },
   "src/routes/404.svelte": {
-    "file": "pages/404.svelte-236bd1c7.js",
+    "file": "pages/404.svelte-2236e4fa.js",
     "src": "src/routes/404.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-a55990bb.js",
-      "_Error-b1637bc1.js",
+      "_Error-26889f7b.js",
       "_stores-6557de0f.js",
       "_notdone-12066466.js",
       "_Body-86e31cf7.js",
-      "_ReactiveComp825-4350eeb7.js",
-      "_StackPanel-068db40f.js"
+      "_ReactiveComp825.svelte_svelte_type_style_lang-5db0e45c.js",
+      "_StackPanel-068db40f.js",
+      "_ReactiveComp-11d9e89c.js"
     ]
   },
   "src/routes/about.svelte": {
-    "file": "pages/about.svelte-ba76d558.js",
+    "file": "pages/about.svelte-f4f1a207.js",
     "src": "src/routes/about.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -85,8 +87,9 @@
       "_Card-fa5957b3.js",
       "_Body-86e31cf7.js",
       "_PageTransition-4d4d9b2f.js",
-      "_ReactiveComp825-4350eeb7.js",
+      "_ReactiveComp825-e17b34dc.js",
       "_StackPanel-068db40f.js",
+      "_ReactiveComp825.svelte_svelte_type_style_lang-5db0e45c.js",
       "_stores-6557de0f.js"
     ],
     "css": [
@@ -108,7 +111,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-b2400f98.js",
+    "file": "pages/index.svelte-ddbaaba5.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -117,13 +120,14 @@
       "_PageTransition-4d4d9b2f.js",
       "_Card-fa5957b3.js",
       "_Body-86e31cf7.js",
-      "_Comms-b0240a92.js",
+      "_Comms-d6e1e732.js",
       "_StackPanel-068db40f.js",
       "_prices-7b5e27c8.js",
       "_ych-b7c23791.js",
       "_terms-733614e3.js",
       "_about-8d1c6325.js",
-      "_stores-6557de0f.js"
+      "_stores-6557de0f.js",
+      "_ReactiveComp-11d9e89c.js"
     ],
     "css": [
       "assets/pages/index.svelte-4beee935.css",
@@ -137,7 +141,7 @@
     ]
   },
   "src/routes/nsfw.svelte": {
-    "file": "pages/nsfw.svelte-ced08904.js",
+    "file": "pages/nsfw.svelte-108a01f3.js",
     "src": "src/routes/nsfw.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -146,24 +150,25 @@
       "_Card-fa5957b3.js",
       "_NotDone-e133e15d.js",
       "_Body-86e31cf7.js",
-      "_Comms-b0240a92.js",
+      "_Comms-d6e1e732.js",
       "_PageTransition-4d4d9b2f.js",
       "_stores-6557de0f.js",
       "_notdone-12066466.js",
-      "_StackPanel-068db40f.js"
+      "_StackPanel-068db40f.js",
+      "_ReactiveComp-11d9e89c.js"
     ],
     "css": [
       "assets/SideBySide.svelte_svelte_type_style_lang-1c55a519.css"
     ]
   },
   "src/routes/prices/fullbody.svelte": {
-    "file": "pages/prices/fullbody.svelte-28f689a8.js",
+    "file": "pages/prices/fullbody.svelte-dd68590b.js",
     "src": "src/routes/prices/fullbody.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-a55990bb.js",
-      "_commtypes-02d399d7.js",
+      "_commtypes-7d35a5c4.js",
       "_Card-fa5957b3.js",
       "_Body-86e31cf7.js",
       "_NotDone-e133e15d.js",
@@ -173,13 +178,13 @@
     ]
   },
   "src/routes/prices/halfbody.svelte": {
-    "file": "pages/prices/halfbody.svelte-1fa4b3dd.js",
+    "file": "pages/prices/halfbody.svelte-5e6b411e.js",
     "src": "src/routes/prices/halfbody.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-a55990bb.js",
-      "_commtypes-02d399d7.js",
+      "_commtypes-7d35a5c4.js",
       "_Card-fa5957b3.js",
       "_Body-86e31cf7.js",
       "_NotDone-e133e15d.js",
@@ -189,23 +194,24 @@
     ]
   },
   "src/routes/prices/headshot.svelte": {
-    "file": "pages/prices/headshot.svelte-78d7dd44.js",
+    "file": "pages/prices/headshot.svelte-72c5e858.js",
     "src": "src/routes/prices/headshot.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-a55990bb.js",
-      "_commtypes-02d399d7.js",
+      "_commtypes-7d35a5c4.js",
       "_Card-fa5957b3.js",
       "_Body-86e31cf7.js",
       "_NotDone-e133e15d.js",
+      "_StackPanel-068db40f.js",
       "_PageTransition-4d4d9b2f.js",
       "_stores-6557de0f.js",
       "_notdone-12066466.js"
     ]
   },
   "src/routes/prices/index.svelte": {
-    "file": "pages/prices/index.svelte-b46bdfec.js",
+    "file": "pages/prices/index.svelte-7267ab14.js",
     "src": "src/routes/prices/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -215,14 +221,16 @@
       "_prices-7b5e27c8.js",
       "_Card-fa5957b3.js",
       "_Body-86e31cf7.js",
-      "_Comms-b0240a92.js",
+      "_Comms-d6e1e732.js",
       "_StackPanel-068db40f.js",
-      "_ReactiveComp825-4350eeb7.js",
-      "_commtypes-02d399d7.js",
+      "_ReactiveComp-11d9e89c.js",
+      "_ReactiveComp825-e17b34dc.js",
+      "_commtypes-7d35a5c4.js",
+      "_ReactiveComp825.svelte_svelte_type_style_lang-5db0e45c.js",
       "_stores-6557de0f.js"
     ],
     "css": [
-      "assets/pages/prices/index.svelte-22489285.css",
+      "assets/pages/prices/index.svelte-ca5105d0.css",
       "assets/SideBySide.svelte_svelte_type_style_lang-1c55a519.css"
     ],
     "assets": [
@@ -231,13 +239,13 @@
     ]
   },
   "src/routes/prices/more.svelte": {
-    "file": "pages/prices/more.svelte-a40ab55e.js",
+    "file": "pages/prices/more.svelte-e0a4fd86.js",
     "src": "src/routes/prices/more.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-a55990bb.js",
-      "_commtypes-02d399d7.js",
+      "_commtypes-7d35a5c4.js",
       "_Card-fa5957b3.js",
       "_Body-86e31cf7.js",
       "_NotDone-e133e15d.js",
@@ -247,13 +255,13 @@
     ]
   },
   "src/routes/prices/refsheet.svelte": {
-    "file": "pages/prices/refsheet.svelte-2567a602.js",
+    "file": "pages/prices/refsheet.svelte-37f18d06.js",
     "src": "src/routes/prices/refsheet.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-a55990bb.js",
-      "_commtypes-02d399d7.js",
+      "_commtypes-7d35a5c4.js",
       "_Card-fa5957b3.js",
       "_Body-86e31cf7.js",
       "_NotDone-e133e15d.js",
@@ -263,13 +271,13 @@
     ]
   },
   "src/routes/prices/stickers.svelte": {
-    "file": "pages/prices/stickers.svelte-e0e4e545.js",
+    "file": "pages/prices/stickers.svelte-097da142.js",
     "src": "src/routes/prices/stickers.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-a55990bb.js",
-      "_commtypes-02d399d7.js",
+      "_commtypes-7d35a5c4.js",
       "_Card-fa5957b3.js",
       "_Body-86e31cf7.js",
       "_NotDone-e133e15d.js",
@@ -296,7 +304,7 @@
     ]
   },
   "src/routes/ych.svelte": {
-    "file": "pages/ych.svelte-c81b5422.js",
+    "file": "pages/ych.svelte-028d47dc.js",
     "src": "src/routes/ych.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -307,10 +315,11 @@
       "_Card-fa5957b3.js",
       "_Body-86e31cf7.js",
       "_NotDone-e133e15d.js",
-      "_Comms-b0240a92.js",
+      "_Comms-d6e1e732.js",
       "_stores-6557de0f.js",
       "_notdone-12066466.js",
-      "_StackPanel-068db40f.js"
+      "_StackPanel-068db40f.js",
+      "_ReactiveComp-11d9e89c.js"
     ],
     "css": [
       "assets/SideBySide.svelte_svelte_type_style_lang-1c55a519.css"
@@ -346,17 +355,18 @@
       "_index-a55990bb.js"
     ]
   },
-  "_Error-b1637bc1.js": {
-    "file": "chunks/Error-b1637bc1.js",
+  "_Error-26889f7b.js": {
+    "file": "chunks/Error-26889f7b.js",
     "imports": [
       "_index-a55990bb.js",
       "_notdone-12066466.js",
       "_Body-86e31cf7.js",
-      "_ReactiveComp825-4350eeb7.js",
-      "_StackPanel-068db40f.js"
+      "_ReactiveComp825.svelte_svelte_type_style_lang-5db0e45c.js",
+      "_StackPanel-068db40f.js",
+      "_ReactiveComp-11d9e89c.js"
     ],
     "css": [
-      "assets/Error-16cd530f.css"
+      "assets/Error-a916d6fa.css"
     ]
   },
   "_notdone-12066466.js": {
@@ -365,13 +375,13 @@
       "assets/notdone-62797d50.png"
     ]
   },
-  "_ReactiveComp825-4350eeb7.js": {
-    "file": "chunks/ReactiveComp825-4350eeb7.js",
+  "_ReactiveComp825.svelte_svelte_type_style_lang-5db0e45c.js": {
+    "file": "chunks/ReactiveComp825.svelte_svelte_type_style_lang-5db0e45c.js",
     "imports": [
       "_index-a55990bb.js"
     ],
     "css": [
-      "assets/ReactiveComp825-fcd71096.css"
+      "assets/ReactiveComp825.svelte_svelte_type_style_lang-254a4d19.css"
     ]
   },
   "_StackPanel-068db40f.js": {
@@ -381,6 +391,15 @@
     ],
     "css": [
       "assets/StackPanel-5cbb55a7.css"
+    ]
+  },
+  "_ReactiveComp-11d9e89c.js": {
+    "file": "chunks/ReactiveComp-11d9e89c.js",
+    "imports": [
+      "_index-a55990bb.js"
+    ],
+    "css": [
+      "assets/ReactiveComp-53f69978.css"
     ]
   },
   "_about-8d1c6325.js": {
@@ -400,15 +419,23 @@
       "assets/Card-5dc43f97.css"
     ]
   },
-  "_Comms-b0240a92.js": {
-    "file": "chunks/Comms-b0240a92.js",
+  "_ReactiveComp825-e17b34dc.js": {
+    "file": "chunks/ReactiveComp825-e17b34dc.js",
+    "imports": [
+      "_index-a55990bb.js",
+      "_ReactiveComp825.svelte_svelte_type_style_lang-5db0e45c.js"
+    ]
+  },
+  "_Comms-d6e1e732.js": {
+    "file": "chunks/Comms-d6e1e732.js",
     "imports": [
       "_index-a55990bb.js",
       "_StackPanel-068db40f.js",
-      "_Card-fa5957b3.js"
+      "_Card-fa5957b3.js",
+      "_ReactiveComp-11d9e89c.js"
     ],
     "css": [
-      "assets/Comms-ab4996f8.css",
+      "assets/Comms-d0763412.css",
       "assets/SideBySide.svelte_svelte_type_style_lang-1c55a519.css"
     ]
   },
@@ -439,8 +466,8 @@
       "_Card-fa5957b3.js"
     ]
   },
-  "_commtypes-02d399d7.js": {
-    "file": "chunks/commtypes-02d399d7.js",
+  "_commtypes-7d35a5c4.js": {
+    "file": "chunks/commtypes-7d35a5c4.js",
     "assets": [
       "assets/headshot-6ae58d6f.png",
       "assets/halfbody-68a45cbc.png",
