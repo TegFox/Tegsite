@@ -37,7 +37,7 @@
         </div>
 
         {#if href}
-            <a {href} class="text" style:text-decoration="none" style:color="cyan">
+            <a {href} class="text link">
                 Go to {name}
             </a>
         {/if}

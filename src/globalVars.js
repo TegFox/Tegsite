@@ -1,5 +1,5 @@
 export default  {
-    comms: 'closed',
+    comms: 'askme',
     comm_form: 'http://dance.goat.dance/',
     links: {
         home: {

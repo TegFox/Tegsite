@@ -37,6 +37,11 @@ body {
     text-align: center;
 }
 
+.link {
+    text-decoration: none;
+    color: cyan;
+}
+
 .h1 {
     font-size: 5rem;
     font-weight: bold;
