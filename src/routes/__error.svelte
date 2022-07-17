@@ -1,3 +1,14 @@
+<script context="module">
+    export function load({ error, status }) {
+        return {
+            props: {
+                status,
+                message: error.message,
+            }
+        };
+    }
+</script>
+
 <script>
     import src from '../assets/notdone.png'
     import Body from "../lib/Body.svelte";
@@ -5,7 +16,16 @@
     import SideBySideUneven from "../lib/SideBySideUneven.svelte";
     import ReactiveComp825 from "../lib/ReactiveComp825.svelte";
     import StackPanel from "../lib/StackPanel.svelte";
+
+    export let status
+    export let message
 </script>
+
+<svelte:head>
+    <title>
+        Error {status}: {message}
+    </title>
+</svelte:head>
 
 <div class="spacer">
 
@@ -24,9 +44,15 @@
                             Oops!
                         </div>
                         <div class="text">
-                            The page you went to doesn't seem to exist for whatever reason!
-                            If you think that this page should exist but it doesn't, please shoot me a message and let me know
-                            so I can fix it!
+                            There was an error trying to load that page! If you think that there shouldn't be an error
+                            here, please shoot me a message so i can try to fix it as soon as i can.
+                        </div>
+
+                        <div class="text" style:margin-top="1rem">
+                            Status code: <strong>{status}</strong>
+                        </div>
+                        <div>
+                            <code>{message}</code>
                         </div>
                     </div>
                 </SideBySideUneven>
@@ -38,9 +64,14 @@
                         Oops!
                     </div>
                     <div class="tac tex">
-                        The page you went to doesn't seem to exist for whatever reason!
-                        If you think that this page should exist but it doesn't, please shoot me a message and let me know
-                        so I can fix it!
+                        There was an error trying to load that page! If you think that there shouldn't be an error
+                        here, please shoot me a message so i can try to fix it as soon as i can.
+                    </div>
+                    <div class="text tac" style:margin-bottom="-1rem">
+                        Status code: <strong>{status}</strong>
+                    </div>
+                    <div class="tac">
+                        <code>{message}</code>
                     </div>
                 </StackPanel>
             </div>
