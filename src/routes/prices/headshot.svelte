@@ -4,6 +4,7 @@
     import Title from "../../comps/common/Title.svelte";
     import Body from "../../lib/Body.svelte";
     import NotDone from "../../comps/common/NotDone.svelte";
+    import StackPanel from "../../lib/StackPanel.svelte";
 </script>
 
 <svelte:head>
@@ -16,6 +17,12 @@
     <Title img={commtypes.headshot.img} title={commtypes.headshot.name}>
         {commtypes.headshot.desc}
     </Title>
+
+    <Body>
+        <StackPanel direction="column">
+
+        </StackPanel>
+    </Body>
 
     <Body>
         <NotDone/>

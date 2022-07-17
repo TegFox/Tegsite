@@ -56,7 +56,7 @@
             <div class="h2">
                 My OCs!
             </div>
-            <p style:margin-top="0" class="text">
+            <p style:margin="0.5rem" class="text">
                 These are all of my characters! More on the way 🦊
             </p>
         </div>
@@ -72,6 +72,9 @@
             </div>
 
             <div slot="alt" >
+                <div class="tac">
+                    Swipe (or click and drag) to navigate!
+                </div>
                 <Swiper modules={[Pagination]}
                         slidesPerView="auto"
                         pagination={{

@@ -13,7 +13,7 @@ import globalVars from "../globalVars.js";
 
 <div>
     <Title title="NSFW Info">
-        If you are under the age of 18, please leave. now.
+        NSFW Art Commission process info!
     </Title>
 
     <Body>

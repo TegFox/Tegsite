@@ -1,7 +1,7 @@
 <script>
     import Error from "../comps/common/Error.svelte";
     import {page} from "$app/stores";
-    let message = `Not found: ${$page.url.pathname}`
+    let message = `Not found: ${$page.url.pathname ?? ''}`
 </script>
 
 <svelte:head>

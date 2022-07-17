@@ -16,9 +16,9 @@
             <p class="h3 allcaps wide">
                 Adult art?
             <p>
-                I do offer NSFW commissions! While no NSFW art is on this site, I do have some information about the
+                While no NSFW art is on this site, I do have some information about the
                 commission process that may be helpful!
-            <p>
+            <p class="allcaps wide">
                 <strong>
                     This is only for people 18 and over.
                 </strong>

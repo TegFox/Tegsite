@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="a lot of things">
-      <change afterPath="$PROJECT_DIR$/src/comps/common/Error.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/404.svelte" afterDir="false" />
+    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="reimplemented error page to work with gh-pages 404 stuff">
+      <change afterPath="$PROJECT_DIR$/src/comps/common/CommInfoCard.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/__error.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/__error.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commtypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/commtypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/about/MyOCs.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/MyOCs.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/common/Error.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/Error.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/prices/AComms.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/prices/AComms.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/404.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/404.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/nsfw.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/nsfw.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/prices/headshot.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/headshot.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/prices/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/index.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +72,7 @@
         <option value="nsfw" />
         <option value="Error" />
         <option value="404" />
+        <option value="CommInfoCard" />
       </list>
     </option>
   </component>
@@ -86,18 +93,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Users\\josep\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\221.5080.193\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\josep\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\221.5080.193\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\comps\common" />
@@ -171,14 +178,8 @@
       <workItem from="1657802948072" duration="414000" />
       <workItem from="1657827698963" duration="748000" />
       <workItem from="1657831587548" duration="712000" />
-      <workItem from="1658034783504" duration="5819000" />
-    </task>
-    <task id="LOCAL-00003" summary="Reduced images">
-      <created>1653164496931</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1653164496931</updated>
+      <workItem from="1658034783504" duration="10866000" />
+      <workItem from="1658089521321" duration="1865000" />
     </task>
     <task id="LOCAL-00004" summary="Mobile fixes">
       <created>1653165396615</created>
@@ -516,7 +517,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658039652744</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="reimplemented error page to work with gh-pages 404 stuff">
+      <created>1658040752634</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1658040752634</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,7 +543,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added socials and site info" />
     <MESSAGE value="Tweaked about page" />
     <MESSAGE value="mobile optimizations" />
     <MESSAGE value="Minor touchups" />
@@ -560,6 +567,7 @@
     <MESSAGE value="basic 404" />
     <MESSAGE value="Polished the error page" />
     <MESSAGE value="a lot of things" />
-    <option name="LAST_COMMIT_MESSAGE" value="a lot of things" />
+    <MESSAGE value="reimplemented error page to work with gh-pages 404 stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="reimplemented error page to work with gh-pages 404 stuff" />
   </component>
 </project>

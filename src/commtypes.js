@@ -13,19 +13,19 @@ const commtypes = {
         desc: 'Art of your character from the chest up',
         start: '25.00',
     },
-    halfbody: {
-        name: 'Half Bodies',
-        link: 'halfbody',
-        img: HalfbodyImg,
-        desc: 'Art of around half your character 🤷 ',
-        start: '50.00',
-    },
     fullbody: {
         name: 'Full Bodies',
         link: 'fullbody',
         img: FullbodyImg,
         desc: 'Show off your character(s) in a dynamic pose',
         start: '65.00',
+    },
+    halfbody: {
+        name: 'Half Bodies',
+        link: 'halfbody',
+        img: HalfbodyImg,
+        desc: 'Art of around half your character 🤷 ',
+        start: '50.00',
     },
     refsheet: {
         name: 'Reference Sheets',
@@ -50,5 +50,7 @@ const commtypes = {
         start: undefined,
     },
 }
+
+
 
 export default commtypes
