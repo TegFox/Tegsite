@@ -4,7 +4,7 @@ import Title from "../comps/common/Title.svelte";
 import NotDone from "../comps/common/NotDone.svelte";
 import Body from "../lib/Body.svelte";
 import Comms from "../comps/common/Comms.svelte";
-import globalVars from "../globalVars.js";
+import globalVars from "../vars/GlobalVars.js";
 </script>
 
 <title>

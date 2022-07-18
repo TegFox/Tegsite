@@ -1,5 +1,5 @@
 <script>
-    import globalVars from "../../globalVars.js";
+    import globalVars from "../../vars/GlobalVars.js";
     import Card from "../../lib/Card.svelte";
     import SideBySide from "../../lib/SideBySide.svelte";
     import StackPanel from "../../lib/StackPanel.svelte";

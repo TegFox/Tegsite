@@ -1,5 +1,5 @@
 <script>
-    import gvars from '../../globalVars.js'
+    import gvars from '../../vars/GlobalVars.js'
     import StackPanel from "../../lib/StackPanel.svelte"
     import Goto from "../common/Goto.svelte"
     import Prices from "../../assets/prices.png"

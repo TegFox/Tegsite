@@ -1,12 +1,11 @@
 <script>
-    import globalVars from "../../globalVars.js";
+    import globalVars from "../../vars/GlobalVars.js";
     import HoverCard from "../../lib/HoverCard.svelte";
     import StackPanel from "../../lib/StackPanel.svelte";
     import ReactiveComp from "../../lib/ReactiveComp.svelte";
     import ReactiveComp825 from "../../lib/ReactiveComp825.svelte";
     import Card from "../../lib/Card.svelte";
     import RArrow from '../../assets/other/rarrow.svg'
-    import commtypes from '../../commtypes.js'
 
     export let routeBase
 
@@ -17,30 +16,30 @@
 
 <StackPanel direction="column" gap="2rem">
 
-    {#each Object.keys(commtypes) as key}
+    {#each globalVars.comm_types as type}
 
         <ReactiveComp825>
             <div slot="main" class="hover-target">
-                <a href="{routeBase}{commtypes[key].link}" style:text-decoration="none" style:color="white">
+                <a href="{routeBase}{type.link}" style:text-decoration="none" style:color="white">
                     <HoverCard {background} {overlayBackground} padding="1.5rem">
                         <StackPanel direction="row" gap="2.5rem" align="center">
-                            <div class="section-img" style:background-image={`url(${commtypes[key].img})`}
+                            <div class="section-img" style:background-image={`url(${type.img})`}
                                  style:background-repeat="no-repeat"
-                                 style:background-size={commtypes[key].contain ? "contain" : "cover" }
+                                 style:background-size={type.contain ? "contain" : "cover" }
                                  style:background-position="center" style:border-radius="12px"></div>
                             <div class="section-text">
                                 <StackPanel direction="column">
                                     <div class="allcaps wide h3">
-                                        {commtypes[key].name}
+                                        {type.name}
                                     </div>
                                     <div class="text">
                                         <p>
-                                            {#if commtypes[key].desc}
-                                                {commtypes[key].desc}
+                                            {#if type.desc}
+                                                {type.desc}
                                             {/if}
                                         <p>
-                                            {#if commtypes[key].start}
-                                                Starting at <strong>US${commtypes[key].start}</strong>
+                                            {#if type.start}
+                                                Starting at <strong>US${type.start}</strong>
                                             {/if}
                                         </p>
                                         <div class="cap">
@@ -57,23 +56,23 @@
                 </a>
             </div>
             <div slot="alt">
-                <a href="{routeBase}{commtypes[key].link}" style:text-decoration="none" style:color="white">
+                <a href="{routeBase}{type.link}" style:text-decoration="none" style:color="white">
                     <Card background={overlayBackground} padding="1.5rem">
                         <StackPanel direction="column" gap="2rem" align="center">
-                            <div style:width="100%" style:height="20rem" style:background-image={`url(${commtypes[key].img})`}
+                            <div style:width="100%" style:height="20rem" style:background-image={`url(${type.img})`}
                                  style:background-size="cover" style:background-position="center" style:border-radius="12px"></div>
                             <StackPanel direction="column">
                                 <div class="allcaps wide h3 tac">
-                                    {commtypes[key].name}
+                                    {type.name}
                                 </div>
                                 <div class="text tac">
                                     <p>
-                                        {#if commtypes[key].desc}
-                                            {commtypes[key].desc}
+                                        {#if type.desc}
+                                            {type.desc}
                                         {/if}
                                     <p>
-                                        {#if commtypes[key].start}
-                                            Starting at <strong>US${commtypes[key].start}</strong>
+                                        {#if type.start}
+                                            Starting at <strong>US${type.start}</strong>
                                         {/if}
                                     </p>
                                     <div class="cap">

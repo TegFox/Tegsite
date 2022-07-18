@@ -5,9 +5,10 @@
     export let img
     export let height = 'auto'
     export let maxHeightDelta
+    export let contain
 </script>
 
-<Card padding="0" {img} {height} {borderRadius}>
+<Card padding="0" {img} {height} {borderRadius} {contain}>
     <div class="grad" style="--gradrevealdetails-max-height-delta: {maxHeightDelta};
                              --gradrevealdetails-border-radius: calc({borderRadius} - 1px);">
         <div class="container">

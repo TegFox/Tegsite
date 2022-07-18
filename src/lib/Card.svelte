@@ -4,7 +4,7 @@
     export let borderRadius = '16px'
     export let padding = '3rem 2rem'
     export let height
-
+    export let contain = false
 </script>
 
 
@@ -14,7 +14,7 @@
      style:padding
      style:background
      style:background-image={img ? `url(${img})` : undefined}
-     style:background-size="cover"
+     style:background-size={contain ? 'contain' : 'cover'}
      style:background-position="center"
      style:max-width="100vw">
     <slot/>

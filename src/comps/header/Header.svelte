@@ -4,7 +4,7 @@
     import { scrollTop } from 'svelte-scrolling'
     import MobileNavBar from "./MobileNavBar.svelte";
     import {fly} from 'svelte/transition'
-    import globalVars from "../../globalVars.js";
+    import globalVars from "../../vars/GlobalVars.js";
     import NavLink from "../../lib/NavLink.svelte";
     import PageTransition from "../../lib/PageTransition.svelte";
 

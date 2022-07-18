@@ -1,5 +1,5 @@
 <script>
-    import gvars from "../globalVars.js"
+    import gvars from "../vars/GlobalVars.js"
 
     import Title from "../comps/common/Title.svelte"
     import img from '../assets/forest.png'

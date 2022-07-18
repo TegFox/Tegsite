@@ -1,5 +1,5 @@
 <script>
-    import globalVars from "../../globalVars.js";
+    import globalVars from "../../vars/GlobalVars.js";
     import Body from "../../lib/Body.svelte";
     import SideBySide from "../../lib/SideBySide.svelte";
     import Svelte from '../../assets/icons/svelte-full.svg'

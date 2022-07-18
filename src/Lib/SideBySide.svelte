@@ -5,12 +5,14 @@
     export let gap = '4%'
     export let mobileGap = gap;
     export let reverse = false
+    export let align = 'center'
 
 </script>
 
 <div class="sxs-flex-outer"
      style={`--sxs-child-width: ${childWidth};
              --sxs-max-child-width: ${maxChildWidth};
+             --sxs-align: ${align};
              --sxs-gap: ${gap};
              --sxs-mobile-gap: ${mobileGap};
              --sxs-mobile-dir: ${reverse ? 'column-reverse' : 'column'}`}>

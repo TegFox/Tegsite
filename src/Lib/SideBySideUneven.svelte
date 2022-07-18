@@ -6,12 +6,14 @@
     export let gap = '4%'
     export let mobileGap = gap;
     export let reverse = false
+    export let align = 'center'
 
 </script>
 
 <div class="sxs-flex-outer"
      style={`--sxs-left-width: ${leftWidth};
              --sxs-max-child-width: ${maxChildWidth};
+             --sxs-align: ${align};
              --sxs-width: ${width};
              --sxs-gap: ${gap};
              --sxs-mobile-gap: ${mobileGap};
@@ -35,7 +37,7 @@
         width: var(--sxs-width);
         max-width: 100%;
         display: flex;
-        align-items: center;
+        align-items: var(--sxs-align);
         gap: var(--sxs-gap);
     }
 

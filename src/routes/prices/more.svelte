@@ -1,6 +1,6 @@
 <script>
-    import globalVars from "../../globalVars.js";
-    import commtypes from "../../commtypes.js";
+    import globalVars from "../../vars/GlobalVars.js";
+    import More from "../../vars/comms/More.js";
     import Title from "../../comps/common/Title.svelte";
     import Body from "../../lib/Body.svelte";
     import NotDone from "../../comps/common/NotDone.svelte";
@@ -8,13 +8,13 @@
 
 <svelte:head>
     <title>
-        {commtypes.more.name} - Teg Fox
+        {More.name} - Teg Fox
     </title>
 </svelte:head>
 
 <div>
-    <Title img={commtypes.more.img} title={commtypes.more.name}>
-        {commtypes.more.desc}
+    <Title img={More.img} title={More.name}>
+        {More.desc}
     </Title>
 
     <Body>

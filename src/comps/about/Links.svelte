@@ -2,7 +2,7 @@
     import HCardButton from "../common/HCardButton.svelte";
     import Icon from "../../lib/Icon.svelte";
     import {siMicrosoftoutlook, siPatreon, siTrello, siTwitter} from "simple-icons/icons";
-    import globalVars from "../../globalVars.js";
+    import globalVars from "../../vars/GlobalVars.js";
 
     const background = '#000000aa'
 </script>

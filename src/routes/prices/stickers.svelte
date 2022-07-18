@@ -1,6 +1,6 @@
 <script>
-    import globalVars from "../../globalVars.js";
-    import commtypes from "../../commtypes.js";
+    import globalVars from "../../vars/GlobalVars.js";
+    import Stickers from "../../vars/comms/Stickers.js"
     import Title from "../../comps/common/Title.svelte";
     import Body from "../../lib/Body.svelte";
     import NotDone from "../../comps/common/NotDone.svelte";
@@ -8,13 +8,13 @@
 
 <svelte:head>
     <title>
-        {commtypes.stickers.name} - Teg Fox
+        {Stickers.name} - Teg Fox
     </title>
 </svelte:head>
 
 <div>
-    <Title img={commtypes.stickers.img} title={commtypes.stickers.name}>
-        {commtypes.stickers.desc}
+    <Title img={Stickers.img} title={Stickers.name} contain={Stickers.contain}>
+        {Stickers.desc}
     </Title>
 
     <Body>

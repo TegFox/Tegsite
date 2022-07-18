@@ -1,5 +1,5 @@
 <script>
-    import gvars from "../../globalVars.js"
+    import gvars from "../../vars/GlobalVars.js"
     import StackPanel from "../../lib/StackPanel.svelte";
     import DescLink from "../common/DescLink.svelte";
     import Twitter from "../../assets/icons/twitter.svg"

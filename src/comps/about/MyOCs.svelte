@@ -1,6 +1,6 @@
 <script>
     import Card from "../../lib/Card.svelte";
-    import globalVars from "../../globalVars.js";
+    import globalVars from "../../vars/GlobalVars.js";
     import CharacterIcon from "../common/CharacterIcon.svelte";
     import Teg from '../../assets/chars/teg.png'
     import Kai from '../../assets/chars/kai.png'

@@ -1,21 +1,20 @@
 <script>
-    import globalVars from "../../globalVars.js";
-    import commtypes from "../../commtypes.js";
+    import globalVars from "../../vars/GlobalVars.js";
+    import Halfbody from "../../vars/comms/Halfbody.js";
     import Title from "../../comps/common/Title.svelte";
     import Body from "../../lib/Body.svelte";
     import NotDone from "../../comps/common/NotDone.svelte";
+    import InfoPage from "../../comps/prices/InfoPage.svelte";
 </script>
 
 <svelte:head>
     <title>
-        {commtypes.halfbody.name} - Teg Fox
+        {Halfbody.name} - Teg Fox
     </title>
 </svelte:head>
 
 <div>
-    <Title img={commtypes.halfbody.img} title={commtypes.halfbody.name}>
-        {commtypes.halfbody.desc}
-    </Title>
+    <InfoPage info={Halfbody}/>
 
     <Body>
         <NotDone/>

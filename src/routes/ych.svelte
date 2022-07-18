@@ -1,5 +1,5 @@
 <script>
-    import globalVars from "../globalVars.js";
+    import globalVars from "../vars/GlobalVars.js";
     import img from "../assets/ych.png"
     import Title from "../comps/common/Title.svelte";
     import Body from "../lib/Body.svelte";

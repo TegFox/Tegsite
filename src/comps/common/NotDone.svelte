@@ -1,5 +1,5 @@
 <script>
-    import globalVars from "../../globalVars.js";
+    import globalVars from "../../vars/GlobalVars.js";
 
     import nd from '../../assets/notdone.png'
     import Card from "../../lib/Card.svelte";

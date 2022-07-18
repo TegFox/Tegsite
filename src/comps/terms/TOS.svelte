@@ -1,7 +1,7 @@
 <script>
     import Body from "../../lib/Body.svelte";
     import Card from "../../lib/Card.svelte";
-    import globalVars from "../../globalVars.js";
+    import globalVars from "../../vars/GlobalVars.js";
     import Divider from "../../lib/Divider.svelte";
 </script>
 

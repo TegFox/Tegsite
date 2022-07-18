@@ -12,6 +12,18 @@ body {
     align-items: center;
 }
 
+.row-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.no-highlight {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
 @media (max-width: 700px) {
     .mobile-center {
         display: flex;

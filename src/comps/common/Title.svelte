@@ -3,6 +3,7 @@
     export let title
     export let height = '96vh'
     export let background = 'black'
+    export let contain = false
 
     const parallaxconst = 0.6;
     const overlaybg = `linear-gradient(transparent 25%, ${background} 95%)`
@@ -24,6 +25,7 @@
 <div>
     <div class="out" style:height>
         <div class="out out-bg"
+             class:bg-contain={contain}
              style:height
              style:position="absolute"
              style:transform={`translate3d(0, ${scroll < outerHeight ? scroll * parallaxconst : 0}px, 0)`}
@@ -116,5 +118,11 @@
         width: 100vw;
         z-index: -1;
     }
+
+    .bg-contain {
+        background-repeat: repeat;
+        background-size: contain;
+    }
+
 
 </style>
