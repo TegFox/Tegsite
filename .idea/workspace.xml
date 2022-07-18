@@ -1,60 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="More updates">
-      <change afterPath="$PROJECT_DIR$/src/assets/comms/fullbody/normal/fbn1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/comms/fullbody/normal/fbn2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/comms/fullbody/normal/fbn3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/comms/fullbody/normal/fbn4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/comms/fullbody/normal/fbn5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/comms/halfbody/normal/hbn1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/comms/halfbody/normal/hbn2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/comms/halfbody/normal/hbn3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/comms/headshot/lined/hsl1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/comms/headshot/lineless/hsls1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/comms/headshot/lineless/hsls2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/comms/headshot/lineless/hsls3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/comps/prices/InfoPage.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vars/comms/Fullbody.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vars/comms/Halfbody.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vars/comms/Headshot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vars/comms/More.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vars/comms/RefSheet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vars/comms/Stickers.js" afterDir="false" />
+    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Many changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/SideBySide.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/SideBySide.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/SideBySideUneven.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/SideBySideUneven.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/comms/stickers.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/stickers.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commtypes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/about/AboutSite.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/AboutSite.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/about/Links.Old.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/Links.Old.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/about/Links.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/Links.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/about/MyOCs.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/MyOCs.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/comps/common/CommInfoCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/CommInfoCard.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/common/GradRevealDetails.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/GradRevealDetails.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/common/NotDone.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/NotDone.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/common/Title.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/Title.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/header/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/header/Header.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/header/NavBar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/header/NavBar.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/home/HomeLinks.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/home/HomeLinks.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/home/LocalLinks.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/home/LocalLinks.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/prices/CommTypes.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/prices/CommTypes.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/prices/OldCommTypes.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/prices/OldCommTypes.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/terms/FAQ.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/terms/FAQ.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/terms/TOS.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/terms/TOS.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/globalVars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vars/GlobalVars.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Card.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Card.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/nsfw.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/nsfw.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/prices/fullbody.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/fullbody.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/prices/halfbody.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/halfbody.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/prices/headshot.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/headshot.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/prices/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/index.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/prices/more.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/more.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/prices/refsheet.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/refsheet.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/prices/stickers.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/stickers.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/ych.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/ych.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,14 +173,7 @@
       <workItem from="1657827698963" duration="748000" />
       <workItem from="1657831587548" duration="712000" />
       <workItem from="1658034783504" duration="10866000" />
-      <workItem from="1658089521321" duration="18364000" />
-    </task>
-    <task id="LOCAL-00005" summary="Home social links spacing fixed">
-      <created>1653166429462</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1653166429462</updated>
+      <workItem from="1658089521321" duration="21196000" />
     </task>
     <task id="LOCAL-00006" summary="Optimized more images">
       <created>1653166670968</created>
@@ -568,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658091609400</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Many changes">
+      <created>1658107942144</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1658107942144</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,7 +537,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="mobile optimizations" />
     <MESSAGE value="Minor touchups" />
     <MESSAGE value="More minor fixes" />
     <MESSAGE value="Minor Fixes + TOS page" />
@@ -612,6 +561,7 @@
     <MESSAGE value="a lot of things" />
     <MESSAGE value="reimplemented error page to work with gh-pages 404 stuff" />
     <MESSAGE value="More updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="More updates" />
+    <MESSAGE value="Many changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Many changes" />
   </component>
 </project>

@@ -15,7 +15,7 @@
 <HoverCard background="#ffffff18" overlayBackground={globalVars.colors.teg_grey} padding="3rem">
     <ReactiveComp825>
         <div slot="alt" class="tac title-mobile">
-            <div class=" h3 allcaps wide">{info.name}</div>
+            <div class="h2 allcaps wide">{info.name}</div>
             <div class="text">{info.desc}</div>
         </div>
     </ReactiveComp825>
@@ -23,7 +23,7 @@
         <div slot="left" class="text">
             <ReactiveComp825>
                 <div slot="main">
-                    <div class="h3 allcaps wide">{info.name}</div>
+                    <div class="h2 allcaps wide">{info.name}</div>
                     <p>{info.desc}</p>
                 </div>
             </ReactiveComp825>
@@ -53,21 +53,22 @@
         </div>
         <div slot="right" class:swiper-slide-outer={info.imgs && info.imgs.length > 1}>
             <Swiper modules={[Pagination, Navigation]}
+                    centeredSlides={true}
                     slidesPerView="auto"
                     navigation={true}
                     pagination={{
                             clickable: true
                         }}>
                 {#each info.imgs ?? [] as src}
-                    <div class="swiper-slide">
-                        <div class="swiper-slide-inner" class:swiper-slide-inner-offset={info.imgs && info.imgs.length > 1}>
+                    <div class="swiper-slide center-outer">
+                        <div class="swiper-slide-inner center-inner" class:swiper-slide-inner-offset={info.imgs && info.imgs.length > 1}>
                             <img {src} class="img no-highlight"/>
                         </div>
                     </div>
                 {/each}
             </Swiper>
             {#if info.imgs && info.imgs.length > 1}
-                <div class="tac cap" style:margin-top="-0.5rem">
+                <div class="tac cap">
                     Swipe to navigate through gallery
                 </div>
             {/if}
@@ -77,39 +78,47 @@
 
 <style>
 
-    .title-mobile {
-        margin-bottom: 2rem;
+    :root {
+        --cic-img-height: 32rem;
     }
 
-    .swiper-slide-outer {
-        margin-top: -2rem;
+    .center-outer {
+        display: table;
+        height: 100%
     }
 
-    .swiper-slide-inner-offset {
-        margin: 2rem 0;
-    }
-
-    .swiper-slide-inner {
-        height: 32rem;
+    .center-inner {
+        display: table-cell;
+        vertical-align: middle;
         text-align: center;
-        display: grid;
-        place-content: center;
     }
 
     .img {
         border-radius: 8px;
-        max-height: 32rem;
+        max-height: var(--cic-img-height);
         max-width: 99%;
     }
 
-    @media (max-width: 825px) {
-        .swiper-slide-inner {
-            height: 20rem;
-        }
-        .img {
-            max-height: 20rem;
-            max-width: 99%;
+    .swiper-slide-inner-offset {
+        margin: 0 0.25rem;
+    }
+
+    .swiper-slide-inner {
+        height: var(--cic-img-height);
+    }
+
+    @media (max-width: 1280px) {
+        :root {
+            --cic-img-height: 26rem;
         }
     }
+
+    @media (max-width: 960px) {
+        :root {
+            --cic-img-height: 22rem;
+        }
+    }
+
+
 
 </style>
