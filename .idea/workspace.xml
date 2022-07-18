@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Many changes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/common/CommInfoCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/CommInfoCard.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/prices/halfbody.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/halfbody.svelte" afterDir="false" />
+    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="centering garbage">
+      <change beforePath="$PROJECT_DIR$/src/assets/comms/fullbody/normal/fbn2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/prices/fullbody.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/fullbody.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/prices/headshot.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/headshot.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,14 +173,7 @@
       <workItem from="1657827698963" duration="748000" />
       <workItem from="1657831587548" duration="712000" />
       <workItem from="1658034783504" duration="10866000" />
-      <workItem from="1658089521321" duration="21196000" />
-    </task>
-    <task id="LOCAL-00006" summary="Optimized more images">
-      <created>1653166670968</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1653166670968</updated>
+      <workItem from="1658089521321" duration="21498000" />
     </task>
     <task id="LOCAL-00007" summary="Optimizations and aesthetic fixes">
       <created>1653627569107</created>
@@ -518,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658107942144</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="centering garbage">
+      <created>1658111223840</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1658111223840</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +537,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Minor touchups" />
     <MESSAGE value="More minor fixes" />
     <MESSAGE value="Minor Fixes + TOS page" />
     <MESSAGE value="Fixes to the mobile about page and added dummy pages" />
@@ -562,6 +561,7 @@
     <MESSAGE value="reimplemented error page to work with gh-pages 404 stuff" />
     <MESSAGE value="More updates" />
     <MESSAGE value="Many changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Many changes" />
+    <MESSAGE value="centering garbage" />
+    <option name="LAST_COMMIT_MESSAGE" value="centering garbage" />
   </component>
 </project>

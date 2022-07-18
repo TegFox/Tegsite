@@ -1,11 +1,8 @@
 <script>
     import GlobalVars from "../../vars/GlobalVars.js";
     import Headshot from "../../vars/comms/Headshot.js";
-    import Title from "../../comps/common/Title.svelte";
     import Body from "../../lib/Body.svelte";
     import NotDone from "../../comps/common/NotDone.svelte";
-    import StackPanel from "../../lib/StackPanel.svelte";
-    import CommInfoCard from "../../comps/common/CommInfoCard.svelte";
     import InfoPage from "../../comps/prices/InfoPage.svelte";
 </script>
 
