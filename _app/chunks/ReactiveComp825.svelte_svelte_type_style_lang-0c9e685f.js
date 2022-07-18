@@ -1,0 +1,13 @@
+import{S as B,i as U,s as J,J as S,e as y,k as C,c as x,a as b,d as u,m as k,b as g,g as M,T as v,M as D,N as E,O as G,q as I,o as V}from"./index-3b7cb337.js";const N=l=>({}),j=l=>({}),O=l=>({}),q=l=>({});function R(l){let t,a,c,h,d,_,o,f;const r=l[8].left,i=S(r,l,l[7],q),m=l[8].right,e=S(m,l,l[7],j);return{c(){t=y("div"),a=y("div"),i&&i.c(),c=C(),h=y("div"),d=C(),_=y("div"),e&&e.c(),this.h()},l(s){t=x(s,"DIV",{class:!0,style:!0});var n=b(t);a=x(n,"DIV",{class:!0});var w=b(a);i&&i.l(w),w.forEach(u),c=k(n),h=x(n,"DIV",{class:!0}),b(h).forEach(u),d=k(n),_=x(n,"DIV",{class:!0});var W=b(_);e&&e.l(W),W.forEach(u),n.forEach(u),this.h()},h(){g(a,"class","sxs-flex-left svelte-1hjxyok"),g(h,"class","sxs-flex-spacer"),g(_,"class","sxs-flex-right svelte-1hjxyok"),g(t,"class","sxs-flex-outer svelte-1hjxyok"),g(t,"style",o=`--sxs-left-width: ${l[0]};
+             --sxs-max-child-width: ${l[1]};
+             --sxs-align: ${l[6]};
+             --sxs-width: ${l[2]};
+             --sxs-gap: ${l[3]};
+             --sxs-mobile-gap: ${l[4]};
+             --sxs-mobile-dir: ${l[5]?"column-reverse":"column"}`)},m(s,n){M(s,t,n),v(t,a),i&&i.m(a,null),v(t,c),v(t,h),v(t,d),v(t,_),e&&e.m(_,null),f=!0},p(s,[n]){i&&i.p&&(!f||n&128)&&D(i,r,s,s[7],f?G(r,s[7],n,O):E(s[7]),q),e&&e.p&&(!f||n&128)&&D(e,m,s,s[7],f?G(m,s[7],n,N):E(s[7]),j),(!f||n&127&&o!==(o=`--sxs-left-width: ${s[0]};
+             --sxs-max-child-width: ${s[1]};
+             --sxs-align: ${s[6]};
+             --sxs-width: ${s[2]};
+             --sxs-gap: ${s[3]};
+             --sxs-mobile-gap: ${s[4]};
+             --sxs-mobile-dir: ${s[5]?"column-reverse":"column"}`))&&g(t,"style",o)},i(s){f||(I(i,s),I(e,s),f=!0)},o(s){V(i,s),V(e,s),f=!1},d(s){s&&u(t),i&&i.d(s),e&&e.d(s)}}}function T(l,t,a){let{$$slots:c={},$$scope:h}=t,{leftWidth:d="48%"}=t,{maxChildWidth:_="auto"}=t,{width:o="auto"}=t,{gap:f="4%"}=t,{mobileGap:r=f}=t,{reverse:i=!1}=t,{align:m="center"}=t;return l.$$set=e=>{"leftWidth"in e&&a(0,d=e.leftWidth),"maxChildWidth"in e&&a(1,_=e.maxChildWidth),"width"in e&&a(2,o=e.width),"gap"in e&&a(3,f=e.gap),"mobileGap"in e&&a(4,r=e.mobileGap),"reverse"in e&&a(5,i=e.reverse),"align"in e&&a(6,m=e.align),"$$scope"in e&&a(7,h=e.$$scope)},[d,_,o,f,r,i,m,h,c]}class A extends B{constructor(t){super();U(this,t,T,R,J,{leftWidth:0,maxChildWidth:1,width:2,gap:3,mobileGap:4,reverse:5,align:6})}}export{A as S};

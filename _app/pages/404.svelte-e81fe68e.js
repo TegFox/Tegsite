@@ -1,0 +1,5 @@
+import{S as i,i as p,s as c,k as l,w as u,a2 as f,d as m,m as _,x as d,g as $,y as g,q as h,o as E,B as q,P as v}from"../chunks/index-3b7cb337.js";import{E as y}from"../chunks/Error-5e55037c.js";import{p as b}from"../chunks/stores-075b195e.js";import"../chunks/notdone-12066466.js";import"../chunks/Body-03b5c91c.js";import"../chunks/ReactiveComp825.svelte_svelte_type_style_lang-0c9e685f.js";import"../chunks/StackPanel-5a58f0c7.js";import"../chunks/ReactiveComp-a9dcc462.js";function w(n){let r,o,t,s;return document.title=r=`\r
+        Error 404: `+n[0]+`\r
+    `,t=new y({props:{status:"404",message:n[0]}}),{c(){o=l(),u(t.$$.fragment)},l(e){f('[data-svelte="svelte-aqnug2"]',document.head).forEach(m),o=_(e),d(t.$$.fragment,e)},m(e,a){$(e,o,a),g(t,e,a),s=!0},p(e,[a]){(!s||a&1)&&r!==(r=`\r
+        Error 404: `+e[0]+`\r
+    `)&&(document.title=r)},i(e){s||(h(t.$$.fragment,e),s=!0)},o(e){E(t.$$.fragment,e),s=!1},d(e){e&&m(o),q(t,e)}}}function x(n,r,o){var e;let t;return v(n,b,a=>o(1,t=a)),[`Not found: ${(e=t.url.pathname)!=null?e:""}`]}class A extends i{constructor(r){super();p(this,r,x,w,c,{})}}export{A as default};
