@@ -1,6 +1,5 @@
 import Headshot from './comms/Headshot.js'
-import Fullbody from './comms/Fullbody.js'
-import Halfbody from "./comms/Halfbody.js";
+import Illustration from './comms/Illustration.js'
 import RefSheet from "./comms/RefSheet.js";
 import Stickers from "./comms/Stickers.js";
 import More from "./comms/More.js"
@@ -8,7 +7,7 @@ import More from "./comms/More.js"
 export default  {
     comms: 'askme',
     comm_form: 'http://dance.goat.dance/',
-    comm_types: [Headshot, Fullbody, Halfbody, RefSheet, Stickers, More],
+    comm_types: [Headshot, Illustration, RefSheet, Stickers, More],
     links: {
         home: {
             sname: 'Home',

@@ -10,7 +10,7 @@
     import Richard from '../../assets/chars/richard.png'
     import ReactiveComp825 from "../../lib/ReactiveComp825.svelte";
     import { Swiper, SwiperSlide } from 'swiper/svelte';
-    import SwiperCore, {Navigation, Pagination, Scrollbar} from 'swiper'
+    import SwiperCore, {Mousewheel, Navigation, Pagination, Scrollbar} from 'swiper'
     import 'swiper/css';
     import 'swiper/css/bundle'
     import '../../app.css'
@@ -73,10 +73,13 @@
 
             <div slot="alt" >
                 <div class="tac">
-                    Swipe (or click and drag) to navigate!
+                    Swipe or Scroll to navigate!
                 </div>
-                <Swiper modules={[Pagination]}
+                <Swiper modules={[Pagination, Mousewheel]}
                         slidesPerView="auto"
+                        mousewheel={{
+                            forceToAxis: true
+                        }}
                         pagination={{
                             clickable: true
                         }}>

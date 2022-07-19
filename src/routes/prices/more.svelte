@@ -4,6 +4,7 @@
     import Title from "../../comps/common/Title.svelte";
     import Body from "../../lib/Body.svelte";
     import NotDone from "../../comps/common/NotDone.svelte";
+    import InfoPage from "../../comps/prices/InfoPage.svelte";
 </script>
 
 <svelte:head>
@@ -13,9 +14,7 @@
 </svelte:head>
 
 <div>
-    <Title img={More.img} title={More.name}>
-        {More.desc}
-    </Title>
+    <InfoPage info={More} showTitleWhenSolo={true}/>
 
     <Body>
         <NotDone/>

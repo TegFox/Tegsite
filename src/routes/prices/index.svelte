@@ -9,6 +9,7 @@
     import NotDone from "../../comps/common/NotDone.svelte";
     import AComms from "../../comps/prices/AComms.svelte";
     import OldCommTypes from "../../comps/prices/OldCommTypes.svelte";
+    import CatchAll from "../../comps/prices/CatchAll.svelte";
 </script>
 
 <title>
@@ -24,11 +25,12 @@
         <StackPanel direction="column" gap="2rem">
             <Comms status={globalVars.comms} large={false}/>
             <CommTypes routeBase="/prices/"/>
+            <AComms/>
         </StackPanel>
     </Body>
 
     <Body color={globalVars.colors.teg_grey}>
-        <AComms/>
+        <CatchAll/>
     </Body>
 
 </div>

@@ -1,5 +1,5 @@
 <script>
-
+import img from '../assets/klaus.png'
 import Title from "../comps/common/Title.svelte";
 import NotDone from "../comps/common/NotDone.svelte";
 import Body from "../lib/Body.svelte";
@@ -12,7 +12,7 @@ import globalVars from "../vars/GlobalVars.js";
 </title>
 
 <div>
-    <Title title="NSFW Info">
+    <Title title="NSFW Info" {img}>
         NSFW Art Commission process info!
     </Title>
 

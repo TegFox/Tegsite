@@ -7,7 +7,7 @@
     import HCardButton from "../common/HCardButton.svelte";
     import Icon from "../../lib/Icon.svelte";
     import {siGithub, siSvelte} from 'simple-icons/icons'
-    import SvelteKit from "../common/SvelteKit.svelte";
+    import SvelteKit from "../../lib/SvelteKit.svelte";
 
     const background = "#00000088"
 </script>

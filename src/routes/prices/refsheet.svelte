@@ -1,9 +1,9 @@
 <script>
     import globalVars from "../../vars/GlobalVars.js";
     import RefSheet from "../../vars/comms/RefSheet.js";
-    import Title from "../../comps/common/Title.svelte";
     import Body from "../../lib/Body.svelte";
     import NotDone from "../../comps/common/NotDone.svelte";
+    import InfoPage from "../../comps/prices/InfoPage.svelte";
 </script>
 
 <svelte:head>
@@ -13,9 +13,7 @@
 </svelte:head>
 
 <div>
-    <Title img={RefSheet.img} title={RefSheet.name}>
-        {RefSheet.desc}
-    </Title>
+    <InfoPage info={RefSheet}/>
 
     <Body>
         <NotDone/>

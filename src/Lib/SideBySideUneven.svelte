@@ -36,6 +36,7 @@
     .sxs-flex-outer {
         width: var(--sxs-width);
         max-width: 100%;
+        height: 100%;
         display: flex;
         align-items: var(--sxs-align);
         gap: var(--sxs-gap);

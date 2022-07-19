@@ -1,9 +1,9 @@
 <script>
     import globalVars from "../../vars/GlobalVars.js";
     import Stickers from "../../vars/comms/Stickers.js"
-    import Title from "../../comps/common/Title.svelte";
     import Body from "../../lib/Body.svelte";
     import NotDone from "../../comps/common/NotDone.svelte";
+    import InfoPage from "../../comps/prices/InfoPage.svelte";
 </script>
 
 <svelte:head>
@@ -13,12 +13,10 @@
 </svelte:head>
 
 <div>
-    <Title img={Stickers.img} title={Stickers.name} contain={Stickers.contain}>
-        {Stickers.desc}
-    </Title>
+    <InfoPage info={Stickers}/>
 
     <Body>
-    <NotDone/>
+        <NotDone/>
     </Body>
 
 </div>

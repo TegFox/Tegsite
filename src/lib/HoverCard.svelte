@@ -9,8 +9,6 @@
     export let borderRadius = '16px'
     export let padding = '3rem 2rem'
 
-    let height
-
 </script>
 
 <div class="hovercard"
@@ -27,7 +25,6 @@
 
     :root {
         --hovercard-transition: all 0.2s ease;
-
     }
 
     .hovercard {

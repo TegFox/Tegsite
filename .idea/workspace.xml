@@ -1,10 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="centering garbage">
+    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="fuck">
+      <change afterPath="$PROJECT_DIR$/src/assets/comms/headshot/lined/hsl2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/comms/illustration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/comms/refsheet/rss1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/comms/refsheet/rss2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/comms/refsheet/rss3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/comms/stickers/emotes/se1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/comms/stickers/emotes/se2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/comms/stickers/emotes/se3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/comms/stickers/stickers/ss1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/gay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/klaus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comps/prices/CatchAll.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comps/prices/CommInfoCard.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lib/SideBySide.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/SideBySide.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lib/SideBySideUneven.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/SideBySideUneven.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/ad_before.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/3c.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/comms/fullbody.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/comms/fullbody/normal/fbn1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/comms/fullbody/normal/fbn2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/prices/fullbody.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/fullbody.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/prices/headshot.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/headshot.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/comms/fullbody/normal/fbn3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/comms/fullbody/normal/fbn4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/comms/fullbody/normal/fbn5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/comms/halfbody/normal/hbn1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/comms/halfbody/normal/hbn2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/comms/halfbody/normal/hbn3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/about/AboutSite.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/AboutSite.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/about/MyOCs.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/MyOCs.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/common/CommInfoCard.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/common/SvelteKit.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/SvelteKit.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/prices/AComms.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/prices/AComms.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/prices/CommTypes.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/prices/CommTypes.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/prices/InfoPage.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/prices/InfoPage.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/HoverCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/HoverCard.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/nsfw.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/nsfw.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/prices/fullbody.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/illustration.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/prices/halfbody.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/prices/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/index.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/prices/more.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/more.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/prices/refsheet.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/refsheet.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/prices/stickers.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/stickers.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vars/GlobalVars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vars/GlobalVars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vars/comms/Fullbody.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vars/comms/Illustration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vars/comms/Halfbody.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vars/comms/Headshot.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vars/comms/Headshot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vars/comms/More.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vars/comms/More.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vars/comms/RefSheet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vars/comms/RefSheet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vars/comms/Stickers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vars/comms/Stickers.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +113,7 @@
         <option value="CommInfoCard" />
         <option value="JavaScript File" />
         <option value="InfoPage" />
+        <option value="CatchAll" />
       </list>
     </option>
   </component>
@@ -101,11 +148,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\comps\prices" />
+      <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\lib" />
       <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\vars" />
       <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src" />
       <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\comps\common" />
-      <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\lib" />
-      <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\comps\footer" />
     </key>
   </component>
   <component name="RunManager">
@@ -173,14 +220,11 @@
       <workItem from="1657827698963" duration="748000" />
       <workItem from="1657831587548" duration="712000" />
       <workItem from="1658034783504" duration="10866000" />
-      <workItem from="1658089521321" duration="21498000" />
-    </task>
-    <task id="LOCAL-00007" summary="Optimizations and aesthetic fixes">
-      <created>1653627569107</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1653627569107</updated>
+      <workItem from="1658089521321" duration="21574000" />
+      <workItem from="1658115767945" duration="136000" />
+      <workItem from="1658119279166" duration="8985000" />
+      <workItem from="1658170530468" duration="5750000" />
+      <workItem from="1658177241343" duration="11582000" />
     </task>
     <task id="LOCAL-00008" summary="PLEASE BE FIX I'M SO SAD">
       <created>1653632885705</created>
@@ -518,7 +562,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658111223840</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="fuck">
+      <created>1658111570515</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1658111570515</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +588,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="More minor fixes" />
     <MESSAGE value="Minor Fixes + TOS page" />
     <MESSAGE value="Fixes to the mobile about page and added dummy pages" />
     <MESSAGE value="Added CNAME file for custom domain" />
@@ -562,6 +612,7 @@
     <MESSAGE value="More updates" />
     <MESSAGE value="Many changes" />
     <MESSAGE value="centering garbage" />
-    <option name="LAST_COMMIT_MESSAGE" value="centering garbage" />
+    <MESSAGE value="fuck" />
+    <option name="LAST_COMMIT_MESSAGE" value="fuck" />
   </component>
 </project>

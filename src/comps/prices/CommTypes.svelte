@@ -19,8 +19,9 @@ const overlayBackground = globalVars.colors.teg_grey
 <ReactiveComp825>
 
     <div slot="main" class="commtypes-grid-outer">
-        {#each globalVars.comm_types as type}
+        {#each globalVars.comm_types as type, i}
             <a class="commtypes-grid-item" href={`${routeBase}${type.link}`}
+               class:commtypes-grid-item-full-width={i === (globalVars.comm_types.length - 1) && i % 2 === 0}
                style="text-decoration: none; color: white">
                 <div class="item-main" >
                     <GradRevealDetails img={type.img} height="100%" maxHeightDelta="3rem" contain={type.contain}>
@@ -45,7 +46,7 @@ const overlayBackground = globalVars.colors.teg_grey
         {#each globalVars.comm_types as type}
             <a href={`${routeBase}${type.link}`} style="text-decoration: none; color: white">
                 <div class="item-alt" >
-                    <Card padding="0" img={type.img} height="100%">
+                    <Card padding="0" img={type.img} height="100%" contain={type.contain}>
                         <div class="grad">
                             <div class="container">
                                 <div class="h3 allcaps wide half-ls">
@@ -83,7 +84,7 @@ const overlayBackground = globalVars.colors.teg_grey
 
     :root {
         --commtypes-item-gap: 2rem;
-        --commtypes-item-width: calc((100vw - 2 * (3rem) - var(--commtypes-item-gap) * 2) / 2);
+        /*--commtypes-item-width: calc((100vw - 2 * (3rem) - var(--commtypes-item-gap) * 2) / 2);*/
         --commtypes-item-height: 27rem;
     }
 
@@ -112,9 +113,14 @@ const overlayBackground = globalVars.colors.teg_grey
         height: var(--commtypes-item-height);
     }
 
+    .commtypes-grid-item-full-width {
+        grid-column: 1 / 3;
+    }
+
     .item-main {
-        width: var(--commtypes-item-width);
+        width: 100%;
         height: var(--commtypes-item-height);
+
     }
 
     .item-alt {
