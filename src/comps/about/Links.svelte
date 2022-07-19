@@ -30,7 +30,7 @@
                 <Icon icon={siPatreon}/>
                 Patreon
             </HCardButton>
-            <HCardButton href={globalVars.external.placeholder} {background}>
+            <HCardButton href={globalVars.external.email} {background}>
                 <Icon icon={siMicrosoftoutlook}/>
                 E-Mail
             </HCardButton>

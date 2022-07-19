@@ -2,6 +2,7 @@ import HeadshotImg from "../../assets/comms/headshot.png"
 
 import hsl1 from '../../assets/comms/headshot/lined/hsl1.png'
 import hsl2 from '../../assets/comms/headshot/lined/hsl2.png'
+import hsl3 from '../../assets/comms/headshot/lined/hsl3.png'
 
 import hsls1 from '../../assets/comms/headshot/lineless/hsls1.png'
 import hsls2 from '../../assets/comms/headshot/lineless/hsls2.png'
@@ -16,7 +17,7 @@ export default {
     info: [
         {
             name: "Lined Headshot",
-            desc: "This is a placeholder description",
+            desc: "Just a standard headshot of your character!",
             base: "25.00",
             prices: [
                 {
@@ -28,13 +29,14 @@ export default {
                 }
             ],
             extra: [
-
+                "Double headshots are available! These allow for 2 characters side by side and can be split down to middle to use as 2 individual headshots",
+                "Additional items and props can be added, although it may increase the price"
             ],
-            imgs: [hsl1, hsl2],
+            imgs: [hsl1, hsl2, hsl3],
         },
         {
             name: "Lineless Headshot",
-            desc: "This is a placeholder description",
+            desc: "Headshot of your character in a lineless style",
             base: "40.00",
             prices: [
                 {
@@ -46,7 +48,8 @@ export default {
                 }
             ],
             extra: [
-
+                "These headshots can be done in a more clean or a more paintery, sketchy style. Just specify which you'd prefer!",
+                "Additional items and props can be added, although it may increase the price"
             ],
             imgs: [hsls1, hsls2, hsls3],
         },

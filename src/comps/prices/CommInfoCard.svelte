@@ -12,7 +12,7 @@
 
     export let info = {}
     export let background = `linear-gradient(-45deg, #111111aa ,#bbbbff2b)`
-    export let overlayBackground = `linear-gradient(-45deg, ${globalVars.colors.teg_grey}, #172C50FF)`
+    export let overlayBackground = `linear-gradient(-45deg, ${globalVars.colors.teg_grey}, #1C3562FF)`
     export let includeTitleDesc = true
 </script>
 
@@ -26,7 +26,7 @@
                 </div>
             </ReactiveComp825>
         {/if}
-        <SideBySide width="100%" reverse="true" align="center">
+        <SideBySide width="100%" reverse="true" align="center" maxChildWidth="50vw">
             <div slot="left" class="text">
 
                 {#if includeTitleDesc}
@@ -41,28 +41,33 @@
                 {#if info.base}
                     <p class:h4={!includeTitleDesc}>Starts at <strong>US${info.base}</strong>
                 {/if}
-                <p>
-                <ul>
-                    {#each info.prices ?? [] as price}
-                        <li style:text-align="left" style:margin="0.5rem 0">
-                            {#if price.amnt && price.desc}
-                                <strong>${price.amnt}</strong> — {price.desc}
-                            {:else if price.amnt}
-                                <strong>${price.amnt}</strong>
-                            {:else if price.desc}
-                                {price.desc}
-                            {/if}
-                        </li>
-                    {/each}
-                </ul>
 
-                {#each info.extra ?? [] as extra}
-                    <p> {extra}
-                {/each}
+                {#if info.prices}
+                    <p>
+                        <ul>
+                            {#each info.prices as price}
+                                <li style:text-align="left" class="half-ls">
+                                    {#if price.amnt && price.desc}
+                                        <strong>${price.amnt}</strong> — {price.desc}
+                                    {:else if price.amnt}
+                                        <strong>${price.amnt}</strong>
+                                    {:else if price.desc}
+                                        {price.desc}
+                                    {/if}
+                                </li>
+                            {/each}
+                        </ul>
+                {/if}
+
+                {#if info.extra}
+                    {#each info.extra as extra}
+                        <p class:half-ls={includeTitleDesc}> {extra}
+                    {/each}
+                {/if}
 
             </div>
             <div slot="right">
-                <div class="swiper-out">
+                <div class="swiper-out" style="--swiper-theme-color: #fff;">
                     <Swiper modules={[Pagination, Navigation, Mousewheel]}
                             mousewheel={{
                                 forceToAxis: true,
@@ -82,7 +87,7 @@
                         {/each}
                     </Swiper>
                     {#if info.imgs && info.imgs.length > 1}
-                        <div class="tac cap">
+                        <div class="tac cap" style:margin-top="0.5rem">
                             Swipe / Scroll to look through gallery
                         </div>
                     {/if}
@@ -93,10 +98,6 @@
 </HoverCard>
 
 <style>
-
-    :root {
-        --swiper-theme-color: #fff;
-    }
 
     .title-mobile {
         margin-bottom: 2rem;
@@ -120,6 +121,7 @@
         border-radius: 8px;
         max-height: 28rem;
         max-width: 100%;
+        user-select: none;
     }
 
     .padding {

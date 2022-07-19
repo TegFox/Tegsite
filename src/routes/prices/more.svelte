@@ -13,11 +13,4 @@
     </title>
 </svelte:head>
 
-<div>
-    <InfoPage info={More} showTitleWhenSolo={true}/>
-
-    <Body>
-        <NotDone/>
-    </Body>
-
-</div>
+<InfoPage info={More} showTitleWhenSolo={true}/>

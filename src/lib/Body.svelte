@@ -18,7 +18,7 @@
     @media  (max-width: 700px)
     {
         .body-div {
-            padding: 2rem;
+            padding: 1.25rem;
         }
     }
 

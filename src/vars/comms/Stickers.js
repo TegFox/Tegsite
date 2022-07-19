@@ -17,45 +17,53 @@ export default {
     info: [
         {
             name: "Emotes",
-            desc: "This is a placeholder description",
+            desc: "A small and simple emote, great for Discord and similar platforms!",
             base: "8.00",
             prices: [
                 {
-                    amnt: "30.00",
-                    desc: "Add Extra Character"
+                    amnt: "8.00+",
+                    desc: "Add additional character"
                 },
                 {
-                    amnt: "20.00+",
-                    desc: "Add Detailed background"
+                    amnt: "5.00",
+                    desc: "Add 'YCH' placeholder character",
+                },
+                {
+                    desc: "Extra Charge for adding items or props",
                 },
                 {
                     desc: "Extra Charge for Complex Characters"
                 },
             ],
             extra: [
-
+                "Stickers will be drawn at 512 x 512 px. This allows you to quickly upload to telegram if desired, while keeping the file sizes small enough to upload to discord.",
+                "All emotes come with a 'display' image that shows off all your emotes in one place!"
             ],
             imgs: [se1, se2, se3],
         },
         {
             name: "Stickers",
-            desc: "This is a placeholder description",
+            desc: "Simple icons drawn from the waist up with more details and nuanced expressions!",
             base: "10.00",
             prices: [
                 {
-                    amnt: "30.00",
-                    desc: "Add Extra Character"
+                    amnt: "10.00+",
+                    desc: "Add additional character"
                 },
                 {
-                    amnt: "20.00+",
-                    desc: "Add Detailed background"
+                    amnt: "7.00",
+                    desc: "Add 'YCH' placeholder character",
+                },
+                {
+                    desc: "Extra Charge for adding items or props",
                 },
                 {
                     desc: "Extra Charge for Complex Characters"
                 },
             ],
             extra: [
-
+                "Stickers will be drawn at 512 x 512 px. This allows you to quickly upload to telegram, discord, or any other platforms that allow user created stickers!",
+                "All stickers come with a 'display' image that shows off all your stickers in one place!"
             ],
             imgs: [ss1],
         },

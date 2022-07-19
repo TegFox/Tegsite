@@ -40,6 +40,10 @@ export default  {
         placeholder: 'http://dance.goat.dance/',
         twitter: 'https://twitter.com/floofybluething',
         trello: 'https://trello.com/b/zi6VfP7F/stuff',
-        patreon: 'http://dance.goat.dance/'
+        patreon: 'http://dance.goat.dance/',
+        email: 'mailto:tegfox+site@outlook.com',
+        siterepo: 'https://github.com/TegFox/TegSite',
+        svelte: 'https://svelte.dev/',
+        sveltekit: 'https://kit.svelte.dev/'
     },
 }

@@ -71,7 +71,7 @@
                 </div>
             </div>
 
-            <div slot="alt" >
+            <div slot="alt" style="--swiper-theme-color: #fff;">
                 <div class="tac">
                     Swipe or Scroll to navigate!
                 </div>
@@ -99,6 +99,7 @@
 </div>
 
 <style>
+
     .about-flex-wrap {
         display: flex;
         justify-content: space-evenly;

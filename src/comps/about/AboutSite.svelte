@@ -37,15 +37,15 @@
 
                 <div class="bold wide allcaps mobile-center-825">
                     <StackPanel direction="row" align="center" gap="0.25rem" styleClass="mobile-space-evenly-825">
-                        <HCardButton href={globalVars.external.placeholder} {background}>
+                        <HCardButton href={globalVars.external.siterepo} {background}>
                             <Icon icon={siGithub}/>
                             Site Repo
                         </HCardButton>
-                        <HCardButton href={globalVars.external.placeholder} {background}>
+                        <HCardButton href={globalVars.external.svelte} {background}>
                             <Icon icon={siSvelte}/>
                             Svelte
                         </HCardButton>
-                        <HCardButton href={globalVars.external.placeholder} {background}>
+                        <HCardButton href={globalVars.external.sveltekit} {background}>
                             <Icon icon={siSvelte}/>
                             SvelteKit
                         </HCardButton>

@@ -12,11 +12,4 @@
     </title>
 </svelte:head>
 
-<div>
-    <InfoPage info={RefSheet}/>
-
-    <Body>
-        <NotDone/>
-    </Body>
-
-</div>
+<InfoPage info={RefSheet}/>

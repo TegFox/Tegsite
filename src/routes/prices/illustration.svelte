@@ -12,11 +12,4 @@
     </title>
 </svelte:head>
 
-<div>
-    <InfoPage info={Illustration}/>
-
-    <Body>
-        <NotDone/>
-    </Body>
-
-</div>
+<InfoPage info={Illustration}/>

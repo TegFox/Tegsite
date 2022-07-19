@@ -13,7 +13,7 @@
             </div>
             <div class="text faq-outer">
                 <p>
-                    My commissioning me, you agree to the terms of service stated here. If you have any questions that aren't
+                    By commissioning me, you agree to the terms of service stated here. If you have any questions that aren't
                     answered in the terms of service or the Frequently Asked Questions (FAQ), don't hesitate to contact me.
                 <p>
                     Last Updated: 2022-06-21

@@ -12,7 +12,8 @@
     {info.desc}
 </Title>
 
-<Body>
+<div style:margin-bottom="-3rem">
+    <Body>
     {#each info.info ?? [] as comm}
         <!--I needed to wrap this in a div instead of using a stackpanel (flexbox) because images were overrunning their containers?-->
         <div style:margin="2rem 0">
@@ -23,4 +24,5 @@
             {/if}
         </div>
     {/each}
-</Body>
+    </Body>
+</div>

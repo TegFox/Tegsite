@@ -20,7 +20,7 @@ export default {
     info: [
         {
             name: "Character Drawing",
-            desc: "This is a placeholder description",
+            desc: "A half or full body drawing of your character or characters!",
             base: "65.00",
             prices: [
                 {
@@ -32,13 +32,15 @@ export default {
                 },
             ],
             extra: [
-
+                "Whether the art is shaded, and what type of shading is up to the commissioner! By default I do a hybrid of cel and soft shading.",
+                "Adding additional props or items to the art may increase the price depending on the item.",
+                "I can add a simple background, though this may increase the price depending on the complexity."
             ],
             imgs: [ic1, ic2, ic3, ic4],
         },
         {
             name: "Scene Drawing",
-            desc: "This is a placeholder description",
+            desc: "A fully drawn scene with your characters and a background!",
             base: "85.00",
             prices: [
                 {
@@ -50,7 +52,8 @@ export default {
                 },
             ],
             extra: [
-
+                "Adding additional props or items to the art may increase the price depending on the item.",
+                "The complexity of the posing and background will affect the price. If the art piece is too complex, I likely won't be able to take your commission."
             ],
             imgs: [is1, is2, is3, is4],
         },

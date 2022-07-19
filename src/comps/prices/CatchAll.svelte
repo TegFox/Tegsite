@@ -31,4 +31,10 @@
         height: 256px
     }
 
+    @media (max-width: 825px) {
+        .img {
+            height: 192px;
+        }
+    }
+
 </style>
