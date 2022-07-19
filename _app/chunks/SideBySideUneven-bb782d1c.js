@@ -1,0 +1,13 @@
+import{S as B,i as J,s as M,J as y,e as b,k as C,c as w,a as x,d as u,m as S,b as g,g as N,T as v,M as D,N as E,O as G,q as I,o as V}from"./index-3b7cb337.js";/* empty css                                                      */const O=i=>({}),q=i=>({}),T=i=>({}),k=i=>({});function U(i){let t,a,c,d,_,h,o,f;const m=i[8].left,l=y(m,i,i[7],k),r=i[8].right,e=y(r,i,i[7],q);return{c(){t=b("div"),a=b("div"),l&&l.c(),c=C(),d=b("div"),_=C(),h=b("div"),e&&e.c(),this.h()},l(s){t=w(s,"DIV",{class:!0,style:!0});var n=x(t);a=w(n,"DIV",{class:!0});var W=x(a);l&&l.l(W),W.forEach(u),c=S(n),d=w(n,"DIV",{class:!0}),x(d).forEach(u),_=S(n),h=w(n,"DIV",{class:!0});var j=x(h);e&&e.l(j),j.forEach(u),n.forEach(u),this.h()},h(){g(a,"class","sxs-flex-left svelte-1mjjgsm"),g(d,"class","sxs-flex-spacer"),g(h,"class","sxs-flex-right svelte-1mjjgsm"),g(t,"class","sxs-flex-outer svelte-1mjjgsm"),g(t,"style",o=`--sxs-left-width: ${i[0]};
+             --sxs-max-child-width: ${i[1]};
+             --sxs-align: ${i[6]};
+             --sxs-width: ${i[2]};
+             --sxs-gap: ${i[3]};
+             --sxs-mobile-gap: ${i[4]};
+             --sxs-mobile-dir: ${i[5]?"column-reverse":"column"}`)},m(s,n){N(s,t,n),v(t,a),l&&l.m(a,null),v(t,c),v(t,d),v(t,_),v(t,h),e&&e.m(h,null),f=!0},p(s,[n]){l&&l.p&&(!f||n&128)&&D(l,m,s,s[7],f?G(m,s[7],n,T):E(s[7]),k),e&&e.p&&(!f||n&128)&&D(e,r,s,s[7],f?G(r,s[7],n,O):E(s[7]),q),(!f||n&127&&o!==(o=`--sxs-left-width: ${s[0]};
+             --sxs-max-child-width: ${s[1]};
+             --sxs-align: ${s[6]};
+             --sxs-width: ${s[2]};
+             --sxs-gap: ${s[3]};
+             --sxs-mobile-gap: ${s[4]};
+             --sxs-mobile-dir: ${s[5]?"column-reverse":"column"}`))&&g(t,"style",o)},i(s){f||(I(l,s),I(e,s),f=!0)},o(s){V(l,s),V(e,s),f=!1},d(s){s&&u(t),l&&l.d(s),e&&e.d(s)}}}function z(i,t,a){let{$$slots:c={},$$scope:d}=t,{leftWidth:_="48%"}=t,{maxChildWidth:h="auto"}=t,{width:o="auto"}=t,{gap:f="4%"}=t,{mobileGap:m=f}=t,{reverse:l=!1}=t,{align:r="center"}=t;return i.$$set=e=>{"leftWidth"in e&&a(0,_=e.leftWidth),"maxChildWidth"in e&&a(1,h=e.maxChildWidth),"width"in e&&a(2,o=e.width),"gap"in e&&a(3,f=e.gap),"mobileGap"in e&&a(4,m=e.mobileGap),"reverse"in e&&a(5,l=e.reverse),"align"in e&&a(6,r=e.align),"$$scope"in e&&a(7,d=e.$$scope)},[_,h,o,f,m,l,r,d,c]}class H extends B{constructor(t){super();J(this,t,z,U,M,{leftWidth:0,maxChildWidth:1,width:2,gap:3,mobileGap:4,reverse:5,align:6})}}export{H as S};
