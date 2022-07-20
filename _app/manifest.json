@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-f0b813d6.js",
+    "file": "start-469491bd.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -122,7 +122,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-5729e5d2.js",
+    "file": "pages/index.svelte-73bd60b9.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -131,7 +131,7 @@
       "_PageTransition-48e57a59.js",
       "_Title-cf8d62b8.js",
       "_Body-9765987e.js",
-      "_Comms-8817c623.js",
+      "_Comms-dc70d924.js",
       "_StackPanel-a65dec7a.js",
       "_Card-94ff9978.js",
       "_prices-7b5e27c8.js",
@@ -155,7 +155,7 @@
     ]
   },
   "src/routes/nsfw.svelte": {
-    "file": "pages/nsfw.svelte-e0b81922.js",
+    "file": "pages/nsfw.svelte-dfd3efb9.js",
     "src": "src/routes/nsfw.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -164,7 +164,7 @@
       "_Title-cf8d62b8.js",
       "_NotDone-76ecf82c.js",
       "_Body-9765987e.js",
-      "_Comms-8817c623.js",
+      "_Comms-dc70d924.js",
       "_PageTransition-48e57a59.js",
       "_stores-075b195e.js",
       "_notdone-12066466.js",
@@ -228,7 +228,7 @@
     ]
   },
   "src/routes/prices/index.svelte": {
-    "file": "pages/prices/index.svelte-79bb2c63.js",
+    "file": "pages/prices/index.svelte-6a06ade3.js",
     "src": "src/routes/prices/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -238,7 +238,7 @@
       "_prices-7b5e27c8.js",
       "_Title-cf8d62b8.js",
       "_Body-9765987e.js",
-      "_Comms-8817c623.js",
+      "_Comms-dc70d924.js",
       "_Card-94ff9978.js",
       "_HoverCard-89a81a74.js",
       "_StackPanel-a65dec7a.js",
@@ -347,7 +347,7 @@
     ]
   },
   "src/routes/ych.svelte": {
-    "file": "pages/ych.svelte-16a770ab.js",
+    "file": "pages/ych.svelte-71ce3735.js",
     "src": "src/routes/ych.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -358,7 +358,7 @@
       "_Title-cf8d62b8.js",
       "_Body-9765987e.js",
       "_NotDone-76ecf82c.js",
-      "_Comms-8817c623.js",
+      "_Comms-dc70d924.js",
       "_stores-075b195e.js",
       "_notdone-12066466.js",
       "_Card-94ff9978.js",
@@ -409,7 +409,7 @@
       "assets/se2-0bbcd47b.png",
       "assets/se3-966afbcf.png",
       "assets/ss1-fb05b82c.png",
-      "assets/sketchpage1-9ddffbde.png",
+      "assets/more-9ddffbde.png",
       "assets/chibi1-5ee7d20c.png",
       "assets/drawover1-839d44b9.png",
       "assets/drawover2-6720920c.png"
@@ -520,10 +520,11 @@
       "assets/SideBySide.svelte_svelte_type_style_lang-1c55a519.css"
     ]
   },
-  "_Comms-8817c623.js": {
-    "file": "chunks/Comms-8817c623.js",
+  "_Comms-dc70d924.js": {
+    "file": "chunks/Comms-dc70d924.js",
     "imports": [
       "_index-3b7cb337.js",
+      "_PageTransition-48e57a59.js",
       "_StackPanel-a65dec7a.js",
       "_Card-94ff9978.js",
       "_HoverCard-89a81a74.js",
