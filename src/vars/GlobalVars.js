@@ -37,10 +37,10 @@ export default  {
         teg_dark: '#01327E',
     },
     external: {
-        placeholder: 'http://dance.goat.dance/',
+        placeholder: 'https://liusef.github.io/dance-goat-dance/',
         twitter: 'https://twitter.com/floofybluething',
         trello: 'https://trello.com/b/zi6VfP7F/stuff',
-        patreon: 'http://dance.goat.dance/',
+        patreon: 'https://liusef.github.io/dance-goat-dance/',
         email: 'mailto:tegfox+site@outlook.com',
         siterepo: 'https://github.com/TegFox/TegSite',
         svelte: 'https://svelte.dev/',

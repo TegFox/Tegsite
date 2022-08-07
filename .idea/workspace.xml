@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="it works">
-      <change afterPath="$PROJECT_DIR$/src/routes/char.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vars/Chars.js" afterDir="false" />
+    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Added more page stubs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/about/MyOCs.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/MyOCs.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/common/CharacterIcon.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/CharacterIcon.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/common/Comms.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/Comms.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/prices/headshot.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/headshot.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/prices/illustration.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/illustration.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/prices/more.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/more.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/prices/refsheet.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/refsheet.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/prices/stickers.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/stickers.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/ych.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/ych.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vars/GlobalVars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vars/GlobalVars.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -196,14 +184,8 @@
       <workItem from="1658748868419" duration="1507000" />
       <workItem from="1658786302344" duration="554000" />
       <workItem from="1659857660499" duration="30000" />
-      <workItem from="1659859439564" duration="3407000" />
-    </task>
-    <task id="LOCAL-00010" summary="Misc">
-      <created>1653705162418</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1653705162418</updated>
+      <workItem from="1659859439564" duration="3526000" />
+      <workItem from="1659864809216" duration="29000" />
     </task>
     <task id="LOCAL-00011" summary="Fixed the issue with the footer">
       <created>1653705988633</created>
@@ -541,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658273349052</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Added more page stubs">
+      <created>1659862936343</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1659862936343</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,7 +549,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added CNAME file for custom domain" />
     <MESSAGE value="Fixed about me to be more readable at certain screen widths" />
     <MESSAGE value="made changes" />
     <MESSAGE value="made minor changes" />
@@ -585,6 +573,7 @@
     <MESSAGE value="fuck" />
     <MESSAGE value="fuck dude idk" />
     <MESSAGE value="it works" />
-    <option name="LAST_COMMIT_MESSAGE" value="it works" />
+    <MESSAGE value="Added more page stubs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more page stubs" />
   </component>
 </project>
