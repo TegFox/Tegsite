@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Updated placeholder links">
-      <change beforePath="$PROJECT_DIR$/src/comps/about/MyOCs.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/MyOCs.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/char.svelte" beforeDir="false" />
+    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Undid changes that prevented prerendering">
+      <change afterPath="$PROJECT_DIR$/src/routes/__layout-none.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/chars/__layout@none.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/chars/alex.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/chars/edge_husky.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/chars/kai.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/chars/piper.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/chars/richard.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/chars/teg.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +75,14 @@
         <option value="CatchAll" />
         <option value="char" />
         <option value="JavaScript File" />
+        <option value="teg" />
+        <option value="kai" />
+        <option value="alex" />
+        <option value="piper" />
+        <option value="edge_husky" />
+        <option value="richard" />
+        <option value="__layout" />
+        <option value="__layout-none" />
       </list>
     </option>
   </component>
@@ -185,14 +200,7 @@
       <workItem from="1658786302344" duration="554000" />
       <workItem from="1659857660499" duration="30000" />
       <workItem from="1659859439564" duration="3526000" />
-      <workItem from="1659864809216" duration="297000" />
-    </task>
-    <task id="LOCAL-00012" summary="Added metadata">
-      <created>1653706845555</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1653706845555</updated>
+      <workItem from="1659864809216" duration="779000" />
     </task>
     <task id="LOCAL-00013" summary="Added yarn">
       <created>1653706878823</created>
@@ -530,7 +538,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659864861596</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Undid changes that prevented prerendering">
+      <created>1659865165443</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1659865165443</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,7 +564,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="made changes" />
     <MESSAGE value="made minor changes" />
     <MESSAGE value="made more minor changes" />
     <MESSAGE value="Fixed horizontal scrolling for browsers without overlay scrolling" />
@@ -574,6 +588,7 @@
     <MESSAGE value="it works" />
     <MESSAGE value="Added more page stubs" />
     <MESSAGE value="Updated placeholder links" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated placeholder links" />
+    <MESSAGE value="Undid changes that prevented prerendering" />
+    <option name="LAST_COMMIT_MESSAGE" value="Undid changes that prevented prerendering" />
   </component>
 </project>
