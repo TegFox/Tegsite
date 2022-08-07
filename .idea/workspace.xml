@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Added more page stubs">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vars/GlobalVars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vars/GlobalVars.js" afterDir="false" />
+    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Updated placeholder links">
+      <change beforePath="$PROJECT_DIR$/src/comps/about/MyOCs.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/MyOCs.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/char.svelte" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,14 +185,7 @@
       <workItem from="1658786302344" duration="554000" />
       <workItem from="1659857660499" duration="30000" />
       <workItem from="1659859439564" duration="3526000" />
-      <workItem from="1659864809216" duration="29000" />
-    </task>
-    <task id="LOCAL-00011" summary="Fixed the issue with the footer">
-      <created>1653705988633</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1653705988633</updated>
+      <workItem from="1659864809216" duration="297000" />
     </task>
     <task id="LOCAL-00012" summary="Added metadata">
       <created>1653706845555</created>
@@ -530,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659862936343</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Updated placeholder links">
+      <created>1659864861596</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1659864861596</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,7 +549,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixed about me to be more readable at certain screen widths" />
     <MESSAGE value="made changes" />
     <MESSAGE value="made minor changes" />
     <MESSAGE value="made more minor changes" />
@@ -574,6 +573,7 @@
     <MESSAGE value="fuck dude idk" />
     <MESSAGE value="it works" />
     <MESSAGE value="Added more page stubs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added more page stubs" />
+    <MESSAGE value="Updated placeholder links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated placeholder links" />
   </component>
 </project>

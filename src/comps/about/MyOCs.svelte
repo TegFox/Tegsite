@@ -32,7 +32,7 @@
                 <div class="about-flex-wrap">
                     {#each Object.keys(my_chars) as char}
                         <CharacterIcon bold={my_chars[char].sona} img={my_chars[char].pfp} name={my_chars[char].name}
-                                       href={`char?name=${char}`}/>
+                                       href={`/chars/${char}`}/>
                     {/each}
                 </div>
             </div>
@@ -50,7 +50,7 @@
                             clickable: true
                         }}>
                     {#each Object.keys(my_chars) as char}
-                        <a class="swiper-slide swiper-slide-outer white-link" href={`/char?name=${char}`}>
+                        <a class="swiper-slide swiper-slide-outer white-link" href={`/chars/${char}`}>
                             <div class="swiper-slide-inner">
                                 <CharacterIcon bold={my_chars[char].sona} img={my_chars[char].pfp}
                                                name={my_chars[char].name} />
