@@ -6,10 +6,8 @@
     import InfoPage from "../../comps/prices/InfoPage.svelte";
 </script>
 
-<svelte:head>
-    <title>
-        {RefSheet.name} - Teg Fox
-    </title>
-</svelte:head>
+<title>
+    Reference Sheets - Teg Fox
+</title>
 
 <InfoPage info={RefSheet}/>

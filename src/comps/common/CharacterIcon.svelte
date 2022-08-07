@@ -13,7 +13,7 @@
 </script>
 
 
-<a {href} style:margin>
+<a {href} style:margin class="white-link">
     <div class="charicon-outer">
         <Card {background} padding="0rem">
             <div class="charicon-text" class:charicon-bold={bold} style:display="flex" style:flex-direction="column"

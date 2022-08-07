@@ -13,7 +13,7 @@
 
 <div>
     <Title {img} title="Your Character Here">
-        All of the YCH art I offer
+        All of the YCH art I offer!
     </Title>
 
     <Body>

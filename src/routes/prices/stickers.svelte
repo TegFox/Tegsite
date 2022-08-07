@@ -6,10 +6,8 @@
     import InfoPage from "../../comps/prices/InfoPage.svelte";
 </script>
 
-<svelte:head>
-    <title>
-        {Stickers.name} - Teg Fox
-    </title>
-</svelte:head>
+<title>
+    Stickers & Emotes - Teg Fox
+</title>
 
 <InfoPage info={Stickers}/>

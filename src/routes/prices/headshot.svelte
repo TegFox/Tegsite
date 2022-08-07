@@ -6,11 +6,9 @@
     import InfoPage from "../../comps/prices/InfoPage.svelte";
 </script>
 
-<svelte:head>
-    <title>
-        {Headshot.name} - Teg Fox
-    </title>
-</svelte:head>
+<title>
+    Headshots - Teg Fox
+</title>
 
 <InfoPage info={Headshot}/>
 

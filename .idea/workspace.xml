@@ -1,35 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="fuck dude idk">
-      <change afterPath="$PROJECT_DIR$/src/assets/comms/headshot/lined/hsl3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/comms/more/chibi1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/comms/more/drawover1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/comms/more/drawover2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/comms/more/sketchpage1.png" afterDir="false" />
+    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="it works">
+      <change afterPath="$PROJECT_DIR$/src/routes/char.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/vars/Chars.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/comms/headshot/lined/hsl2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/headshot/lined/hsl2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/comms/refsheet/rss3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/about/AboutSite.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/AboutSite.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/about/Links.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/Links.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/comps/about/MyOCs.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/MyOCs.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/prices/AComms.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/prices/AComms.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/prices/CatchAll.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/prices/CatchAll.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/prices/CommInfoCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/prices/CommInfoCard.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/prices/InfoPage.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/prices/InfoPage.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/terms/TOS.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/terms/TOS.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Body.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Body.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/common/CharacterIcon.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/CharacterIcon.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/common/Comms.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/Comms.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/prices/headshot.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/headshot.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/prices/illustration.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/illustration.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/prices/more.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/more.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/prices/refsheet.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/refsheet.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/prices/stickers.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/stickers.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/ych.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/ych.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vars/GlobalVars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vars/GlobalVars.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vars/comms/Headshot.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vars/comms/Headshot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vars/comms/Illustration.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vars/comms/Illustration.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vars/comms/More.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vars/comms/More.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vars/comms/RefSheet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vars/comms/RefSheet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vars/comms/Stickers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vars/comms/Stickers.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,9 +76,10 @@
         <option value="Error" />
         <option value="404" />
         <option value="CommInfoCard" />
-        <option value="JavaScript File" />
         <option value="InfoPage" />
         <option value="CatchAll" />
+        <option value="char" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -203,14 +190,13 @@
       <workItem from="1658115767945" duration="136000" />
       <workItem from="1658119279166" duration="8985000" />
       <workItem from="1658170530468" duration="5750000" />
-      <workItem from="1658177241343" duration="25724000" />
-    </task>
-    <task id="LOCAL-00009" summary="Mobile Optimizations">
-      <created>1653700604375</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1653700604375</updated>
+      <workItem from="1658177241343" duration="26706000" />
+      <workItem from="1658350332747" duration="65000" />
+      <workItem from="1658350559286" duration="662000" />
+      <workItem from="1658748868419" duration="1507000" />
+      <workItem from="1658786302344" duration="554000" />
+      <workItem from="1659857660499" duration="30000" />
+      <workItem from="1659859439564" duration="3407000" />
     </task>
     <task id="LOCAL-00010" summary="Misc">
       <created>1653705162418</created>
@@ -548,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658204974600</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="it works">
+      <created>1658273349052</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1658273349052</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -567,7 +560,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixes to the mobile about page and added dummy pages" />
     <MESSAGE value="Added CNAME file for custom domain" />
     <MESSAGE value="Fixed about me to be more readable at certain screen widths" />
     <MESSAGE value="made changes" />
@@ -592,6 +584,7 @@
     <MESSAGE value="centering garbage" />
     <MESSAGE value="fuck" />
     <MESSAGE value="fuck dude idk" />
-    <option name="LAST_COMMIT_MESSAGE" value="fuck dude idk" />
+    <MESSAGE value="it works" />
+    <option name="LAST_COMMIT_MESSAGE" value="it works" />
   </component>
 </project>

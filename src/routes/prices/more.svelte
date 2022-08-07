@@ -7,10 +7,8 @@
     import InfoPage from "../../comps/prices/InfoPage.svelte";
 </script>
 
-<svelte:head>
-    <title>
-        {More.name} - Teg Fox
-    </title>
-</svelte:head>
+<title>
+    More - Teg Fox
+</title>
 
 <InfoPage info={More} showTitleWhenSolo={true}/>

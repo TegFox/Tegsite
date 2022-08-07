@@ -5,8 +5,8 @@ import Stickers from "./comms/Stickers.js";
 import More from "./comms/More.js"
 
 export default  {
-    comms: 'askme',
-    comm_form: 'http://dance.goat.dance/',
+    comms: 'closed',
+    comm_form: 'https://forms.gle/DWfqsnRutFfebx6n8',
     comm_types: [Headshot, Illustration, RefSheet, Stickers, More],
     links: {
         home: {

@@ -1,13 +1,8 @@
 <script>
     import Card from "../../lib/Card.svelte";
     import globalVars from "../../vars/GlobalVars.js";
+    import my_chars from '../../vars/Chars.js'
     import CharacterIcon from "../common/CharacterIcon.svelte";
-    import Teg from '../../assets/chars/teg.png'
-    import Kai from '../../assets/chars/kai.png'
-    import Alex from '../../assets/chars/alex.png'
-    import Piper from '../../assets/chars/piper.png'
-    import EdgeHusky from '../../assets/chars/edgehusky.png'
-    import Richard from '../../assets/chars/richard.png'
     import ReactiveComp825 from "../../lib/ReactiveComp825.svelte";
     import { Swiper, SwiperSlide } from 'swiper/svelte';
     import SwiperCore, {Mousewheel, Navigation, Pagination, Scrollbar} from 'swiper'
@@ -15,39 +10,6 @@
     import 'swiper/css/bundle'
     import '../../app.css'
 
-    const my_chars = [
-        {
-            name: "Teg",
-            img: Teg,
-            sona: true
-        },
-        {
-            name: "Kai",
-            img: Kai,
-            sona: true
-        },
-        {
-            name: "Alex",
-            img: Alex,
-            sona: true
-        },
-        {
-            name: "Piper",
-            img: Piper,
-            sona: true
-        },
-        {
-            name: "Edge Husky",
-            img: EdgeHusky,
-            sona: false
-        },
-        {
-            name: "Richard",
-            img: Richard,
-            sona: false
-        },
-
-    ]
 </script>
 
 <div style:margin-bottom="2rem">
@@ -64,16 +26,20 @@
         <ReactiveComp825>
 
             <div slot="main" class="col-center">
+                <div class="text tac" style:margin-bottom="1rem">
+                    Click cards for more info!
+                </div>
                 <div class="about-flex-wrap">
-                    {#each my_chars as char}
-                        <CharacterIcon bold={char.sona} img={char.img} name={char.name} />
+                    {#each Object.keys(my_chars) as char}
+                        <CharacterIcon bold={my_chars[char].sona} img={my_chars[char].pfp} name={my_chars[char].name}
+                                       href={`char?name=${char}`}/>
                     {/each}
                 </div>
             </div>
 
             <div slot="alt" style="--swiper-theme-color: #fff;">
-                <div class="tac">
-                    Swipe or Scroll to navigate!
+                <div class="text tac">
+                    Swipe or Scroll to navigate, click for more info!
                 </div>
                 <Swiper modules={[Pagination, Mousewheel]}
                         slidesPerView="auto"
@@ -83,12 +49,13 @@
                         pagination={{
                             clickable: true
                         }}>
-                    {#each my_chars as char}
-                        <div class="swiper-slide swiper-slide-outer">
+                    {#each Object.keys(my_chars) as char}
+                        <a class="swiper-slide swiper-slide-outer white-link" href={`/char?name=${char}`}>
                             <div class="swiper-slide-inner">
-                                <CharacterIcon bold={char.sona} img={char.img} name={char.name} />
+                                <CharacterIcon bold={my_chars[char].sona} img={my_chars[char].pfp}
+                                               name={my_chars[char].name} />
                             </div>
-                        </div>
+                        </a>
                     {/each}
                 </Swiper>
             </div>

@@ -88,6 +88,9 @@
                         </a>
 
                     {/if}
+                    <p>
+                        Refresh the page to get the most up to date status!
+                    </p>
                 </div>
             </StackPanel>
 
@@ -153,7 +156,6 @@
 
     .bottom-text {
         max-width: 30rem;
-        margin-bottom: 1rem;
     }
 
     .open-button {
