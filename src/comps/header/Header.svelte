@@ -70,7 +70,7 @@
         --header-scrolled-img-margin: 0.5rem;
         --header-top-font-size: 1.25rem;
         --header-scrolled-font-size: 1.25rem;
-        --header-active-font-size: 1.5rem;
+        --header-active-font-size: 1.25rem;
 
         --header-background: #000000aa;
         --header-blur-amount: 6px;

@@ -3,7 +3,6 @@ import IllustrationImg from "../../assets/comms/illustration.png";
 import ic1 from '../../assets/comms/illustration/char/ic1.png'
 import ic2 from '../../assets/comms/illustration/char/ic2.png'
 import ic3 from '../../assets/comms/illustration/char/ic3.png'
-import ic4 from '../../assets/comms/illustration/char/ic4.png'
 
 import is1 from '../../assets/comms/illustration/scene/is1.png'
 import is2 from '../../assets/comms/illustration/scene/is2.png'
@@ -36,7 +35,7 @@ export default {
                 "Adding additional props or items to the art may increase the price depending on the item.",
                 "I can add a simple background, though this may increase the price depending on the complexity."
             ],
-            imgs: [ic1, ic2, ic3, ic4],
+            imgs: [ic1, ic2, ic3],
         },
         {
             name: "Scene Drawing",

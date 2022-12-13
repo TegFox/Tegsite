@@ -4,6 +4,7 @@
     import HoverCard from "../../lib/HoverCard.svelte";
     import ReactiveComp from "../../lib/ReactiveComp.svelte";
     import SideBySide from "../../lib/SideBySide.svelte";
+    import globalVars from "../../vars/GlobalVars.js";
 
     export let status = 'closed'
     export let large = true
@@ -65,8 +66,7 @@
 
                 <div class="tac cap text bottom-text">
                     {#if closed}
-                        Commissions usually open up every month if I'm not too busy.
-                        Feel free to shoot me a message to ask when my next expected opening is!
+                        Feel free to ask when my next expected opening is!
 
                     {:else if askme}
                         I'm currently doing commissions on a rolling basis.
@@ -77,7 +77,7 @@
                         Fill out the form to apply!
 
                         <p></p>
-                        <a class="open-button" href="http://dance.goat.dance/">
+                        <a class="open-button" href={globalVars.comm_form}>
                             <div class="open-button">
                                 <Card background="#ffffff22" padding="0.5rem">
                                     <div style:font-weight="bold" style:font-size="1.5rem" style:letter-spacing="4px">
@@ -89,7 +89,7 @@
 
                     {/if}
                     <p>
-                        Refresh the page to get the most up to date status!
+                        Refresh to get the most up to date status!
                     </p>
                 </div>
             </StackPanel>
@@ -109,7 +109,7 @@
                 </div>
                 <div class="right">
                     {#if open}
-                        <a class="open-button" href="http://dance.goat.dance/">
+                        <a class="open-button" href={globalVars.comm_form}>
                             <div class="open-button">
                                 <Card background="#ffffff22" padding="0.5rem 1rem" borderRadius="8px">
                                     <div style:text-align="center">

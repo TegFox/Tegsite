@@ -2,6 +2,8 @@ import RefSheetImg from "../../assets/comms/refsheet.png";
 
 import rss1 from '../../assets/comms/refsheet/rss1.png'
 import rss2 from '../../assets/comms/refsheet/rss2.png'
+import rss3 from '../../assets/comms/refsheet/rss3.png'
+import rss4 from '../../assets/comms/refsheet/rss4.png'
 
 export default {
     name: 'Reference Sheets',
@@ -41,7 +43,7 @@ export default {
                 "Don't have a character or want to rework an existing one? No worries! I can work with you to throw together a new character design! This will cause the price to increase depending on complexity",
                 "Reference sheets can not and will not be shaded. This is so artists can be sure what color things are. For the love of god please do not shade your ref sheets.",
             ],
-            imgs: [rss1, rss2],
+            imgs: [rss1, rss2, rss3, rss4],
         },
     ],
 }

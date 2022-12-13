@@ -1,16 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Undid changes that prevented prerendering">
-      <change afterPath="$PROJECT_DIR$/src/routes/__layout-none.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/chars/__layout@none.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/chars/alex.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/chars/edge_husky.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/chars/kai.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/chars/piper.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/chars/richard.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/chars/teg.svelte" afterDir="false" />
+    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Created page stubs">
+      <change afterPath="$PROJECT_DIR$/src/assets/comms/headshot/lined/hsl4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/comms/illustration/char/ic3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/comms/more/chibi2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/comms/more/chibi3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/comms/more/sketchpage2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/comms/refsheet/rss3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/comms/refsheet/rss4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/comms/stickers/emotes/se4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/comms/headshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/headshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/comms/headshot/lined/hsl1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/headshot/lined/hsl1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/comms/headshot/lined/hsl2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/headshot/lined/hsl2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/comms/headshot/lined/hsl3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/headshot/lined/hsl3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/comms/headshot/lineless/hsls1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/headshot/lineless/hsls1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/comms/headshot/lineless/hsls2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/headshot/lineless/hsls2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/comms/headshot/lineless/hsls3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/headshot/lineless/hsls3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/comms/more.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/more.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/comms/more/chibi1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/more/chibi1.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/comms/more/sketchpage1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/more/sketchpage1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/comms/refsheet.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/refsheet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/comms/refsheet/rss1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/refsheet/rss1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/comms/stickers.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/stickers.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/comms/stickers/emotes/se1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/stickers/emotes/se1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/comms/stickers/emotes/se2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/stickers/emotes/se2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/comms/stickers/emotes/se3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/stickers/emotes/se3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/common/Comms.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/Comms.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/header/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/header/Header.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/NavLink.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/NavLink.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vars/GlobalVars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vars/GlobalVars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vars/comms/Headshot.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vars/comms/Headshot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vars/comms/Illustration.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vars/comms/Illustration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vars/comms/More.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vars/comms/More.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vars/comms/RefSheet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vars/comms/RefSheet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vars/comms/Stickers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vars/comms/Stickers.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,18 +130,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\josep\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\221.5080.193\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/josep/Stuff/Projects/js/tegsite",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Users\\josep\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\221.5080.193\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\comps\prices" />
@@ -200,14 +228,10 @@
       <workItem from="1658786302344" duration="554000" />
       <workItem from="1659857660499" duration="30000" />
       <workItem from="1659859439564" duration="3526000" />
-      <workItem from="1659864809216" duration="779000" />
-    </task>
-    <task id="LOCAL-00013" summary="Added yarn">
-      <created>1653706878823</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1653706878823</updated>
+      <workItem from="1659864809216" duration="886000" />
+      <workItem from="1662776492032" duration="39000" />
+      <workItem from="1662776538881" duration="65000" />
+      <workItem from="1670880532296" duration="5205000" />
     </task>
     <task id="LOCAL-00014" summary="Updated site desc">
       <created>1653979864411</created>
@@ -545,7 +569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659865165443</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Created page stubs">
+      <created>1659865655412</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1659865655412</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -564,7 +595,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="made minor changes" />
     <MESSAGE value="made more minor changes" />
     <MESSAGE value="Fixed horizontal scrolling for browsers without overlay scrolling" />
     <MESSAGE value="???" />
@@ -589,6 +619,7 @@
     <MESSAGE value="Added more page stubs" />
     <MESSAGE value="Updated placeholder links" />
     <MESSAGE value="Undid changes that prevented prerendering" />
-    <option name="LAST_COMMIT_MESSAGE" value="Undid changes that prevented prerendering" />
+    <MESSAGE value="Created page stubs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created page stubs" />
   </component>
 </project>

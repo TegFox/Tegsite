@@ -3,6 +3,7 @@ import HeadshotImg from "../../assets/comms/headshot.png"
 import hsl1 from '../../assets/comms/headshot/lined/hsl1.png'
 import hsl2 from '../../assets/comms/headshot/lined/hsl2.png'
 import hsl3 from '../../assets/comms/headshot/lined/hsl3.png'
+import hsl4 from '../../assets/comms/headshot/lined/hsl4.png'
 
 import hsls1 from '../../assets/comms/headshot/lineless/hsls1.png'
 import hsls2 from '../../assets/comms/headshot/lineless/hsls2.png'
@@ -32,7 +33,7 @@ export default {
                 "Double headshots are available! These allow for 2 characters side by side and can be split down to middle to use as 2 individual headshots",
                 "Additional items and props can be added, although it may increase the price"
             ],
-            imgs: [hsl1, hsl2, hsl3],
+            imgs: [hsl1, hsl2, hsl3, hsl4],
         },
         {
             name: "Lineless Headshot",
