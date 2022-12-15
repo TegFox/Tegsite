@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="completed migration to svkit release">
-      <change afterPath="$PROJECT_DIR$/src/routes/+layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
+    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="fixed an issue that prevented static site generation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/footer/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/footer/Footer.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,19 +93,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/josep/Stuff/Projects/js/tegsite",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Users\\josep\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\222.4345.14\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/josep/Stuff/Projects/js/tegsite&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\josep\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\222.4345.14\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\comps\prices" />
@@ -195,14 +195,8 @@
       <workItem from="1662776492032" duration="39000" />
       <workItem from="1662776538881" duration="65000" />
       <workItem from="1670880532296" duration="5205000" />
-      <workItem from="1671058460636" duration="7700000" />
-    </task>
-    <task id="LOCAL-00018" summary="Reorganized for more modularity and consistency">
-      <created>1654815452910</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1654815452910</updated>
+      <workItem from="1671058460636" duration="8075000" />
+      <workItem from="1671125128318" duration="716000" />
     </task>
     <task id="LOCAL-00019" summary="/static?">
       <created>1654815515725</created>
@@ -540,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671092952943</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="fixed an issue that prevented static site generation">
+      <created>1671093122278</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1671093122278</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +560,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Simplifying my code" />
     <MESSAGE value="missing file" />
     <MESSAGE value="added webkit compatibility" />
     <MESSAGE value="FANCY ANIMATIONS ON THE THING" />
@@ -584,6 +584,7 @@
     <MESSAGE value="Addressed a11y warnings and upgraded to next.405" />
     <MESSAGE value="Addressed a11y warning" />
     <MESSAGE value="completed migration to svkit release" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed migration to svkit release" />
+    <MESSAGE value="fixed an issue that prevented static site generation" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed an issue that prevented static site generation" />
   </component>
 </project>

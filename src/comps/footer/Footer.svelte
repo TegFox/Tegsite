@@ -12,7 +12,8 @@
         You've Reached The End.
     </div>
     <div style="display: flex; flex-direction: row">
-        <div on:click={scrollToTop} style:text-decoration="none" style:color="grey" style:cursor="pointer">
+        <div on:click={scrollToTop} style:text-decoration="none" style:color="grey"
+             style:cursor="pointer" style:user-select="none">
             <div style:margin="0.5rem 0">
                 Go back to top
             </div>
