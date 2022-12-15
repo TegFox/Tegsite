@@ -5,8 +5,7 @@
     import PageTransition from "../lib/PageTransition.svelte";
     import {page} from '$app/stores'
 
-    // This prerenders the page (static site)
-    export const prerender = true;
+
 </script>
 
 <header>

@@ -1,37 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="Addressed a11y warning">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lib/PageTransition.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lib/PageTransition.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/common/Title.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/Title.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/footer/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/footer/Footer.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/404.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/404/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/__error.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+error.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/__layout-none.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/__layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/about.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/about/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/chars/__layout@none.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/chars/alex.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/chars/alex/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/chars/edge_husky.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/chars/edge_husky/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/chars/kai.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/chars/kai/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/chars/piper.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/chars/piper/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/chars/richard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/chars/richard/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/chars/teg.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/chars/teg/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/nsfw.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/nsfw/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/prices/headshot.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/headshot/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/prices/illustration.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/illustration/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/prices/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/prices/more.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/more/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/prices/refsheet.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/refsheet/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/prices/stickers.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/prices/stickers/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/terms.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/terms/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/ych.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/ych/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="completed migration to svkit release">
+      <change afterPath="$PROJECT_DIR$/src/routes/+layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,14 +195,7 @@
       <workItem from="1662776492032" duration="39000" />
       <workItem from="1662776538881" duration="65000" />
       <workItem from="1670880532296" duration="5205000" />
-      <workItem from="1671058460636" duration="7530000" />
-    </task>
-    <task id="LOCAL-00017" summary="Misc fixes">
-      <created>1654253436295</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1654253436295</updated>
+      <workItem from="1671058460636" duration="7700000" />
     </task>
     <task id="LOCAL-00018" summary="Reorganized for more modularity and consistency">
       <created>1654815452910</created>
@@ -568,7 +533,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671089536866</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="completed migration to svkit release">
+      <created>1671092952943</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1671092952943</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,7 +559,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="???" />
     <MESSAGE value="Simplifying my code" />
     <MESSAGE value="missing file" />
     <MESSAGE value="added webkit compatibility" />
@@ -612,6 +583,7 @@
     <MESSAGE value="Created page stubs" />
     <MESSAGE value="Addressed a11y warnings and upgraded to next.405" />
     <MESSAGE value="Addressed a11y warning" />
-    <option name="LAST_COMMIT_MESSAGE" value="Addressed a11y warning" />
+    <MESSAGE value="completed migration to svkit release" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed migration to svkit release" />
   </component>
 </project>
