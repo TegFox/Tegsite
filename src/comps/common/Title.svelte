@@ -12,7 +12,7 @@
     let outerHeight
     let pageHeight
 
-    import {browser} from "$app/env";
+    import {browser} from "$app/environment";
     import {fade} from "svelte/transition";
     import { page } from '$app/stores'
     import PageTransition from '../../lib/PageTransition.svelte'

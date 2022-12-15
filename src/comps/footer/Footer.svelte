@@ -1,6 +1,6 @@
 <script>
     import Body from "../../lib/Body.svelte";
-    import {browser} from "$app/env";
+    import {browser} from "$app/environment";
 
     const scrollToTop = () => {
         if (browser) window.scrollTo({top: 0, behavior: 'smooth'})
