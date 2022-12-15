@@ -14,7 +14,7 @@
             <div slot="left" class="col-center">
                 <ReactiveComp825>
                     <div slot="main">
-                        <img {src} class="img"/>
+                        <img {src} alt="Sus" class="img"/>
                     </div>
                 </ReactiveComp825>
             </div>
