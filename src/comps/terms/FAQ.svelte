@@ -29,13 +29,14 @@
         max-width: 60rem;
     }
 
-    .faq-list {
-        list-style-type: circle;
-    }
+    /* Un-comment this code when there's actually an FAQ with a list LMAO */
+    /*.faq-list {*/
+    /*    list-style-type: circle;*/
+    /*}*/
 
-    li {
-        margin: 0.5rem 0;
-    }
+    /*li {*/
+    /*    margin: 0.5rem 0;*/
+    /*}*/
 
     .faq-sec-header {
         margin-top: 3rem;

@@ -18,7 +18,7 @@
                     <div slot="main">
                         <SideBySideUneven width="90vw" leftWidth="40vw" maxChildWidth="40vw">
                             <div slot="left" class="align-right">
-                                <img {src} class="img"/>
+                                <img {src} alt="Dumb animal doing web dev" class="img"/>
                             </div>
                             <div slot="right">
                                 <div class="h1 allcaps wide">
@@ -39,7 +39,7 @@
                     </div>
                     <div slot="alt">
                         <StackPanel direction="column" align="center" gap="1.5rem">
-                            <img {src} class="img-mobile"/>
+                            <img {src} alt="Dumb animal doing web dev" class="img-mobile"/>
                             <div class="h1 allcaps wide tac">
                                 Oops!
                             </div>

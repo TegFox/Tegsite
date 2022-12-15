@@ -3,23 +3,23 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
+    "dev": "vite dev",
+    "build": "vite build",
     "deploy": "npm run build && touch build/.nojekyll && gh-pages -d build -t true",
     "package": "svelte-kit package",
-    "preview": "npm run build && svelte-kit preview"
+    "preview": "npm run build && vite preview"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "1.0.0-next.30",
-    "@sveltejs/kit": "1.0.0-next.331",
+    "@sveltejs/kit": "1.0.0-next.405",
     "gh-pages": "^4.0.0",
     "svelte": "^3.48.0",
     "svelte-bootstrap-icons": "^1.8.2",
-    "svelte-hamburgers": "^4.0.1"
+    "svelte-hamburgers": "^4.0.1",
+    "vite": "^3.0.0"
   },
   "dependencies": {
     "simple-icons": "^7.0.0",
-    "svelte-scrolling": "^1.1.1",
     "swiper": "^8.2.4"
   }
 }

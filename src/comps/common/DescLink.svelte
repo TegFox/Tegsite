@@ -17,7 +17,7 @@
         <StackPanel direction="row" align="center" gap="1rem">
 
             {#if img}
-                <img src={img} style:height={logoSize}/>
+                <img src={img} alt="Logo" style:height={logoSize}/>
             {:else if icon}
                 <div style:height={logoSize}>
                     {icon}

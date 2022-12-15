@@ -81,7 +81,7 @@
                         {#each info.imgs ?? [] as src}
                             <div class="swiper-slide">
                                 <div class="swiper-in">
-                                    <img {src} class="img"/>
+                                    <img {src} alt="Example Artwork" class="img"/>
                                 </div>
                             </div>
                         {/each}

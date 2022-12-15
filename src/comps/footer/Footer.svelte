@@ -1,6 +1,10 @@
 <script>
     import Body from "../../lib/Body.svelte";
-    import { scrollTop } from 'svelte-scrolling'
+    import {browser} from "$app/env";
+
+    const scrollToTop = () => {
+        if (browser) window.scrollTo({top: 0, behavior: 'smooth'})
+    }
 </script>
 
 <Body color="192231">
@@ -8,11 +12,11 @@
         You've Reached The End.
     </div>
     <div style="display: flex; flex-direction: row">
-        <a on:click={() => scrollTop()} href="" style:text-decoration="none" style:color="grey" style:pointer="pointer">
+        <div on:click={scrollToTop} style:text-decoration="none" style:color="grey" style:cursor="pointer">
             <div style:margin="0.5rem 0">
                 Go back to top
             </div>
-        </a>
+        </div>
     </div>
     <p>
         © Teg Fox {new Date().getFullYear()}. All Rights Reserved.

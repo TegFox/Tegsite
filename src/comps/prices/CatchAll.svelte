@@ -7,7 +7,7 @@
 <div class="col-center">
     <SideBySideUneven leftWidth="256px" width="800px">
         <div slot="left" class="tac">
-            <img {src} class="img"/>
+            <img {src} alt=":3c" class="img"/>
         </div>
         <div slot="right">
             <p class="h3">

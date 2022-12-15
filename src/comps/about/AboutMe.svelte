@@ -12,7 +12,7 @@
     <div class="col-center">
         <SideBySideUneven leftWidth="296px" gap="1rem" width="1000px" mobileGap="0">
             <div slot="left" class="col-center">
-                <img src={Me} style:width='296px'/>
+                <img src={Me} alt="Teg" style:width='296px'/>
             </div>
 
             <div slot="right">

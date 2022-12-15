@@ -8,7 +8,6 @@
     import StackPanel from "../../lib/StackPanel.svelte";
     import NotDone from "../../comps/common/NotDone.svelte";
     import AComms from "../../comps/prices/AComms.svelte";
-    import OldCommTypes from "../../comps/prices/OldCommTypes.svelte";
     import CatchAll from "../../comps/prices/CatchAll.svelte";
 </script>
 

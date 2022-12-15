@@ -1,7 +1,6 @@
 <script>
     import src from '../../assets/logo.png';
     import NavBar from "./NavBar.svelte";
-    import { scrollTop } from 'svelte-scrolling'
     import MobileNavBar from "./MobileNavBar.svelte";
     import {fly} from 'svelte/transition'
     import globalVars from "../../vars/GlobalVars.js";
@@ -29,7 +28,7 @@
         <div class="title-container">
             <div class='ldiv'>
                 <a href="/" on:click={() => {open = false}}>
-                    <img {src} class='logo-img' class:scrolled id="logo"/>
+                    <img {src} alt="Site Logo" class='logo-img' class:scrolled id="logo"/>
                 </a>
             </div>
 

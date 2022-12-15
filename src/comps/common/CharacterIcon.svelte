@@ -18,7 +18,7 @@
         <Card {background} padding="0rem">
             <div class="charicon-text" class:charicon-bold={bold} style:display="flex" style:flex-direction="column"
                  style:gap="0.5rem" style:color style:align-items="center">
-                <img src={img} class="charicon-img"/>
+                <img src={img} alt={name} class="charicon-img"/>
                 {name}
             </div>
         </Card>

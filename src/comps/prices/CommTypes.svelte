@@ -67,7 +67,7 @@ const overlayBackground = globalVars.colors.teg_grey
                                     <div class="cap">
                                         Expand
                                     </div>
-                                    <img src={RArrow} style:height="1rem"/>
+                                    <img src={RArrow} alt="Right Arrow" style:height="1rem"/>
                                 </StackPanel>
                             </div>
                         </div>
