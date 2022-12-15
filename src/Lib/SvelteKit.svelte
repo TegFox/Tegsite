@@ -10,7 +10,7 @@
 
 <div style:width style:margin style:max-width={maxWidth}>
     <StackPanel direction="row" gap="5%">
-        <img src={svlogo} width="15%"/>
-        <img src={svwm} width="80%"/>
+        <img src={svlogo} alt="SvelteKit logo" width="15%"/>
+        <img src={svwm} alt="SvelteKit Word Mark" width="80%"/>
     </StackPanel>
 </div>
