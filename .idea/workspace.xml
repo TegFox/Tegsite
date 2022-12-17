@@ -1,9 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="fixed an issue that prevented static site generation">
+    <list default="true" id="3a656841-42c4-4795-9526-c069d6da3e80" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/routes/(main)/+layout.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/(none)/chars/alex/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/(none)/chars/edge_husky/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/(none)/chars/kai/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/(none)/chars/piper/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/(none)/chars/richard/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/(none)/chars/teg/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/footer/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/footer/Footer.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/chars/alex.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/chars/alex.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/(main)/+layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/(main)/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/404/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/(main)/404/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/about/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/(main)/about/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/chars/alex/+page.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/chars/edge_husky/+page.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/chars/kai/+page.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/chars/piper/+page.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/chars/richard/+page.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/chars/teg/+page.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/nsfw/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/(main)/nsfw/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/prices/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/(main)/prices/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/prices/headshot/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/(main)/prices/headshot/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/prices/illustration/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/(main)/prices/illustration/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/prices/more/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/(main)/prices/more/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/prices/refsheet/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/(main)/prices/refsheet/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/prices/stickers/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/(main)/prices/stickers/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/terms/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/(main)/terms/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/ych/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/(main)/ych/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,69 +44,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSSTitle" />
-        <option value="Navbar" />
-        <option value="NavLink" />
-        <option value="MobileNavBar" />
-        <option value="MobileMenu" />
-        <option value="commission" />
-        <option value="about" />
-        <option value="CharacterIcon" />
-        <option value="SideBySide" />
-        <option value="LocalLinks" />
-        <option value="MainHomeLinks" />
-        <option value="MyOCs" />
-        <option value="AboutMe" />
-        <option value="Socials" />
-        <option value="PageTransition" />
-        <option value="CardButton" />
-        <option value="HCardButton" />
-        <option value="Icon" />
-        <option value="AboutSite" />
-        <option value="SvelteLogo" />
-        <option value="FixedBody" />
-        <option value="ReactiveComp" />
-        <option value="MobileComp" />
-        <option value="Links.Old" />
-        <option value="terms" />
-        <option value="TOS" />
-        <option value="Divider" />
-        <option value="FAQ" />
-        <option value="ych" />
-        <option value="prices" />
-        <option value="index" />
-        <option value="ReactiveComp825" />
-        <option value="SideBySideUneven" />
-        <option value="CommTypes" />
-        <option value="ReactiveComp1000" />
-        <option value="NotDone" />
-        <option value="headshot" />
-        <option value="halfbody" />
-        <option value="fullbody" />
-        <option value="refsheet" />
-        <option value="stickers" />
-        <option value="more" />
-        <option value="DynamicGrid" />
-        <option value="OldCommTypes" />
-        <option value="GradRevealHoverCard" />
-        <option value="__error" />
-        <option value="AComms" />
-        <option value="nsfw" />
-        <option value="Error" />
-        <option value="404" />
-        <option value="CommInfoCard" />
-        <option value="InfoPage" />
-        <option value="CatchAll" />
-        <option value="char" />
-        <option value="teg" />
-        <option value="kai" />
-        <option value="alex" />
-        <option value="piper" />
-        <option value="edge_husky" />
-        <option value="richard" />
-        <option value="__layout" />
-        <option value="__layout-none" />
-        <option value="JavaScript File" />
+        <option value="+layout" />
       </list>
     </option>
   </component>
@@ -85,7 +54,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="29TPslH8CvwuylC3SZfgRrrYLgY" />
+  <component name="ProjectId" id="2J1QUTF3zA7RtJZZIUdOT8QjDQW" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -93,26 +62,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/josep/Stuff/Projects/js/tegsite&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\josep\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\222.4345.14\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\comps\prices" />
-      <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\lib" />
-      <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\vars" />
-      <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src" />
-      <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\comps\common" />
+      <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\routes" />
+      <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\routes\(none)" />
+      <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\routes\(main)" />
     </key>
   </component>
   <component name="RunManager">
@@ -122,8 +90,9 @@
       <scripts>
         <script value="dev" />
       </scripts>
-      <arguments value="-- --host --open --host" />
+      <arguments value="-- --open --host" />
       <node-interpreter value="project" />
+      <package-manager value="npm" />
       <envs />
       <method v="2" />
     </configuration>
@@ -131,460 +100,17 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fdaf0190-09ec-4b4f-91ac-ae49d5660d69" name="Changes" comment="" />
-      <created>1653134313114</created>
+      <changelist id="3a656841-42c4-4795-9526-c069d6da3e80" name="Changes" comment="" />
+      <created>1671243131907</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1653134313114</updated>
-      <workItem from="1653134315893" duration="1439000" />
-      <workItem from="1653137476736" duration="1950000" />
-      <workItem from="1653165223577" duration="1840000" />
-      <workItem from="1653369208570" duration="34000" />
-      <workItem from="1653619990975" duration="8200000" />
-      <workItem from="1653630112563" duration="768000" />
-      <workItem from="1653631342251" duration="1546000" />
-      <workItem from="1653683512163" duration="18589000" />
-      <workItem from="1653704514893" duration="230000" />
-      <workItem from="1653704933690" duration="271000" />
-      <workItem from="1653705846931" duration="625000" />
-      <workItem from="1653706598932" duration="940000" />
-      <workItem from="1653979606353" duration="206000" />
-      <workItem from="1653979824421" duration="46000" />
-      <workItem from="1654076040076" duration="189000" />
-      <workItem from="1654223254721" duration="15868000" />
-      <workItem from="1654240555239" duration="9647000" />
-      <workItem from="1654288512034" duration="1191000" />
-      <workItem from="1654758039514" duration="619000" />
-      <workItem from="1654807454329" duration="13598000" />
-      <workItem from="1654847652483" duration="97000" />
-      <workItem from="1654847947916" duration="1313000" />
-      <workItem from="1654892029024" duration="8700000" />
-      <workItem from="1654902446701" duration="294000" />
-      <workItem from="1654902911498" duration="4502000" />
-      <workItem from="1655073603738" duration="953000" />
-      <workItem from="1655102184337" duration="2459000" />
-      <workItem from="1655792276839" duration="8737000" />
-      <workItem from="1655844833050" duration="2461000" />
-      <workItem from="1655875864808" duration="6825000" />
-      <workItem from="1656744055064" duration="683000" />
-      <workItem from="1656805368447" duration="313000" />
-      <workItem from="1656811193193" duration="199000" />
-      <workItem from="1657076309288" duration="34000" />
-      <workItem from="1657076356645" duration="7000" />
-      <workItem from="1657568244445" duration="10441000" />
-      <workItem from="1657658598386" duration="11236000" />
-      <workItem from="1657688554498" duration="1347000" />
-      <workItem from="1657789218077" duration="12800000" />
-      <workItem from="1657802174136" duration="425000" />
-      <workItem from="1657802948072" duration="414000" />
-      <workItem from="1657827698963" duration="748000" />
-      <workItem from="1657831587548" duration="712000" />
-      <workItem from="1658034783504" duration="10866000" />
-      <workItem from="1658089521321" duration="21574000" />
-      <workItem from="1658115767945" duration="136000" />
-      <workItem from="1658119279166" duration="8985000" />
-      <workItem from="1658170530468" duration="5750000" />
-      <workItem from="1658177241343" duration="26706000" />
-      <workItem from="1658350332747" duration="65000" />
-      <workItem from="1658350559286" duration="662000" />
-      <workItem from="1658748868419" duration="1507000" />
-      <workItem from="1658786302344" duration="554000" />
-      <workItem from="1659857660499" duration="30000" />
-      <workItem from="1659859439564" duration="3526000" />
-      <workItem from="1659864809216" duration="886000" />
-      <workItem from="1662776492032" duration="39000" />
-      <workItem from="1662776538881" duration="65000" />
-      <workItem from="1670880532296" duration="5205000" />
-      <workItem from="1671058460636" duration="8075000" />
-      <workItem from="1671125128318" duration="716000" />
+      <updated>1671243131907</updated>
+      <workItem from="1671243135337" duration="55000" />
+      <workItem from="1671243208438" duration="512000" />
     </task>
-    <task id="LOCAL-00019" summary="/static?">
-      <created>1654815515725</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1654815515725</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Page Transitions">
-      <created>1654847394961</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1654847394961</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Fixes to light weight text">
-      <created>1654847744717</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1654847744717</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Mobile Optimizations">
-      <created>1654849106171</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1654849106171</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Transition fixes">
-      <created>1654849247895</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1654849247895</updated>
-    </task>
-    <task id="LOCAL-00024" summary="More Transition Fixes">
-      <created>1654892361398</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1654892361398</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Added socials and site info">
-      <created>1654904243961</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1654904243962</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Tweaked about page">
-      <created>1654918877622</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1654918877622</updated>
-    </task>
-    <task id="LOCAL-00027" summary="added missing files">
-      <created>1654919018064</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1654919018064</updated>
-    </task>
-    <task id="LOCAL-00028" summary="mobile optimizations">
-      <created>1654919028606</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1654919028606</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Minor touchups">
-      <created>1655074538881</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1655074538881</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Minor touchups">
-      <created>1655102211521</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1655102211521</updated>
-    </task>
-    <task id="LOCAL-00031" summary="More minor fixes">
-      <created>1655109203424</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1655109203424</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Minor Fixes + TOS page">
-      <created>1655806167368</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1655806167368</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Fixes to the mobile about page and added dummy pages">
-      <created>1655881482349</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1655881482349</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Added CNAME file for custom domain">
-      <created>1656811336564</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1656811336564</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Fixed about me to be more readable at certain screen widths">
-      <created>1657570756262</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1657570756263</updated>
-    </task>
-    <task id="LOCAL-00036" summary="made changes">
-      <created>1657673015016</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1657673015016</updated>
-    </task>
-    <task id="LOCAL-00037" summary="made minor changes">
-      <created>1657673298985</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1657673298985</updated>
-    </task>
-    <task id="LOCAL-00038" summary="made more minor changes">
-      <created>1657673546401</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1657673546401</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Fixed horizontal scrolling for browsers without overlay scrolling">
-      <created>1657689196764</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1657689196764</updated>
-    </task>
-    <task id="LOCAL-00040" summary="???">
-      <created>1657689281332</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1657689281332</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Simplifying my code">
-      <created>1657689857539</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1657689857539</updated>
-    </task>
-    <task id="LOCAL-00042" summary="missing file">
-      <created>1657789766422</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1657789766422</updated>
-    </task>
-    <task id="LOCAL-00043" summary="added webkit compatibility">
-      <created>1657795321368</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1657795321368</updated>
-    </task>
-    <task id="LOCAL-00044" summary="FANCY ANIMATIONS ON THE THING">
-      <created>1657801987445</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1657801987445</updated>
-    </task>
-    <task id="LOCAL-00045" summary="added missing files">
-      <created>1657802018133</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1657802018133</updated>
-    </task>
-    <task id="LOCAL-00046" summary="small mobile optimizations">
-      <created>1657802543435</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1657802543435</updated>
-    </task>
-    <task id="LOCAL-00047" summary="reverting adding backdrop filters to webkit because it causes too much lag">
-      <created>1657802984692</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1657802984692</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Changed sticker image">
-      <created>1657831691470</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1657831691470</updated>
-    </task>
-    <task id="LOCAL-00049" summary="basic 404">
-      <created>1658036440087</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1658036440087</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Polished the error page">
-      <created>1658037581352</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1658037581352</updated>
-    </task>
-    <task id="LOCAL-00051" summary="a lot of things">
-      <created>1658039652744</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1658039652744</updated>
-    </task>
-    <task id="LOCAL-00052" summary="reimplemented error page to work with gh-pages 404 stuff">
-      <created>1658040752634</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1658040752634</updated>
-    </task>
-    <task id="LOCAL-00053" summary="More updates">
-      <created>1658091609400</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1658091609400</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Many changes">
-      <created>1658107942144</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1658107942144</updated>
-    </task>
-    <task id="LOCAL-00055" summary="centering garbage">
-      <created>1658111223840</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1658111223840</updated>
-    </task>
-    <task id="LOCAL-00056" summary="fuck">
-      <created>1658111570515</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1658111570515</updated>
-    </task>
-    <task id="LOCAL-00057" summary="fuck dude idk">
-      <created>1658204974600</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1658204974600</updated>
-    </task>
-    <task id="LOCAL-00058" summary="it works">
-      <created>1658273349052</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1658273349052</updated>
-    </task>
-    <task id="LOCAL-00059" summary="Added more page stubs">
-      <created>1659862936343</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1659862936343</updated>
-    </task>
-    <task id="LOCAL-00060" summary="Updated placeholder links">
-      <created>1659864861596</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1659864861596</updated>
-    </task>
-    <task id="LOCAL-00061" summary="Undid changes that prevented prerendering">
-      <created>1659865165443</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1659865165443</updated>
-    </task>
-    <task id="LOCAL-00062" summary="Created page stubs">
-      <created>1659865655412</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1659865655412</updated>
-    </task>
-    <task id="LOCAL-00063" summary="Addressed a11y warnings and upgraded to next.405">
-      <created>1671089410563</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1671089410564</updated>
-    </task>
-    <task id="LOCAL-00064" summary="Addressed a11y warning">
-      <created>1671089457955</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1671089457955</updated>
-    </task>
-    <task id="LOCAL-00065" summary="Addressed a11y warning">
-      <created>1671089536866</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1671089536866</updated>
-    </task>
-    <task id="LOCAL-00066" summary="completed migration to svkit release">
-      <created>1671092952943</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1671092952943</updated>
-    </task>
-    <task id="LOCAL-00067" summary="fixed an issue that prevented static site generation">
-      <created>1671093122278</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1671093122278</updated>
-    </task>
-    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="missing file" />
-    <MESSAGE value="added webkit compatibility" />
-    <MESSAGE value="FANCY ANIMATIONS ON THE THING" />
-    <MESSAGE value="added missing files" />
-    <MESSAGE value="small mobile optimizations" />
-    <MESSAGE value="reverting adding backdrop filters to webkit because it causes too much lag" />
-    <MESSAGE value="Changed sticker image" />
-    <MESSAGE value="basic 404" />
-    <MESSAGE value="Polished the error page" />
-    <MESSAGE value="a lot of things" />
-    <MESSAGE value="reimplemented error page to work with gh-pages 404 stuff" />
-    <MESSAGE value="More updates" />
-    <MESSAGE value="Many changes" />
-    <MESSAGE value="centering garbage" />
-    <MESSAGE value="fuck" />
-    <MESSAGE value="fuck dude idk" />
-    <MESSAGE value="it works" />
-    <MESSAGE value="Added more page stubs" />
-    <MESSAGE value="Updated placeholder links" />
-    <MESSAGE value="Undid changes that prevented prerendering" />
-    <MESSAGE value="Created page stubs" />
-    <MESSAGE value="Addressed a11y warnings and upgraded to next.405" />
-    <MESSAGE value="Addressed a11y warning" />
-    <MESSAGE value="completed migration to svkit release" />
-    <MESSAGE value="fixed an issue that prevented static site generation" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed an issue that prevented static site generation" />
   </component>
 </project>
