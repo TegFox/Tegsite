@@ -24,7 +24,7 @@
         align-items: center;
     }
 
-    @media (max-width: 750px) {
+    @media (max-width: 700px) {
         a {
             align-items: flex-end;
         }

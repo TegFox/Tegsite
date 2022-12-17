@@ -1,5 +1,5 @@
 <script>
-    import NavLink from "../../lib/NavLink.svelte"
+    import NavLink from "./NavLink.svelte"
     import globalVars from "../../vars/GlobalVars.js";
 </script>
 

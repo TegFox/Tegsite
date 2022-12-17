@@ -4,8 +4,7 @@
     import MobileNavBar from "./MobileNavBar.svelte";
     import {fly} from 'svelte/transition'
     import globalVars from "../../vars/GlobalVars.js";
-    import NavLink from "../../lib/NavLink.svelte";
-    import PageTransition from "../../lib/PageTransition.svelte";
+    import NavLink from "./NavLink.svelte";
 
     export let breakpointVh = 20
 
@@ -23,26 +22,24 @@
 
 <svelte:window bind:scrollY={scroll} bind:outerHeight={vpHeight}/>
 
-<div>
-    <header class='title' class:scrolled>
-        <div class="title-container">
-            <div class='ldiv'>
-                <a href="/" on:click={() => {open = false}}>
-                    <img {src} alt="Site Logo" class='logo-img' class:scrolled id="logo"/>
-                </a>
-            </div>
+<header class='title' class:scrolled>
+    <div class="title-container">
+        <div class='ldiv'>
+            <a href="/" on:click={() => {open = false}}>
+                <img {src} alt="Site Logo" class='logo-img' class:scrolled id="logo"/>
+            </a>
+        </div>
 
-            <div class='rdiv' class:scrolled>
-                <div class="mobile-navbar">
-                    <MobileNavBar bind:open/>
-                </div>
-                <div class="navbar">
-                    <NavBar/>
-                </div>
+        <div class='rdiv' class:scrolled>
+            <div class="mobile-navbar">
+                <MobileNavBar bind:open/>
+            </div>
+            <div class="navbar">
+                <NavBar/>
             </div>
         </div>
-    </header>
-</div>
+    </div>
+</header>
 
 {#if open}
     <div class="mobilemenu-out mobile-menu" transition:fly={{x: 150}}>
