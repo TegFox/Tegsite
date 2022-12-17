@@ -1,3 +1,0 @@
-import{S as c,i,s as m,a as u,w as l,W as p,h as n,c as f,x as d,b as _,y as h,B as $,f as g,t as x,z as E}from"../../../chunks/index-3e526574.js";import{E as y}from"../../../chunks/Error-57ab4bd9.js";/* empty css                                                           */function v(r){let a,e,s;return e=new y({props:{status:"404",message:"Not Found"}}),{c(){a=u(),l(e.$$.fragment),this.h()},l(t){p("svelte-66lpek",document.head).forEach(n),a=f(t),d(e.$$.fragment,t),this.h()},h(){document.title=`\r
-        Error 404: Not Found\r
-    `},m(t,o){_(t,a,o),h(e,t,o),s=!0},p:$,i(t){s||(g(e.$$.fragment,t),s=!0)},o(t){x(e.$$.fragment,t),s=!1},d(t){t&&n(a),E(e,t)}}}class S extends c{constructor(a){super(),i(this,a,null,v,m,{})}}export{S as default};
