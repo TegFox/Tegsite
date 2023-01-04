@@ -1,6 +1,6 @@
 
 <script>
-    import ImageHoverCard from "../../lib/ImageHoverCard.svelte";
+    import ImageHoverCard from "$lib/Cards/ImageHoverCard.svelte";
 
     export let background = '#222222'
     export let title = ''

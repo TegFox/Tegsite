@@ -2,7 +2,7 @@
     import GlobalVars from "../../vars/GlobalVars.js";
     import src from '../../assets/gay.png'
     import SideBySideUneven from "../../lib/SideBySideUneven.svelte";
-    import Card from "../../lib/Card.svelte";
+    import Card from "$lib/Cards/Card.svelte";
     import ReactiveComp825 from "../../lib/ReactiveComp825.svelte";
 
 </script>

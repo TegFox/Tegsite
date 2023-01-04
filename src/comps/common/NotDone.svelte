@@ -2,7 +2,7 @@
     import globalVars from "../../vars/GlobalVars.js";
 
     import nd from '../../assets/notdone.png'
-    import Card from "../../lib/Card.svelte";
+    import Card from "$lib/Cards/Card.svelte";
 </script>
 
 <Card background={globalVars.colors.teg_grey}>

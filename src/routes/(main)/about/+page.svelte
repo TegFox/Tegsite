@@ -9,7 +9,7 @@
     import AboutMe from "../../../comps/about/AboutMe.svelte";
     import Links from "../../../comps/about/Links.svelte";
     import AboutSite from "../../../comps/about/AboutSite.svelte";
-    import Card from "../../../lib/Card.svelte";
+    import Card from "$lib/Cards/Card.svelte";
 
 </script>
 

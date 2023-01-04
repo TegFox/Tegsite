@@ -1,7 +1,3 @@
-<script>
-
-</script>
-
 <div class="outer">
     <div class="main">
         <slot name="main"/>
@@ -12,25 +8,10 @@
 </div>
 
 <style>
-
-    .main {
-        display: block;
-    }
-
-    .alt {
-        display: none;
-    }
-
+    .main {display: block}
+    .alt {display: none}
     @media (max-width: 825px) {
-
-        .main {
-            display: none;
-        }
-
-        .alt {
-            display: block;
-        }
-
+        .main {display: none}
+        .alt {display: block}
     }
-
 </style>

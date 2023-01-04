@@ -1,6 +1,6 @@
 <script>
     import Body from "../../lib/Body.svelte";
-    import Card from "../../lib/Card.svelte";
+    import Card from "$lib/Cards/Card.svelte";
     import globalVars from "../../vars/GlobalVars.js";
     import Divider from "../../lib/Divider.svelte";
 </script>

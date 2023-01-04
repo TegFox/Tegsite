@@ -1,12 +1,12 @@
 <script>
 import globalVars from "../../vars/GlobalVars.js";
-import HoverCard from "../../lib/HoverCard.svelte";
+import HoverCard from "$lib/Cards/HoverCard.svelte";
 import StackPanel from "../../lib/StackPanel.svelte";
 import ReactiveComp from "../../lib/ReactiveComp.svelte";
 import ReactiveComp825 from "../../lib/ReactiveComp825.svelte";
-import Card from "../../lib/Card.svelte";
+import Card from "$lib/Cards/Card.svelte";
 import RArrow from '../../assets/other/rarrow.svg'
-import GradRevealDetails from "../common/GradRevealDetails.svelte";
+import GradRevealDetails from "$lib/Cards/GradRevealDetails.svelte";
 
 export let routeBase
 

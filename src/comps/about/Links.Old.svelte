@@ -1,6 +1,6 @@
 <script>
     import globalVars from "../../vars/GlobalVars.js";
-    import Card from "../../lib/Card.svelte";
+    import Card from "$lib/Cards/Card.svelte";
     import SideBySide from "../../lib/SideBySide.svelte";
     import StackPanel from "../../lib/StackPanel.svelte";
     import alden from '../../assets/about_bg3.png'

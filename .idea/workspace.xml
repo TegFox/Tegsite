@@ -6,6 +6,33 @@
   <component name="ChangeListManager">
     <list default="true" id="3a656841-42c4-4795-9526-c069d6da3e80" name="Changes" comment="Fixed error/grouping errors and slightly changed header">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/about/AboutMe.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/AboutMe.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/about/AboutSite.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/AboutSite.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/about/Links.Old.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/Links.Old.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/about/MyOCs.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/MyOCs.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/common/CharacterIcon.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/CharacterIcon.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/common/Comms.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/Comms.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/common/Goto.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/Goto.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/common/GradRevealDetails.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Cards/GradRevealDetails.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/common/HCardButton.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/HCardButton.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/common/NotDone.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/NotDone.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/home/LocalLinks.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/home/LocalLinks.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/prices/AComms.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/prices/AComms.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/prices/CommInfoCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/prices/CommInfoCard.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/prices/CommTypes.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/prices/CommTypes.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/terms/FAQ.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/terms/FAQ.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/terms/TOS.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/terms/TOS.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Card.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Cards/Card.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/CardButton.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Cards/CardButton.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/HoverCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Cards/HoverCard.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/ImageHoverCard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Cards/ImageHoverCard.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/MobileComp.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/ReactiveComp.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ReactiveComp.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/ReactiveComp825.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/ReactiveComp825.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/SideBySide.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/SideBySide.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/SvelteKit.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/common/SvelteKit.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/(main)/about/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/(main)/about/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/(main)/terms/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/(main)/terms/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,10 +82,11 @@
       <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\routes\(main)" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\lib\Cards" />
+      <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\comps\common" />
+      <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\lib" />
       <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\comps\header" />
       <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\routes\(none)" />
-      <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\routes" />
-      <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\routes\(main)" />
     </key>
   </component>
   <component name="RunManager">

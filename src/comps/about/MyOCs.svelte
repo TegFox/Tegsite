@@ -1,5 +1,5 @@
 <script>
-    import Card from "../../lib/Card.svelte";
+    import Card from "$lib/Cards/Card.svelte";
     import globalVars from "../../vars/GlobalVars.js";
     import my_chars from '../../vars/Chars.js'
     import CharacterIcon from "../common/CharacterIcon.svelte";

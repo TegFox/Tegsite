@@ -1,6 +1,6 @@
 <script>
     import Me from '../../assets/me.png'
-    import Card from "../../lib/Card.svelte";
+    import Card from "$lib/Cards/Card.svelte";
     import bg from "../../assets/about_bg3.png"
     import Links from "./Links.svelte";
     import SideBySideUneven from "../../lib/SideBySideUneven.svelte";

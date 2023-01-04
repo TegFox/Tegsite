@@ -1,6 +1,6 @@
 <script>
     import globalVars from "../../vars/GlobalVars.js";
-    import HoverCard from "../../lib/HoverCard.svelte";
+    import HoverCard from "$lib/Cards/HoverCard.svelte";
     import SideBySideUneven from "../../lib/SideBySideUneven.svelte";
     import { Swiper, SwiperSlide } from 'swiper/svelte';
     import SwiperCore, {Navigation, Pagination, Mousewheel} from 'swiper'

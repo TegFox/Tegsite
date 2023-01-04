@@ -1,6 +1,6 @@
 <script>
 
-    import Card from "../../lib/Card.svelte";
+    import Card from "$lib/Cards/Card.svelte";
 
     export let img
     export let name

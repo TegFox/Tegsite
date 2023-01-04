@@ -2,7 +2,7 @@
     import Title from "../../../comps/common/Title.svelte";
     import img from '../../../assets/terms.png'
     import Body from "../../../lib/Body.svelte";
-    import Card from "../../../lib/Card.svelte";
+    import Card from "$lib/Cards/Card.svelte";
     import TOS from "../../../comps/terms/TOS.svelte";
     import FAQ from "../../../comps/terms/FAQ.svelte";
 </script>

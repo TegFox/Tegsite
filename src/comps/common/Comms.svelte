@@ -1,7 +1,7 @@
 <script>
     import StackPanel from "../../lib/StackPanel.svelte";
-    import Card from "../../lib/Card.svelte";
-    import HoverCard from "../../lib/HoverCard.svelte";
+    import Card from "$lib/Cards/Card.svelte";
+    import HoverCard from "$lib/Cards/HoverCard.svelte";
     import ReactiveComp from "../../lib/ReactiveComp.svelte";
     import SideBySide from "../../lib/SideBySide.svelte";
     import globalVars from "../../vars/GlobalVars.js";

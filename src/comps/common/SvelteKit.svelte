@@ -1,7 +1,7 @@
 <script>
-    import svlogo from '../assets/icons/svelte.svg'
-    import svwm from '../assets/icons/sveltekit.svg'
-    import StackPanel from "./StackPanel.svelte";
+    import svlogo from '../../assets/icons/svelte.svg'
+    import svwm from '../../assets/icons/sveltekit.svg'
+    import StackPanel from "$lib/StackPanel.svelte";
 
     export let width = '100%'
     export let margin = '2rem 0'

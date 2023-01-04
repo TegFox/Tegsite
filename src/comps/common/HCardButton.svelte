@@ -1,5 +1,5 @@
 <script>
-    import CardButton from "../../lib/CardButton.svelte";
+    import CardButton from "$lib/Cards/CardButton.svelte";
     import StackPanel from "../../lib/StackPanel.svelte";
 
     export let href

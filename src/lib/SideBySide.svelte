@@ -1,60 +1,46 @@
 <script>
-
-    export let childWidth = '48%'
-    export let maxChildWidth = 'auto'
-    export let gap = '4%'
-    export let mobileGap = gap;
     export let reverse = false
-    export let align = 'center'
-
 </script>
 
-<div class="sxs-flex-outer"
-     style={`--sxs-child-width: ${childWidth};
-             --sxs-max-child-width: ${maxChildWidth};
-             --sxs-align: ${align};
-             --sxs-gap: ${gap};
-             --sxs-mobile-gap: ${mobileGap};
-             --sxs-mobile-dir: ${reverse ? 'column-reverse' : 'column'}`}>
-
-    <div class="sxs-flex-child">
+<div class="grid" style={`--sxs-mobile-left-row: ${reverse?2:1}; --sxs-mobile-right-row: ${reverse?1:2};`}>
+    <div class="grid-left">
         <slot name="left"/>
     </div>
-
-    <div class="sxs-flex-spacer"></div>
-
-    <div class="sxs-flex-child">
+    <div class="grid-right">
         <slot name="right"/>
     </div>
-
 </div>
 
 <style>
 
-    .sxs-flex-outer {
-        width: calc(2*var(--sxs-child-width) + var(--sxs-gap));
-        max-width: 100%;
-        display: flex;
-        align-items: center;
-        gap: var(--sxs-gap);
+    .grid {
+        display: grid;
+        grid-column-gap: 1rem;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
     }
 
-    .sxs-flex-child {
-        width: var(--sxs-child-width);
-        max-width: var(--sxs-max-child-width);
+    .grid-left {
+        grid-column: 1;
     }
 
-    @media (max-width: 825px) {
-        .sxs-flex-outer {
-            width: 100%;
-            flex-direction: var(--sxs-mobile-dir);
-            gap: var(--sxs-mobile-gap)
+    .grid-right {
+        grid-column: 2;
+    }
+
+    @media (max-width: 700px) {
+        .grid {
+            grid-template-columns: 1fr;
+            grid-row-gap: 2rem;
         }
 
-        .sxs-flex-child {
-            width: 100%;
-            max-width: 90vw;
-            text-align: center;
+        .grid-left {
+            grid-row: var(--sxs-mobile-left-row);
+        }
+
+        .grid-right {
+            grid-row: var(--sxs-mobile-right-row);
+            grid-column: 1;
         }
     }
 

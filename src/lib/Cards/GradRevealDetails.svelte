@@ -1,5 +1,5 @@
 <script>
-    import Card from "../../lib/Card.svelte";
+    import Card from "./Card.svelte";
 
     export let borderRadius = '16px'
     export let img
