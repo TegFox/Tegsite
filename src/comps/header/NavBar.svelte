@@ -1,16 +1,25 @@
 <script>
     import NavLink from "./NavLink.svelte"
-    import globalVars from "../../vars/GlobalVars.js";
 </script>
 
 
 <div class="flex-out">
 
-    {#each Object.keys(globalVars.links) as key}
-        <NavLink href={globalVars.links[key].path}>
-            {globalVars.links[key].sname.toUpperCase()}
-        </NavLink>
-    {/each}
+    <NavLink href="/">
+        HOME
+    </NavLink>
+    <NavLink href="/prices">
+        PRICES
+    </NavLink>
+    <NavLink href="/ych">
+        YCH
+    </NavLink>
+    <NavLink href="/terms">
+        TERMS/FAQ
+    </NavLink>
+    <NavLink href="/about">
+        ABOUT
+    </NavLink>
 
 </div>
 

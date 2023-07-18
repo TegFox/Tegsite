@@ -13,7 +13,7 @@
 <style>
 
     a {
-        font-size: var(--header-top-font-size);
+        font-size: var(--header-font-size);
         color: white;
         text-decoration: none;
         -webkit-transform: translate3d(0, 0, 0);
@@ -33,7 +33,7 @@
     .bar {
         text-align: center;
         height: 2px;
-        width: 0%;
+        width: 0;
         background: white;
         border-radius: 1px;
         transition: 0.2s;
@@ -48,17 +48,12 @@
     }
 
     .active {
-        font-weight: bold;
-        font-size: var(--header-active-font-size);
+        font-weight: 650;
     }
 
     @media (max-width: 700px) {
         a {
-            font-size: calc(var(--header-top-font-size) * 1.5);
-        }
-
-        .active {
-            font-size: calc(var(--header-active-font-size) * 1.5);
+            font-size: calc(var(--header-font-size) * 1.5);
         }
     }
 
