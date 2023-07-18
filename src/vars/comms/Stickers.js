@@ -6,6 +6,7 @@ import se3 from '../../assets/comms/stickers/emotes/se3.png'
 import se4 from '../../assets/comms/stickers/emotes/se4.png'
 
 import ss1 from '../../assets/comms/stickers/stickers/ss1.png'
+import ss2 from '../../assets/comms/stickers/stickers/ss2.png'
 
 
 export default {
@@ -66,7 +67,7 @@ export default {
                 "Stickers will be drawn at 512 x 512 px. This allows you to quickly upload to telegram, discord, or any other platforms that allow user created stickers!",
                 "All stickers come with a 'display' image that shows off all your stickers in one place!"
             ],
-            imgs: [ss1],
+            imgs: [ss1, ss2],
         },
     ]
 }

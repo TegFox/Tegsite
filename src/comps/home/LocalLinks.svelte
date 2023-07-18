@@ -13,19 +13,19 @@
 <div class="grid">
 
     <div class="grid-1">
-        <Goto background={`url(${Prices})`} {overlay} href={gvars.links.prices.path} title="Prices" sub="Learn More"/>
+        <Goto background={`url(${Prices})`} {overlay} href="/prices" title="Prices" sub="Learn More"/>
     </div>
 
     <div class="grid-2">
-        <Goto background={`url(${YCH})`} {overlay} href={gvars.links.ych.path} title="YCH" sub="Your Character Here. Learn More"/>
+        <Goto background={`url(${YCH})`} {overlay} href="/ych" title="YCH" sub="Your Character Here. Learn More"/>
     </div>
 
     <div class="grid-3">
-        <Goto background={`url(${Terms})`} {overlay} href={gvars.links.termsfaq.path} title="Terms & FAQ" sub="Learn More"/>
+        <Goto background={`url(${Terms})`} {overlay} href="/terms" title="Terms & FAQ" sub="Learn More"/>
     </div>
 
     <div class="grid-4">
-        <Goto background={`url(${About})`} {overlay} href={gvars.links.about.path} title="About Me!" sub="Learn More"/>
+        <Goto background={`url(${About})`} {overlay} href="/about" title="About Me!" sub="Learn More"/>
     </div>
 
 </div>

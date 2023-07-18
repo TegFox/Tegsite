@@ -18,7 +18,7 @@
             <div slot="right">
                 <Card background="#00000088" padding="1.5rem">
                     <div class="h2">
-                        Hi! I'm Teg!
+                        Hey, I'm Teg!
                     </div>
                     <div class="about-p">
                         <p>
@@ -28,8 +28,8 @@
                         </p>
                         <p>
                             Beyond art and other furry stuff, I'm currently studying Computer Science at
-                            Georgia Tech. I also enjoy taking photos, looking at branding standards,
-                            making simple graphic designs, tinkering with electronics, and programming!
+                            Georgia Tech, and doing photography and graphic design. In my free time I also do lots of
+                            exploring, traveling, and urbanism/transit advocacy!
                         </p>
                     </div>
                     <div style:margin="3rem"></div>

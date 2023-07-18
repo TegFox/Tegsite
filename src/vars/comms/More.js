@@ -9,6 +9,10 @@ import chibi3 from '../../assets/comms/more/chibi3.png'
 
 import drawover1 from '../../assets/comms/more/drawover1.png'
 import drawover2 from '../../assets/comms/more/drawover2.png'
+import drawover3 from '../../assets/comms/more/drawover3.png'
+
+import comic1 from '../../assets/comms/more/comic1.png'
+import comic2 from '../../assets/comms/more/comic2.png'
 
 export default {
     name: 'More Stuff & Things',
@@ -28,7 +32,7 @@ export default {
         },
         {
             name: "Chibis",
-            desc: "You, but small",
+            desc: "You, but smol",
             extra: [
                 "Pricing on these would likely be somewhat less than illustrations. Feel free to ask for a quote!"
             ],
@@ -41,7 +45,15 @@ export default {
                 "You can choose any picture you'd like, whether its a picture of you with some friends, or an album cover!",
                 "I have no idea on pricing for these, so they're Pay What You Want for now :3"
             ],
-            imgs: [drawover1, drawover2],
+            imgs: [drawover1, drawover2, drawover3],
+        },
+        {
+            name: "Comics",
+            desc: "Tell a story about yourself!",
+            extra: [
+                "Since comics are really time consuming to make, expect much higher prices compared to some of the other commission types I take."
+            ],
+            imgs: [comic1, comic2],
         },
     ]
 }

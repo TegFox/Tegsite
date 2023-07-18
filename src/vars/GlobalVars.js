@@ -5,31 +5,9 @@ import Stickers from "./comms/Stickers.js";
 import More from "./comms/More.js"
 
 export default  {
-    comms: 'closed',
+    comms: 'closed', // 'open', 'closed', 'askme', anything else will just show the text
     comm_form: 'https://forms.gle/DWfqsnRutFfebx6n8',
     comm_types: [Headshot, Illustration, RefSheet, Stickers, More],
-    links: {
-        home: {
-            sname: 'Home',
-            path: '/'
-        },
-        prices: {
-            sname: 'Prices',
-            path: '/prices'
-        },
-        ych: {
-            sname: 'YCH',
-            path: '/ych'
-        },
-        termsfaq: {
-            sname: 'Terms / FAQ',
-            path: '/terms'
-        },
-        about: {
-            sname: 'About',
-            path: '/about'
-        },
-    },
     colors: {
         teg_grey: '#192231',
         teg_bloo: '#44daff',
