@@ -13,7 +13,7 @@
             Important Links!
         </div>
         <p style:margin-top="0">
-            Here are some links that you might be looking for 🦊
+            Here are some links that you might find useful 🦊
         </p>
     </div>
     <div>
