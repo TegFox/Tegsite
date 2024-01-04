@@ -12,8 +12,7 @@
         You've Reached The End.
     </div>
     <div style="display: flex; flex-direction: row">
-        <div on:click={scrollToTop} style:text-decoration="none" style:color="grey"
-             style:cursor="pointer" style:user-select="none">
+        <div on:click={scrollToTop} class="hover">
             <div style:margin="0.5rem 0">
                 Go back to top
             </div>
@@ -23,3 +22,18 @@
         © Teg Fox {new Date().getFullYear()}. All Rights Reserved.
     </p>
 </Body>
+
+<style>
+    .hover {
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        user-select: none;
+        opacity: 0.5;
+        transition: 0.15s;
+    }
+
+    .hover:hover {
+        opacity: 0.25;
+    }
+</style>

@@ -22,6 +22,8 @@
 
 <svelte:window bind:scrollY={scroll} bind:outerHeight/>
 
+<div class="top-gradient"/>
+
 <div>
     <div class="out" style:height>
         <div class="out out-bg"
@@ -65,6 +67,14 @@
         --title-body-fontsize: 2rem;
         --title-body-mobile-fontsize: 1.2rem;
     }
+
+    /* .top-gradient {
+        position: absolute;
+        top: 0;
+        width: 100vw;
+        height: 10rem;
+        background: linear-gradient(#00000088 50%, transparent);
+    } */
 
     .out {
         min-width: 100%;

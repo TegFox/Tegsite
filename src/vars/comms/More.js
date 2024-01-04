@@ -6,6 +6,7 @@ import sketchpage2 from '../../assets/comms/more/sketchpage2.png'
 import chibi1 from '../../assets/comms/more/chibi1.png'
 import chibi2 from '../../assets/comms/more/chibi2.png'
 import chibi3 from '../../assets/comms/more/chibi3.png'
+import chibi4 from '../../assets/comms/more/chibi4.png'
 
 import drawover1 from '../../assets/comms/more/drawover1.png'
 import drawover2 from '../../assets/comms/more/drawover2.png'
@@ -36,7 +37,7 @@ export default {
             extra: [
                 "Pricing on these would likely be somewhat less than illustrations. Feel free to ask for a quote!"
             ],
-            imgs: [chibi1, chibi2, chibi3],
+            imgs: [chibi1, chibi2, chibi3, chibi4],
         },
         {
             name: "Drawovers",

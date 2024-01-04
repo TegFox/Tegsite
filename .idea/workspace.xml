@@ -4,34 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a656841-42c4-4795-9526-c069d6da3e80" name="Changes" comment="Rewrote header">
+    <list default="true" id="3a656841-42c4-4795-9526-c069d6da3e80" name="Changes" comment="changed a couple words lol">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/about.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/about.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/about_bg2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/about_bg3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/about_bg3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/comms/halfbody.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/comms/illustration.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/illustration.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/comms/illustration/char/ic2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/illustration/char/ic2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/comms/illustration/char/ic3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/illustration/char/ic3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/comms/illustration/scene/is1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/illustration/scene/is1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/comms/illustration/scene/is2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/illustration/scene/is2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/comms/illustration/scene/is3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/illustration/scene/is3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/comms/more/drawover1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/more/drawover1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/comms/stickers.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/stickers.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/comms/stickers/emotes/se1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/stickers/emotes/se1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/comms/stickers/emotes/se4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/stickers/emotes/se4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/comms/stickers/stickers/ss1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/comms/stickers/stickers/ss1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/prices.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/prices.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/terms.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/terms.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/about/AboutMe.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/AboutMe.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/about/Links.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/about/Links.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comps/home/LocalLinks.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/home/LocalLinks.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/(none)/dev/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/(none)/dev/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vars/GlobalVars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vars/GlobalVars.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vars/comms/Illustration.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vars/comms/Illustration.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vars/comms/More.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vars/comms/More.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vars/comms/Stickers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vars/comms/Stickers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/header/Header.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/header/Header.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comps/header/NavLink.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/comps/header/NavLink.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,21 +39,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/josep/Stuff/Projects/js/tegsite/src/comps/header/new",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/josep/Stuff/Projects/js/tegsite/src/comps/header/new&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\josep\Stuff\Projects\js\tegsite\src\comps\header\new" />
@@ -120,7 +96,11 @@
       <workItem from="1673322381979" duration="24000" />
       <workItem from="1673322417020" duration="600000" />
       <workItem from="1683309475579" duration="388000" />
-      <workItem from="1689482269842" duration="14996000" />
+      <workItem from="1689482269842" duration="15085000" />
+      <workItem from="1691786209140" duration="205000" />
+      <workItem from="1692458474409" duration="633000" />
+      <workItem from="1693325101961" duration="1939000" />
+      <workItem from="1699915413549" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="refactoring part 1">
       <created>1672811328597</created>
@@ -136,7 +116,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689724172830</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated assets and misc info">
+      <created>1689724551368</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689724551368</updated>
+    </task>
+    <task id="LOCAL-00004" summary="changed a couple words lol">
+      <created>1689724594235</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689724594235</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +139,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactoring part 1" />
     <MESSAGE value="Rewrote header" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rewrote header" />
+    <MESSAGE value="Updated assets and misc info" />
+    <MESSAGE value="changed a couple words lol" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed a couple words lol" />
   </component>
 </project>

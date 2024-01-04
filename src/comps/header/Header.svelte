@@ -2,7 +2,7 @@
     import src from '../../assets/logo.png';
     import NavBar from "./NavBar.svelte";
     import MobileNavBar from "./MobileNavBar.svelte";
-    import ReactiveComp from "$lib/ReactiveComp.svelte";
+    import ReactiveComp from "../../lib/ReactiveComp.svelte";
 
     export let breakpointVh = 20
 
@@ -16,12 +16,12 @@
 
 <svelte:window bind:scrollY={scroll} bind:outerHeight={vpHeight}/>
 
-<header>
+<header class="col-center">
     <!--This is a dumb workaround for the mobile stuff-->
     <div class="title-dim header-effects" class:scrolled></div>
 
     <div class="title title-dim" class:scrolled>
-        <div class="container">
+        <div class="container" class:scrolled>
             <div style:grid-column="1" style:text-align="left" style:width="100%" style:display="flex">
                 <a href="/" on:click={() => {open = false}} style:display="flex">
                     <img {src} alt="Site Logo" class='logo-img' class:scrolled id="logo"/>
@@ -45,7 +45,7 @@
 
 <style>
     :root {
-        --header-transition: all 0.3s cubic-bezier(0, 0.6, 0.4, 1);
+        --header-transition: all 0.3s cubic-bezier(0, 0.8, 0.5, 1);
 
         --header-height:  10rem;
         --header-top-img-margin: 1.5rem;
@@ -72,6 +72,7 @@
     .title-dim {
         overflow: hidden;
         position: fixed;
+        box-sizing: border-box;
         width: 100%;
         top: 0;
         height: var(--header-height);
@@ -79,14 +80,19 @@
 
     /*Reduce height of titlebar when scrolled*/
     .title-dim.scrolled {
-        height: calc(var(--header-height) / 2);
+        height: calc(var(--header-height) / 1.8);
+        width: calc(100% - 2*1rem);
+        margin: 1rem;
+        border-radius: 1rem;
     }
 
     /*Background effects to display when scrolled*/
     .header-effects.scrolled {
         z-index: 10;
         background-color: var(--header-background);
-        backdrop-filter: blur(var(--header-blur-amount));
+        backdrop-filter: blur(var(--header-blur-amount)) saturate(200%);
+        -webkit-backdrop-filter: blur(var(--header-blur-amount)) saturate(200%);
+        border: #ffffff44 1px solid;
     }
 
     /*Grid container for left (logo) and right (buttons) sides of header*/
@@ -94,6 +100,10 @@
         display: grid;
         align-items: center;
         width: 100%;
+        margin: 0 3rem 0 1rem;
+    }
+
+    .container.scrolled {
         margin: 0 2rem 0 1rem;
     }
 
@@ -111,14 +121,20 @@
 
     /*Shrinks logo when scrolled*/
     .logo-img.scrolled {
-        height: calc(var(--header-height) / 2 - 2 * var(--header-scrolled-img-margin));
+        height: calc(var(--header-height) / 2.25 - var(--header-scrolled-img-margin));
         margin-left: var(--header-scrolled-img-margin);
     }
 
-    @media (max-width: 700px) {
+    @media (max-width: 825px) {
         .container {
             margin-left: 0;
-            margin-right: 1.5rem;
+            margin-right: 3rem;
+        }
+    }
+
+    @media (min-width: 1400px) {
+        .title-dim.scrolled {
+            width: 1300px;
         }
     }
 

@@ -55,6 +55,11 @@ body {
 .link {
     text-decoration: none;
     color: cyan;
+    transition: 0.15s
+}
+
+.link:hover {
+    color: teal;
 }
 
 .white-link {

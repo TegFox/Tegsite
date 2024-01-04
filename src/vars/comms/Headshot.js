@@ -8,6 +8,7 @@ import hsl4 from '../../assets/comms/headshot/lined/hsl4.png'
 import hsls1 from '../../assets/comms/headshot/lineless/hsls1.png'
 import hsls2 from '../../assets/comms/headshot/lineless/hsls2.png'
 import hsls3 from '../../assets/comms/headshot/lineless/hsls3.png'
+import hsls4 from '../../assets/comms/headshot/lineless/hsls4.png'
 
 export default {
     name: 'Headshots',
@@ -52,7 +53,7 @@ export default {
                 "These headshots can be done in a more clean or a more paintery, sketchy style. Just specify which you'd prefer!",
                 "Additional items and props can be added, although it may increase the price"
             ],
-            imgs: [hsls1, hsls2, hsls3],
+            imgs: [hsls1, hsls2, hsls3, hsls4],
         },
     ],
 }
