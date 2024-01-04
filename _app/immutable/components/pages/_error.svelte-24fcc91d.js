@@ -1,0 +1,5 @@
+import{S as h,i as b,s as v,a as p,w as u,G as w,h as f,c as $,x as c,b as l,y as _,f as d,t as g,z as E,H as y}from"../../chunks/index-83c5a036.js";import{E as H}from"../../chunks/Error-19231016.js";import{p as S}from"../../chunks/index-6a62affd.js";import{H as q}from"../../chunks/Header-f04eb86c.js";function z(s){let a,m,t,i,r,n;return document.title=a=`\r
+        Error `+s[0]+": "+s[1]+`\r
+    `,t=new q({}),r=new H({props:{status:s[0],message:s[1]}}),{c(){m=p(),u(t.$$.fragment),i=p(),u(r.$$.fragment)},l(e){w("svelte-1to8gfe",document.head).forEach(f),m=$(e),c(t.$$.fragment,e),i=$(e),c(r.$$.fragment,e)},m(e,o){l(e,m,o),_(t,e,o),l(e,i,o),_(r,e,o),n=!0},p(e,[o]){(!n||o&3)&&a!==(a=`\r
+        Error `+e[0]+": "+e[1]+`\r
+    `)&&(document.title=a)},i(e){n||(d(t.$$.fragment,e),d(r.$$.fragment,e),n=!0)},o(e){g(t.$$.fragment,e),g(r.$$.fragment,e),n=!1},d(e){e&&f(m),E(t,e),e&&f(i),E(r,e)}}}function C(s,a,m){let t;y(s,S,n=>m(2,t=n));const i=t.status,r=t.error.message;return[i,r]}class B extends h{constructor(a){super(),b(this,a,C,z,v,{})}}export{B as default};
