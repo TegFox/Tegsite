@@ -90,8 +90,8 @@
     .header-effects.scrolled {
         z-index: 10;
         background-color: var(--header-background);
-        backdrop-filter: blur(var(--header-blur-amount)) saturate(200%);
-        -webkit-backdrop-filter: blur(var(--header-blur-amount)) saturate(200%);
+        backdrop-filter: blur(var(--header-blur-amount)) saturate(140%);
+        -webkit-backdrop-filter: blur(var(--header-blur-amount)) saturate(140%);
         border: #ffffff44 1px solid;
     }
 

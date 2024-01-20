@@ -16,7 +16,7 @@
             </div>
 
             <div slot="right">
-                <Card background="#00000088" padding="1.5rem">
+                <Card background="#000000dd" padding="1.5rem">
                     <div class="h2">
                         Hey, I'm Teg!
                     </div>

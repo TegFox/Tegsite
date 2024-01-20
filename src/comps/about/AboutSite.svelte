@@ -19,7 +19,7 @@
         </div>
         <SideBySide>
             <div slot="left" class="col-center">
-                <SvelteKit maxWidth="40rem"/>
+                <SvelteKit maxWidth="30rem"/>
             </div>
             <div slot="right">
                 <div class="h4 allcaps wide">
