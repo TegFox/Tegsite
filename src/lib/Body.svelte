@@ -1,9 +1,8 @@
 <script>
-    export let color
-    export let img
+    export let background
 </script>
 
-<div class="body-div" style:background={color} style:background-image={`url(${img})`} >
+<div class="body-div" style:background>
     <slot/>
 </div>
 
