@@ -9,28 +9,28 @@
 
 
 {#if open}
-    <div class="mobile-menu mobilemenu-out" transition:fly={{x: 150}}>
-        <div transition:fly={{x: 15, delay: 80 * 1}} on:click={() => open = false}>
+    <div class="mobile-menu mobilemenu-out" transition:fly|global={{x: 150}}>
+        <div transition:fly|global={{x: 15, delay: 80 * 1}} on:click={() => open = false}>
             <NavLink href="/">
                 HOME
             </NavLink>
         </div>
-        <div transition:fly={{x: 15, delay: 80 * 2}} on:click={() => open = false}>
+        <div transition:fly|global={{x: 15, delay: 80 * 2}} on:click={() => open = false}>
             <NavLink href="/prices">
                 PRICES
             </NavLink>
         </div>
-        <div transition:fly={{x: 15, delay: 80 * 3}} on:click={() => open = false}>
+        <div transition:fly|global={{x: 15, delay: 80 * 3}} on:click={() => open = false}>
             <NavLink href="/ych">
                 YCH
             </NavLink>
         </div>
-        <div transition:fly={{x: 15, delay: 80 * 4}} on:click={() => open = false}>
+        <div transition:fly|global={{x: 15, delay: 80 * 4}} on:click={() => open = false}>
             <NavLink href="/terms">
                 TERMS/FAQ
             </NavLink>
         </div>
-        <div transition:fly={{x: 15, delay: 80 * 5}} on:click={() => open = false}>
+        <div transition:fly|global={{x: 15, delay: 80 * 5}} on:click={() => open = false}>
             <NavLink href="/about">
                 ABOUT
             </NavLink>

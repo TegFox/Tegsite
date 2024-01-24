@@ -29,7 +29,7 @@
         </StackPanel>
     </Body>
 
-    <Body color={gvars.colors.teg_grey}>
+    <Body background={gvars.colors.teg_grey}>
         <HomeLinks {socialwidth}/>
     </Body>
 

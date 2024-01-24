@@ -1,5 +1,5 @@
 <script>
-    import Body from "../../lib/Body.svelte";
+    import Body from "$lib/Body.svelte";
     import {browser} from "$app/environment";
 
     const scrollToTop = () => {
@@ -7,12 +7,12 @@
     }
 </script>
 
-<Body color="192231">
+<Body>
     <div class="h3">
         You've Reached The End.
     </div>
     <div style="display: flex; flex-direction: row">
-        <div on:click={scrollToTop} class="hover">
+        <div on:click={scrollToTop} on:keydown={scrollToTop} class="hover">
             <div style:margin="0.5rem 0">
                 Go back to top
             </div>

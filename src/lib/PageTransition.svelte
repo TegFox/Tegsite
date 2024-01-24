@@ -9,7 +9,7 @@
 </script>
 
 {#key update}
-    <div in:fly={{  y: dist * -1, duration: duration, easing: cubicOut }}>
+    <div in:fly|global={{  y: dist * -1, duration: duration, easing: cubicOut }}>
         <slot/>
     </div>
 {/key}

@@ -116,7 +116,10 @@
 
         /*These help fix weird flashing issues on webkit and chromium*/
         -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+
         -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
     }
 
     /*Shrinks logo when scrolled*/

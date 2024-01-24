@@ -37,7 +37,7 @@
              style:height></div>
 
         <PageTransition url={$page.url.pathname}>
-            <div class="title" style:bottom={`calc(100vh - ${height})`} in:fade>
+            <div class="title" style:bottom={`calc(100vh - ${height})`} in:fade|global>
                 <div class="h1 title-head">
                     {title}
                 </div>

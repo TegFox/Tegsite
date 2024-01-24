@@ -13,7 +13,7 @@
 </script>
 
 <div>
-    <Body color={globalVars.colors.teg_grey}>
+    <Body background={globalVars.colors.teg_grey}>
         <div class="h3" style:margin-bottom="1rem">
             About This Site
         </div>

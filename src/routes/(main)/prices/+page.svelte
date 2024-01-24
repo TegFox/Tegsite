@@ -28,7 +28,7 @@
         </StackPanel>
     </Body>
 
-    <Body color={globalVars.colors.teg_grey}>
+    <Body background={globalVars.colors.teg_grey}>
         <CatchAll/>
     </Body>
 
