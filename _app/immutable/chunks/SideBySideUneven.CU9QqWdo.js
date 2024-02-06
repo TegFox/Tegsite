@@ -1,0 +1,13 @@
+import{s as k,o as y,e as w,a as C,f as b,j as x,d as c,c as S,w as g,x as W,i as B,k as v,u as z,p as D,q as E}from"./scheduler.LO_MRueC.js";import{S as U,i as A,t as G,b as I}from"./index.cGsg7NVX.js";/* empty css                                                      */const F=i=>({}),V=i=>({}),H=i=>({}),q=i=>({});function J(i){let s,l,u,d,m,h,_,f;const o=i[10].left,a=y(o,i,i[9],q),r=i[10].right,n=y(r,i,i[9],V);return{c(){s=w("div"),l=w("div"),a&&a.c(),u=C(),d=w("div"),m=C(),h=w("div"),n&&n.c(),this.h()},l(t){s=b(t,"DIV",{class:!0,style:!0});var e=x(s);l=b(e,"DIV",{class:!0});var Z=x(l);a&&a.l(Z),Z.forEach(c),u=S(e),d=b(e,"DIV",{class:!0}),x(d).forEach(c),m=S(e),h=b(e,"DIV",{class:!0});var j=x(h);n&&n.l(j),j.forEach(c),e.forEach(c),this.h()},h(){g(l,"class","sxs-flex-left svelte-1mjjgsm"),W(l,"z-index",i[7]),g(d,"class","sxs-flex-spacer"),g(h,"class","sxs-flex-right svelte-1mjjgsm"),W(h,"z-index",i[8]),g(s,"class","sxs-flex-outer svelte-1mjjgsm"),g(s,"style",_=`--sxs-left-width: ${i[0]};
+             --sxs-max-child-width: ${i[1]};
+             --sxs-align: ${i[6]};
+             --sxs-width: ${i[2]};
+             --sxs-gap: ${i[3]};
+             --sxs-mobile-gap: ${i[4]};
+             --sxs-mobile-dir: ${i[5]?"column-reverse":"column"}`)},m(t,e){B(t,s,e),v(s,l),a&&a.m(l,null),v(s,u),v(s,d),v(s,m),v(s,h),n&&n.m(h,null),f=!0},p(t,[e]){a&&a.p&&(!f||e&512)&&z(a,o,t,t[9],f?E(o,t[9],e,H):D(t[9]),q),e&128&&W(l,"z-index",t[7]),n&&n.p&&(!f||e&512)&&z(n,r,t,t[9],f?E(r,t[9],e,F):D(t[9]),V),e&256&&W(h,"z-index",t[8]),(!f||e&127&&_!==(_=`--sxs-left-width: ${t[0]};
+             --sxs-max-child-width: ${t[1]};
+             --sxs-align: ${t[6]};
+             --sxs-width: ${t[2]};
+             --sxs-gap: ${t[3]};
+             --sxs-mobile-gap: ${t[4]};
+             --sxs-mobile-dir: ${t[5]?"column-reverse":"column"}`))&&g(s,"style",_)},i(t){f||(G(a,t),G(n,t),f=!0)},o(t){I(a,t),I(n,t),f=!1},d(t){t&&c(s),a&&a.d(t),n&&n.d(t)}}}function K(i,s,l){let{$$slots:u={},$$scope:d}=s,{leftWidth:m="48%"}=s,{maxChildWidth:h="auto"}=s,{width:_="auto"}=s,{gap:f="4%"}=s,{mobileGap:o=f}=s,{reverse:a=!1}=s,{align:r="center"}=s,{leftZ:n=0}=s,{rightZ:t=0}=s;return i.$$set=e=>{"leftWidth"in e&&l(0,m=e.leftWidth),"maxChildWidth"in e&&l(1,h=e.maxChildWidth),"width"in e&&l(2,_=e.width),"gap"in e&&l(3,f=e.gap),"mobileGap"in e&&l(4,o=e.mobileGap),"reverse"in e&&l(5,a=e.reverse),"align"in e&&l(6,r=e.align),"leftZ"in e&&l(7,n=e.leftZ),"rightZ"in e&&l(8,t=e.rightZ),"$$scope"in e&&l(9,d=e.$$scope)},[m,h,_,f,o,a,r,n,t,d,u]}class O extends U{constructor(s){super(),A(this,s,K,J,k,{leftWidth:0,maxChildWidth:1,width:2,gap:3,mobileGap:4,reverse:5,align:6,leftZ:7,rightZ:8})}}export{O as S};

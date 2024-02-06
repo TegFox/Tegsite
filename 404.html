@@ -4,24 +4,33 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta http-equiv="content-security-policy" content="">
-		<link rel="modulepreload" href="/_app/immutable/start-3de92f07.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/index-83c5a036.js">
-		<link rel="modulepreload" href="/_app/immutable/chunks/singletons-20a49e68.js">
+		
+		<link rel="modulepreload" href="/_app/immutable/entry/start.YtL84hjK.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/entry.QM7L-ICh.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/scheduler.LO_MRueC.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.98sjL_Zh.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/index.cGsg7NVX.js">
 		<meta name="theme-color" content="#000000" />
 		<meta name="description" content="Teg's Art site and Commission info"/>
 	</head>
 	<body>
 		<div>
-		<script type="module" data-sveltekit-hydrate="45h">
-			import { start } from "/_app/immutable/start-3de92f07.js";
+			<script>
+				{
+					__sveltekit_duczo2 = {
+						base: ""
+					};
 
-			start({
-				env: {},
-				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="45h"]').parentNode,
-				version: "1706078255419"
-			});
-		</script></div>
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/_app/immutable/entry/start.YtL84hjK.js"),
+						import("/_app/immutable/entry/app.98sjL_Zh.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
 	</body>
 </html>
