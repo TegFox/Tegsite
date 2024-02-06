@@ -3,6 +3,7 @@
 
     export let base = '100%'
     export let background = '#222222'
+    export let img = undefined
     export let darkness = '20%'
     export let overlay
     export let height = 'auto'
@@ -11,7 +12,7 @@
     let fbg
 
     if (overlay) {
-        fbg = `linear-gradient(${overlay}, ${overlay}), ${background}`
+        fbg = `linear-gradient(${overlay}, ${overlay}), ${img ? `url(${img})` : background}`
     } else {
         fbg = background
     }

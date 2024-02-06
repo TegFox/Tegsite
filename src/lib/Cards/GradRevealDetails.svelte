@@ -2,7 +2,7 @@
     import Card from "./Card.svelte";
 
     export let borderRadius = '16px'
-    export let img
+    export let img = undefined
     export let height = 'auto'
     export let maxHeightDelta
     export let contain

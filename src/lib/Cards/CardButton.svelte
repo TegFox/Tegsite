@@ -4,6 +4,7 @@
 
     export let href
     export let background
+    export let img = undefined
     export let padding = '0.75rem'
     export let borderRadius = '8px'
 
@@ -11,7 +12,7 @@
 
 <a {href} class="cardbutton-outer" style:text-decoration="none" style:color="white" style:cursor="pointer">
 
-    <Card {background} {padding} {borderRadius}>
+    <Card {background} {img} {padding} {borderRadius}>
         <div>
             <slot/>
         </div>
