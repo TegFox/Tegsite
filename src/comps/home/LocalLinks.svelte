@@ -40,7 +40,7 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    /* .grid-1 {
+    .grid-1 {
         grid-row: 1;
         grid-column: 1;
     }
@@ -58,16 +58,16 @@
     .grid-4 {
         grid-row: 2;
         grid-column: 2;
-    } */
+    }
 
     @media (max-width: 880px) {
 
-        .grid {
+        grid-fucker {
             grid-template-columns: 1fr;
             grid-row-gap: 2rem;
         }
 
-        /* .grid-1 {
+        .grid-1 {
             grid-row: 1;
             grid-column: 1;
         }
@@ -85,7 +85,7 @@
         .grid-4 {
             grid-row: 4;
             grid-column: 1;
-        } */
+        }
 
     }
 
