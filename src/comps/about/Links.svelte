@@ -31,15 +31,15 @@
                 <Icon icon={siTwitter}/>
                 Twitter
             </HCardButton>
-            <HCardButton href={globalVars.external.email} {background}>
+            <HCardButton href={globalVars.external.bluesky} {background}>
                 <img src={Bluesky} style:width="24px" style:filter="brightness(200)" alt="Logo for Bluesky social"/>
                 BlueSky
             </HCardButton>
-            <HCardButton href={globalVars.external.email} {background}>
+            <HCardButton href={globalVars.external.mastodon} {background}>
                 <Icon icon={siMastodon}/>
                 Mastodon
             </HCardButton>
-            <HCardButton href={globalVars.external.email} {background}>
+            <HCardButton href={globalVars.external.reddit} {background}>
                 <Icon icon={siReddit}/>
                 Reddit
             </HCardButton>
