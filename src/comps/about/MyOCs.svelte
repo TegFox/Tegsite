@@ -19,14 +19,14 @@
                 My OCs!
             </div>
             <p style:margin="0.5rem" class="text">
-                These are all of my characters! More on the way 🦊
+                These are all my characters! More on the way 🦊
             </p>
         </div>
 
         <ReactiveComp825>
 
             <div slot="main" class="col-center">
-                <div class="text tac" style:margin-bottom="1rem">
+                <div class="text tac" style:margin-bottom="2rem">
                     Click cards for more info!
                 </div>
                 <div class="about-flex-wrap">

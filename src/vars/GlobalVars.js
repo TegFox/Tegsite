@@ -17,6 +17,10 @@ export default  {
     external: {
         placeholder: 'https://liusef.github.io/dance-goat-dance/',
         twitter: 'https://twitter.com/floofybluething',
+        twitter_personal: 'https://twitter.com/leggomyteggo',
+        bluesky: 'https://bsky.app/profile/tegfox.art',
+        mastodon: 'https://pawb.fun/@tegfox',
+        reddit: 'https://reddit.com/u/LeggoMyTeggo',
         trello: 'https://trello.com/b/zi6VfP7F/stuff',
         patreon: 'https://liusef.github.io/dance-goat-dance/',
         email: 'mailto:tegfox+site@outlook.com',

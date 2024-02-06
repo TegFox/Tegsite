@@ -3,6 +3,7 @@
     import ImageHoverCard from "$lib/Cards/ImageHoverCard.svelte";
 
     export let background = '#222222'
+    export let img = undefined
     export let title = ''
     export let sub
     export let href
@@ -14,7 +15,7 @@
 </script>
 
 <a {href} style:text-decoration="none" style:color="white">
-    <ImageHoverCard {background} {overlay} {height} {padding} base="75%">
+    <ImageHoverCard {background} {img} {overlay} {height} {padding} base="75%">
         <div class="h2 goto-ds">
             {title}
         </div>

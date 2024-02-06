@@ -1,12 +1,14 @@
 <script>
     export let reverse = false
+    export let leftZ = 0
+    export let rightZ = 0
 </script>
 
 <div class="grid" style={`--sxs-mobile-left-row: ${reverse?2:1}; --sxs-mobile-right-row: ${reverse?1:2};`}>
-    <div class="grid-left">
+    <div class="grid-left" style:z-index={leftZ}>
         <slot name="left"/>
     </div>
-    <div class="grid-right">
+    <div class="grid-right" style:z-index={rightZ}>
         <slot name="right"/>
     </div>
 </div>

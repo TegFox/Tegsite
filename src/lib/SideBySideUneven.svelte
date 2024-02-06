@@ -7,6 +7,8 @@
     export let mobileGap = gap;
     export let reverse = false
     export let align = 'center'
+    export let leftZ = 0
+    export let rightZ = 0
 
 </script>
 
@@ -19,13 +21,13 @@
              --sxs-mobile-gap: ${mobileGap};
              --sxs-mobile-dir: ${reverse ? 'column-reverse' : 'column'}`}>
 
-    <div class="sxs-flex-left">
+    <div class="sxs-flex-left" style:z-index={leftZ}>
         <slot name="left"/>
     </div>
 
     <div class="sxs-flex-spacer"></div>
 
-    <div class="sxs-flex-right">
+    <div class="sxs-flex-right" style:z-index={rightZ}>
         <slot name="right"/>
     </div>
 

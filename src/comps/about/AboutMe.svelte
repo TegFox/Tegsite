@@ -1,22 +1,31 @@
 <script>
     import Me from '../../assets/me.png'
+    import MeMobile from '../../assets/me_mobile.png'
     import Card from "$lib/Cards/Card.svelte";
     import bg from "../../assets/about_bg3.png"
     import Links from "./Links.svelte";
     import SideBySideUneven from "../../lib/SideBySideUneven.svelte";
+    import ReactiveComp825 from "$lib/ReactiveComp825.svelte"
 </script>
 
 
 
 <Card background={`url(${bg})`} padding="1rem">
     <div class="col-center">
-        <SideBySideUneven leftWidth="296px" gap="1rem" width="1000px" mobileGap="0">
+        <SideBySideUneven leftWidth="296px" gap="0" width="1080px" mobileGap="0" leftZ="1" rightZ="0">
             <div slot="left" class="col-center">
-                <img src={Me} alt="Teg" style:width='296px'/>
+                <ReactiveComp825>
+                    <div slot=main>
+                        <img src={Me} alt="Teg" style:width='296px'/>
+                    </div>
+                    <div slot=alt>
+                        <img src={MeMobile} alt="Teg" style:width='296px' style:margin-bottom='-50px'/>
+                    </div>
+                </ReactiveComp825>
             </div>
 
-            <div slot="right">
-                <Card background="#000000dd" padding="1.5rem">
+            <div slot="right" style:z-index="-10">
+                <Card background="#000000dd" padding="1.5rem" >
                     <div class="h2">
                         Hey, I'm Teg!
                     </div>

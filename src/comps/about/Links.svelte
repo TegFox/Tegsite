@@ -1,7 +1,8 @@
 <script>
     import HCardButton from "../common/HCardButton.svelte";
     import Icon from "../../lib/Icon.svelte";
-    import {siMicrosoftoutlook, siPatreon, siTrello, siTwitter} from "simple-icons/icons";
+    import Bluesky from "../../assets/icons/bluesky.svg"
+    import {siMicrosoftoutlook, siPatreon, siTrello, siTwitter, siReddit, siMastodon} from "simple-icons/icons";
     import globalVars from "../../vars/GlobalVars.js";
 
     const background = '#000000aa'
@@ -18,21 +19,33 @@
     </div>
     <div>
         <div class="flex-wrap mobile-space-evenly-825 bold wide allcaps">
-            <HCardButton href={globalVars.external.twitter} {background}>
-                <Icon icon={siTwitter}/>
-                Twitter
-            </HCardButton>
             <HCardButton href={globalVars.external.trello} {background}>
                 <Icon icon={siTrello}/>
                 Trello
             </HCardButton>
-            <HCardButton href={globalVars.external.patreon} {background}>
-                <Icon icon={siPatreon}/>
-                Patreon
-            </HCardButton>
             <HCardButton href={globalVars.external.email} {background}>
                 <Icon icon={siMicrosoftoutlook}/>
                 E-Mail
+            </HCardButton>
+            <HCardButton href={globalVars.external.twitter} {background}>
+                <Icon icon={siTwitter}/>
+                Twitter
+            </HCardButton>
+            <HCardButton href={globalVars.external.email} {background}>
+                <img src={Bluesky} style:width="24px" style:filter="brightness(200)" alt="Logo for Bluesky social"/>
+                BlueSky
+            </HCardButton>
+            <HCardButton href={globalVars.external.email} {background}>
+                <Icon icon={siMastodon}/>
+                Mastodon
+            </HCardButton>
+            <HCardButton href={globalVars.external.email} {background}>
+                <Icon icon={siReddit}/>
+                Reddit
+            </HCardButton>
+            <HCardButton href={globalVars.external.patreon} {background}>
+                <Icon icon={siPatreon}/>
+                Patreon
             </HCardButton>
         </div>
     </div>

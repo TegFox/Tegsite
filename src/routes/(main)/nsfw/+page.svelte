@@ -1,5 +1,5 @@
 <script>
-import img from '../../../assets/klaus.png'
+import img from '../../../assets/nsfw.png'
 import Title from "../../../comps/common/Title.svelte";
 import NotDone from "../../../comps/common/NotDone.svelte";
 import Body from "../../../lib/Body.svelte";

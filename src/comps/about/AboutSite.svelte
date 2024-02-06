@@ -35,8 +35,8 @@
                     Clicks the buttons below for the code for this site and other relevant links!
                 </p>
 
-                <div class="bold wide allcaps mobile-center-825">
-                    <StackPanel direction="row" align="center" gap="0.25rem" styleClass="mobile-space-evenly-825">
+                <div class="bold wide allcaps mobile-center-825" style:margin-top="2rem">
+                    <StackPanel direction="row" align="center" gap="0.5rem" styleClass="mobile-space-evenly-825">
                         <HCardButton href={globalVars.external.siterepo} {background}>
                             <Icon icon={siGithub}/>
                             Site Repo
