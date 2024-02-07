@@ -2,7 +2,7 @@
     import HCardButton from "../common/HCardButton.svelte";
     import Icon from "../../lib/Icon.svelte";
     import Bluesky from "../../assets/icons/bluesky.svg"
-    import {siMicrosoftoutlook, siPatreon, siTrello, siTwitter, siReddit, siMastodon} from "simple-icons/icons";
+    import {siMicrosoftoutlook, siPatreon, siTrello, siTwitter, siFuraffinity, siMastodon} from "simple-icons/icons";
     import globalVars from "../../vars/GlobalVars.js";
 
     const background = '#000000aa'
@@ -39,9 +39,9 @@
                 <Icon icon={siMastodon}/>
                 Mastodon
             </HCardButton>
-            <HCardButton href={globalVars.external.reddit} {background}>
-                <Icon icon={siReddit}/>
-                Reddit
+            <HCardButton href={globalVars.external.furaffinity} {background}>
+                <Icon icon={siFuraffinity}/>
+                Furaffinity
             </HCardButton>
             <HCardButton href={globalVars.external.patreon} {background}>
                 <Icon icon={siPatreon}/>

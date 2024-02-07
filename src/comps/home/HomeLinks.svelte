@@ -7,7 +7,7 @@
     import Patreon from "../../assets/icons/patreon.png"
     import Bluesky from "../../assets/icons/bluesky.svg"
     import Mastodon from "../../assets/icons/mastodon.svg"
-    import Reddit from "../../assets/icons/reddit.svg"
+    import Furaffinity from "../../assets/icons/furaffinity.png"
 
     export let socialwidth
 </script>
@@ -30,9 +30,9 @@
             Mastodon is a federated social media platform using ActivityPub (although I'm less active here) 
             Find me on pawb.fun!
         </DescLink>
-        <DescLink img={Reddit} name="Reddit" href="{gvars.external.reddit}" width={socialwidth}>
-            Reddit, sometimes called the "front page of the internet" is a forum based social platform!
-            I don't post  often but you'll find me on r/furry and others!
+        <DescLink img={Furaffinity} name="FurAffinity" href="{gvars.external.furaffinity}" width={socialwidth}>
+            Furaffinity is a website for furries to share artwork and other creative work! I'm less active here, but 
+            feel free to watch or shoot me a note!
         </DescLink>
         <DescLink img={Patreon} name="Patreon" href={gvars.external.patreon} width={socialwidth}>
             Patreon is a service that allows subscribers to get access to exclusive content! :3
