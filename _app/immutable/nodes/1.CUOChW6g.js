@@ -1,0 +1,5 @@
+import{s as h,a as f,h as b,d as p,c,i as u,b as v}from"../chunks/scheduler.LO_MRueC.js";import{S as w,i as y,c as $,a as _,m as l,t as d,b as g,d as E}from"../chunks/index.cGsg7NVX.js";import{E as H}from"../chunks/Error.JZQzy54z.js";import{p as S}from"../chunks/index.i2xbIn6b.js";import{H as q}from"../chunks/Header.Ko-4rMNG.js";function C(s){let a,m,t,i,r,n;return document.title=a=`
+        Error `+s[0]+": "+s[1]+`
+    `,t=new q({}),r=new H({props:{status:s[0],message:s[1]}}),{c(){m=f(),$(t.$$.fragment),i=f(),$(r.$$.fragment)},l(e){b("svelte-1to8gfe",document.head).forEach(p),m=c(e),_(t.$$.fragment,e),i=c(e),_(r.$$.fragment,e)},m(e,o){u(e,m,o),l(t,e,o),u(e,i,o),l(r,e,o),n=!0},p(e,[o]){(!n||o&3)&&a!==(a=`
+        Error `+e[0]+": "+e[1]+`
+    `)&&(document.title=a)},i(e){n||(d(t.$$.fragment,e),d(r.$$.fragment,e),n=!0)},o(e){g(t.$$.fragment,e),g(r.$$.fragment,e),n=!1},d(e){e&&(p(m),p(i)),E(t,e),E(r,e)}}}function j(s,a,m){let t;v(s,S,n=>m(2,t=n));const i=t.status,r=t.error.message;return[i,r]}class F extends w{constructor(a){super(),y(this,a,j,C,h,{})}}export{F as component};
