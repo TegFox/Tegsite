@@ -10,12 +10,12 @@ export default {
     link: 'refsheet',
     img: RefSheetImg,
     desc: 'A spread to detail every facet of your character',
-    start: '60.00',
+    start: '80.00',
     info: [
         {
             name: "Reference Sheet",
             desc: "This is a placeholder description",
-            base: "60.00",
+            base: "80.00",
             prices: [
                 {
                     amnt: "5.00",

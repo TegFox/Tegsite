@@ -5,7 +5,7 @@ import Stickers from "./comms/Stickers.js";
 import More from "./comms/More.js"
 
 export default  {
-    comms: 'closed', // 'open', 'closed', 'askme', anything else will just show the text
+    comms: 'askme', // 'open', 'closed', 'askme', anything else will just show the text
     comm_form: 'https://forms.gle/DWfqsnRutFfebx6n8',
     comm_types: [Headshot, Illustration, RefSheet, Stickers, More],
     colors: {
@@ -18,7 +18,7 @@ export default  {
         placeholder: 'https://liusef.github.io/dance-goat-dance/',
         twitter: 'https://twitter.com/floofybluething',
         twitter_personal: 'https://twitter.com/leggomyteggo',
-        bluesky: 'https://bsky.app/profile/tegfox.art',
+        bluesky: 'https://bsky.app/profile/tegfox.blue',
         mastodon: 'https://pawb.fun/@tegfox',
         furaffinity: 'https://www.furaffinity.net/user/floofybluething',
         reddit: 'https://reddit.com/u/LeggoMyTeggo',
